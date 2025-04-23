@@ -31,3 +31,7 @@ C:\Egy2\DotnetProjekt\obj\Debug\net8.0\refint\DotnetProjekt.dll
 C:\Egy2\DotnetProjekt\obj\Debug\net8.0\DotnetProjekt.pdb
 C:\Egy2\DotnetProjekt\obj\Debug\net8.0\DotnetProjekt.genruntimeconfig.cache
 C:\Egy2\DotnetProjekt\obj\Debug\net8.0\ref\DotnetProjekt.dll
+C:\Egy2\DotnetProjekt\obj\Debug\net8.0\DotnetProjekt.sourcelink.json
+C:\Egy2\DotnetProjekt\bin\Debug\net8.0\CsvHelper.dll
+C:\Egy2\DotnetProjekt\obj\Debug\net8.0\DotnetProjekt.csproj.AssemblyReference.cache
+C:\Egy2\DotnetProjekt\obj\Debug\net8.0\DotnetPr.BFF5CC84.Up2Date

@@ -1,23 +1,67 @@
 {
   "Files": [
     {
-      "Id": "C:\\Egy2\\DotnetProjekt\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotnetProjekt.bundle.scp.css",
+      "Id": "C:\\Egy2\\dotnetProjekt\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotnetProjekt.bundle.scp.css",
       "PackagePath": "staticwebassets\\DotnetProjekt.mwlte96io8.bundle.scp.css"
     },
     {
-      "Id": "C:\\Egy2\\DotnetProjekt\\wwwroot\\app.css",
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\2014_final.csv",
+      "PackagePath": "staticwebassets\\Data\\2014_final.csv"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\2015_final.csv",
+      "PackagePath": "staticwebassets\\Data\\2015_final.csv"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\2016_final.csv",
+      "PackagePath": "staticwebassets\\Data\\2016_final.csv"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\2017_final.csv",
+      "PackagePath": "staticwebassets\\Data\\2017_final.csv"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\2018_final.csv",
+      "PackagePath": "staticwebassets\\Data\\2018_final.csv"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\2019_final.csv",
+      "PackagePath": "staticwebassets\\Data\\2019_final.csv"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\2020_final.csv",
+      "PackagePath": "staticwebassets\\Data\\2020_final.csv"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\2021_final.csv",
+      "PackagePath": "staticwebassets\\Data\\2021_final.csv"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\2022_final.csv",
+      "PackagePath": "staticwebassets\\Data\\2022_final.csv"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\2023_final.csv",
+      "PackagePath": "staticwebassets\\Data\\2023_final.csv"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\ms_final.csv",
+      "PackagePath": "staticwebassets\\Data\\ms_final.csv"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },
     {
-      "Id": "C:\\Egy2\\DotnetProjekt\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Egy2\\DotnetProjekt\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Egy2\\DotnetProjekt\\wwwroot\\favicon.png",
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {

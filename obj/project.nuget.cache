@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QH3qsIPBN8c=",
+  "dgSpecHash": "zxSK97g5AiU=",
   "success": true,
-  "projectFilePath": "C:\\Egy2\\DotnetProjekt\\DotnetProjekt.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Egy2\\dotnetProjekt\\DotnetProjekt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\OK\\.nuget\\packages\\csvhelper\\33.0.1\\csvhelper.33.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

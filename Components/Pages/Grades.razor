@@ -1,4 +1,8 @@
 @page "/grades"
+@using System.IO
+@using CsvHelper
+@using CsvHelper.Configuration
+@using System.Collections.Concurrent
 
 <h3>Grades</h3>
 
@@ -6,6 +10,147 @@
     <input type="text" class="form-control" placeholder="Search grades..." @bind="searchQuery" />
 </div>
 
+<div class="form-group">
+    <label for="yearSelect">Select Year:</label>
+    <select class="form-control" id="yearSelect" @bind="selectedYear" >
+        <option value="2014">2014</option>
+        <option value="2015">2015</option>
+        <option value="2016">2016</option>
+        <option value="2017">2017</option>
+        <option value="2018">2018</option>
+        <option value="2019">2019</option>
+        <option value="2020">2020</option>
+        <option value="2021">2021</option>
+        <option value="2022">2022</option>
+        <option value="2023">2023</option>
+    </select>
+</div>
+
+@if (headers != null)
+{
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    @foreach (var header in headers)
+                    {
+                        <th>@header</th>
+                    }
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var grade in GetPagedData())
+                {
+                    <tr>
+                        @foreach (var value in grade.Values)
+                        {
+                            <td>@value</td>
+                        }
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+}
+
+<div class="pagination">
+    <button class="btn btn-primary" @onclick="() => { page = Math.Max(0, page - 1); StateHasChanged(); }" disabled="@(page == 0)">Previous</button>
+    <span class="mx-2">Page @(page + 1) of @totalPages</span>
+    <button class="btn btn-primary" @onclick="() => { page++; StateHasChanged(); }" disabled="@(page >= totalPages - 1)">Next</button>
+</div>
+
 @code {
     private string searchQuery = "";
+    private string selectedYear = "2014";
+    private ConcurrentDictionary<string, List<Dictionary<string, string>>> cache = new();
+    private List<string> headers;
+    private int page = 0;
+    private const int PAGE_SIZE = 20;
+    private int totalRecords = 0;
+
+    private List<Dictionary<string, string>> GetPagedData()
+    {
+        if (!cache.ContainsKey(selectedYear))
+        {
+            LoadGrades();
+        }
+
+        var data = cache[selectedYear];
+        var filtered = data.Where(g => 
+            g.Values.Any(v => v.Contains(searchQuery, StringComparison.OrdinalIgnoreCase)))
+            .Skip(page * PAGE_SIZE)
+            .Take(PAGE_SIZE)
+            .ToList();
+
+        totalRecords = data.Count;
+        return filtered;
+    }
+
+    private int totalPages => (int)Math.Ceiling((double)totalRecords / PAGE_SIZE);
+
+    private void LoadGrades()
+    {
+        var filePath = Path.Combine("wwwroot", "Data", $"{selectedYear}_final.csv");
+        if (File.Exists(filePath))
+        {
+            var config = new CsvConfiguration(System.Globalization.CultureInfo.InvariantCulture)
+            {
+                Delimiter = ",",
+                HasHeaderRecord = true,
+                BadDataFound = null,
+                MissingFieldFound = null
+            };
+
+            using (var reader = new StreamReader(filePath))
+            using (var csv = new CsvReader(reader, config))
+            {
+                csv.Read();
+                csv.ReadHeader();
+                headers = csv.HeaderRecord.ToList();
+                
+                var records = new List<Dictionary<string, string>>();
+                while (csv.Read())
+                {
+                    var record = new Dictionary<string, string>(headers.Count);
+                    foreach (var header in headers)
+                    {
+                        record[header] = csv.GetField(header);
+                    }
+                    records.Add(record);
+                }
+                cache.AddOrUpdate(selectedYear, records, (key, oldValue) => records);
+            }
+        }
+    }
+
+    protected override void OnInitialized()
+    {
+        LoadGrades();
+    }
+
+    protected override void OnParametersSet()
+    {
+        if (!cache.ContainsKey(selectedYear))
+        {
+            LoadGrades();
+        }
+    }
+
+    private void OnSearchChanged(string value)
+    {
+        searchQuery = value;
+        page = 0;
+        StateHasChanged();
+    }
+
+    private void OnYearChanged(string value)
+    {
+        selectedYear = value;
+        page = 0;
+        if (!cache.ContainsKey(selectedYear))
+        {
+            LoadGrades();
+        }
+        StateHasChanged();
+    }
 } 

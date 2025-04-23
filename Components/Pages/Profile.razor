@@ -8,9 +8,11 @@
 </div>
 
 <div class="form-group">
-    <label for="text">Text</label>
-    <input type="text" class="form-control" id="text" @bind="text" />
+    <label for="code">Code</label>
+    <input type="text" class="form-control" id="code" @bind="code" placeholder="TM202461" />
 </div>
+
+<button class="btn btn-primary" @onclick="EditProfile">Szerkesztés</button>
 
 <div class="row">
     <div class="col-md-3">
@@ -84,7 +86,7 @@
 
 @code {
     private string email = "";
-    private string text = "";
+    private string code = "";
     private string dropdown1 = "";
     private string dropdown2 = "";
     private string dropdown3 = "";
@@ -93,4 +95,9 @@
     private int number2;
     private int number3;
     private int number4;
+
+    private void EditProfile()
+    {
+        // Add edit functionality here
+    }
 } 
