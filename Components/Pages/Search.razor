@@ -1,0 +1,11 @@
+@page "/search"
+
+<h3>Search</h3>
+
+<div class="form-group">
+    <input type="text" class="form-control" placeholder="Search..." @bind="searchQuery" />
+</div>
+
+@code {
+    private string searchQuery = "";
+} 

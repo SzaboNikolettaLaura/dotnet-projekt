@@ -1,0 +1,24 @@
+@page "/registration"
+
+<h3>Registration</h3>
+
+<div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" @bind="email" />
+</div>
+
+<div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" class="form-control" id="password" @bind="password" />
+</div>
+
+<div class="form-group">
+    <label for="confirmPassword">Confirm Password</label>
+    <input type="password" class="form-control" id="confirmPassword" @bind="confirmPassword" />
+</div>
+
+@code {
+    private string email = "";
+    private string password = "";
+    private string confirmPassword = "";
+} 

@@ -1,0 +1,96 @@
+@page "/profile"
+
+<h3>Profile</h3>
+
+<div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" class="form-control" id="email" @bind="email" />
+</div>
+
+<div class="form-group">
+    <label for="text">Text</label>
+    <input type="text" class="form-control" id="text" @bind="text" />
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="form-group">
+            <label for="dropdown1">Dropdown 1</label>
+            <select class="form-control" id="dropdown1" @bind="dropdown1">
+                <option value="">Select an option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+            </select>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label for="dropdown2">Dropdown 2</label>
+            <select class="form-control" id="dropdown2" @bind="dropdown2">
+                <option value="">Select an option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+            </select>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label for="dropdown3">Dropdown 3</label>
+            <select class="form-control" id="dropdown3" @bind="dropdown3">
+                <option value="">Select an option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+            </select>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label for="dropdown4">Dropdown 4</label>
+            <select class="form-control" id="dropdown4" @bind="dropdown4">
+                <option value="">Select an option</option>
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+            </select>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-3">
+        <div class="form-group">
+            <label for="number1">Number 1</label>
+            <input type="number" class="form-control" id="number1" @bind="number1" />
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label for="number2">Number 2</label>
+            <input type="number" class="form-control" id="number2" @bind="number2" />
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label for="number3">Number 3</label>
+            <input type="number" class="form-control" id="number3" @bind="number3" />
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label for="number4">Number 4</label>
+            <input type="number" class="form-control" id="number4" @bind="number4" />
+        </div>
+    </div>
+</div>
+
+@code {
+    private string email = "";
+    private string text = "";
+    private string dropdown1 = "";
+    private string dropdown2 = "";
+    private string dropdown3 = "";
+    private string dropdown4 = "";
+    private int number1;
+    private int number2;
+    private int number3;
+    private int number4;
+} 

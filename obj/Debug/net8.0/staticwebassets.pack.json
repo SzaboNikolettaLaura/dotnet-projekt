@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Egy2\\DotnetProjekt\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\DotnetProjekt.bundle.scp.css",
+      "PackagePath": "staticwebassets\\DotnetProjekt.mwlte96io8.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Egy2\\DotnetProjekt\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Egy2\\DotnetProjekt\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Egy2\\DotnetProjekt\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Egy2\\DotnetProjekt\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DotnetProjekt.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DotnetProjekt.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.DotnetProjekt.props",
+      "PackagePath": "build\\DotnetProjekt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.DotnetProjekt.props",
+      "PackagePath": "buildMultiTargeting\\DotnetProjekt.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.DotnetProjekt.props",
+      "PackagePath": "buildTransitive\\DotnetProjekt.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
