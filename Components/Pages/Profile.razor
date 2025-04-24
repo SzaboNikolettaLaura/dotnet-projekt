@@ -1,85 +1,170 @@
 @page "/profile"
+@using Microsoft.AspNetCore.Components.Web
 
-<h3>Profile</h3>
+<style>
+    .profile-container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 2rem;
+    }
 
-<div class="form-group">
-    <label for="email">Email</label>
-    <input type="email" class="form-control" id="email" @bind="email" />
-</div>
+    .profile-title {
+        color: #2c3e50;
+        border-bottom: 2px solid #3498db;
+        padding-bottom: 0.5rem;
+    }
 
-<div class="form-group">
-    <label for="code">Code</label>
-    <input type="text" class="form-control" id="code" @bind="code" placeholder="TM202461" />
-</div>
+    .profile-card {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        border: none;
+        border-radius: 8px;
+    }
 
-<button class="btn btn-primary" @onclick="EditProfile">Szerkesztés</button>
+    .form-control {
+        border-radius: 6px;
+        border: 1px solid #ddd;
+        transition: border-color 0.2s ease;
+    }
 
-<div class="row">
-    <div class="col-md-3">
-        <div class="form-group">
-            <label for="dropdown1">Dropdown 1</label>
-            <select class="form-control" id="dropdown1" @bind="dropdown1">
-                <option value="">Select an option</option>
-                <option value="1">Option 1</option>
-                <option value="2">Option 2</option>
-            </select>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="form-group">
-            <label for="dropdown2">Dropdown 2</label>
-            <select class="form-control" id="dropdown2" @bind="dropdown2">
-                <option value="">Select an option</option>
-                <option value="1">Option 1</option>
-                <option value="2">Option 2</option>
-            </select>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="form-group">
-            <label for="dropdown3">Dropdown 3</label>
-            <select class="form-control" id="dropdown3" @bind="dropdown3">
-                <option value="">Select an option</option>
-                <option value="1">Option 1</option>
-                <option value="2">Option 2</option>
-            </select>
-        </div>
-    </div>
-    <div class="col-md-3">
-        <div class="form-group">
-            <label for="dropdown4">Dropdown 4</label>
-            <select class="form-control" id="dropdown4" @bind="dropdown4">
-                <option value="">Select an option</option>
-                <option value="1">Option 1</option>
-                <option value="2">Option 2</option>
-            </select>
-        </div>
-    </div>
-</div>
+    .form-control:focus {
+        border-color: #3498db;
+        box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+    }
 
-<div class="row">
-    <div class="col-md-3">
-        <div class="form-group">
-            <label for="number1">Number 1</label>
-            <input type="number" class="form-control" id="number1" @bind="number1" />
+    .btn-primary {
+        background-color: #3498db;
+        border: none;
+        padding: 0.5rem 1.5rem;
+        border-radius: 6px;
+        transition: background-color 0.2s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #2980b9;
+    }
+
+    label {
+        color: #34495e;
+        font-weight: 500;
+        margin-bottom: 0.5rem;
+    }
+
+    .form-group {
+        margin-bottom: 1.5rem;
+    }
+</style>
+
+<div class="profile-container">
+    <h3 class="profile-title mb-4">Profile</h3>
+
+    <div class="profile-card card mb-4">
+        <div class="card-body">
+            <div class="form-group mb-3">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" @bind="email" disabled="@(!isEditing)" />
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="code">Code</label>
+                        <input type="text" class="form-control" id="code" @bind="code" placeholder="TM202461" disabled="@(!isEditing)" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label for="year">Year</label>
+                        <select class="form-control" id="year" @bind="selectedYear" disabled="@(!isEditing)">
+                            @foreach (var year in years)
+                            {
+                                <option value="@year">@year</option>
+                            }
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            @if (!isEditing)
+            {
+                <button class="btn btn-primary" @onclick="EnableEditing">Szerkesztés</button>
+            }
+            else
+            {
+                <div class="mt-3">
+                    <button class="btn btn-success me-2" @onclick="SaveChanges">Mentés</button>
+                    <button class="btn btn-secondary" @onclick="CancelEditing">Mégse</button>
+                </div>
+            }
         </div>
     </div>
-    <div class="col-md-3">
-        <div class="form-group">
-            <label for="number2">Number 2</label>
-            <input type="number" class="form-control" id="number2" @bind="number2" />
+
+    <div class="row mb-4">
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="dropdown1">Dropdown 1</label>
+                <select class="form-control" id="dropdown1" @bind="dropdown1">
+                    <option value="">Select an option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="dropdown2">Dropdown 2</label>
+                <select class="form-control" id="dropdown2" @bind="dropdown2">
+                    <option value="">Select an option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="dropdown3">Dropdown 3</label>
+                <select class="form-control" id="dropdown3" @bind="dropdown3">
+                    <option value="">Select an option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="dropdown4">Dropdown 4</label>
+                <select class="form-control" id="dropdown4" @bind="dropdown4">
+                    <option value="">Select an option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                </select>
+            </div>
         </div>
     </div>
-    <div class="col-md-3">
-        <div class="form-group">
-            <label for="number3">Number 3</label>
-            <input type="number" class="form-control" id="number3" @bind="number3" />
+
+    <div class="row">
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="number1">Number 1</label>
+                <input type="number" class="form-control" id="number1" @bind="number1" />
+            </div>
         </div>
-    </div>
-    <div class="col-md-3">
-        <div class="form-group">
-            <label for="number4">Number 4</label>
-            <input type="number" class="form-control" id="number4" @bind="number4" />
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="number2">Number 2</label>
+                <input type="number" class="form-control" id="number2" @bind="number2" />
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="number3">Number 3</label>
+                <input type="number" class="form-control" id="number3" @bind="number3" />
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label for="number4">Number 4</label>
+                <input type="number" class="form-control" id="number4" @bind="number4" />
+            </div>
         </div>
     </div>
 </div>
@@ -87,6 +172,8 @@
 @code {
     private string email = "";
     private string code = "";
+    private int selectedYear;
+    private List<int> years;
     private string dropdown1 = "";
     private string dropdown2 = "";
     private string dropdown3 = "";
@@ -95,9 +182,35 @@
     private int number2;
     private int number3;
     private int number4;
+    private bool isEditing = false;
+    private string tempEmail = "";
+    private string tempCode = "";
+    private int tempYear;
 
-    private void EditProfile()
+    protected override void OnInitialized()
     {
-        // Add edit functionality here
+        years = Enumerable.Range(2020, DateTime.Now.Year - 2020 + 1).Reverse().ToList();
+        selectedYear = DateTime.Now.Year;
+    }
+
+    private void EnableEditing()
+    {
+        isEditing = true;
+        tempEmail = email;
+        tempCode = code;
+        tempYear = selectedYear;
+    }
+
+    private void SaveChanges()
+    {
+        isEditing = false;
+    }
+
+    private void CancelEditing()
+    {
+        isEditing = false;
+        email = tempEmail;
+        code = tempCode;
+        selectedYear = tempYear;
     }
 } 
