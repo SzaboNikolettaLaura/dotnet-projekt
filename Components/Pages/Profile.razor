@@ -1,56 +1,96 @@
 @page "/profile"
 @using Microsoft.AspNetCore.Components.Web
+@using System.IO
+@using System.Linq
+@using CsvHelper
+@using CsvHelper.Configuration
+@using System.Globalization
 
 <style>
     .profile-container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
     }
 
     .profile-title {
-        color: #2c3e50;
-        border-bottom: 2px solid #3498db;
-        padding-bottom: 0.5rem;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
     }
 
     .profile-card {
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        border: none;
-        border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 8px;
     }
 
     .form-control {
-        border-radius: 6px;
-        border: 1px solid #ddd;
-        transition: border-color 0.2s ease;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    transition: border-color 0.2s ease;
     }
 
     .form-control:focus {
-        border-color: #3498db;
-        box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
+    border-color: #3498db;
+    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
     }
 
     .btn-primary {
-        background-color: #3498db;
-        border: none;
-        padding: 0.5rem 1.5rem;
-        border-radius: 6px;
-        transition: background-color 0.2s ease;
+    background-color: #3498db;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
     }
 
     .btn-primary:hover {
-        background-color: #2980b9;
+    background-color: #2980b9;
     }
 
     label {
-        color: #34495e;
-        font-weight: 500;
-        margin-bottom: 0.5rem;
+    color: #34495e;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
     }
 
     .form-group {
-        margin-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    }
+
+    .validation-error {
+    color: #dc3545;
+    font-size: 0.875rem;
+    margin-top: 0.25rem;
+    }
+
+    .blur-overlay {
+    position: relative;
+    }
+
+    .blur-overlay::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(4px);
+    z-index: 1;
+    }
+
+    .blur-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    color: #2c3e50;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
     }
 </style>
 
@@ -69,6 +109,10 @@
                     <div class="form-group">
                         <label for="code">Code</label>
                         <input type="text" class="form-control" id="code" @bind="code" placeholder="TM202461" disabled="@(!isEditing)" />
+                        @if (showCodeError)
+                        {
+                            <div class="validation-error">Invalid code for the selected year</div>
+                        }
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -98,7 +142,11 @@
         </div>
     </div>
 
-    <div class="row mb-4">
+    <div class="row mb-4 @(isValidCode ? "" : "blur-overlay")">
+        @if (!isValidCode)
+        {
+            <div class="blur-text">írj be egy kódot</div>
+        }
         <div class="col-md-3">
             <div class="form-group">
                 <label for="dropdown1">Dropdown 1</label>
@@ -141,29 +189,29 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row @(isValidCode ? "" : "blur-overlay")">
         <div class="col-md-3">
             <div class="form-group">
-                <label for="number1">Number 1</label>
-                <input type="number" class="form-control" id="number1" @bind="number1" />
+                <label for="number1">Romanian Grade</label>
+                <input type="number" class="form-control" id="number1" @bind="number1" readonly />
             </div>
         </div>
         <div class="col-md-3">
             <div class="form-group">
-                <label for="number2">Number 2</label>
-                <input type="number" class="form-control" id="number2" @bind="number2" />
+                <label for="number2">Mandatory Subject Grade</label>
+                <input type="number" class="form-control" id="number2" @bind="number2" readonly />
             </div>
         </div>
         <div class="col-md-3">
             <div class="form-group">
-                <label for="number3">Number 3</label>
-                <input type="number" class="form-control" id="number3" @bind="number3" />
+                <label for="number3">Chosen Subject Grade</label>
+                <input type="number" class="form-control" id="number3" @bind="number3" readonly />
             </div>
         </div>
         <div class="col-md-3">
             <div class="form-group">
                 <label for="number4">Number 4</label>
-                <input type="number" class="form-control" id="number4" @bind="number4" />
+                <input type="number" class="form-control" id="number4" @bind="number4" readonly />
             </div>
         </div>
     </div>
@@ -178,18 +226,20 @@
     private string dropdown2 = "";
     private string dropdown3 = "";
     private string dropdown4 = "";
-    private int number1;
-    private int number2;
-    private int number3;
-    private int number4;
+    private float number1;
+    private float number2;
+    private float number3;
+    private float number4;
     private bool isEditing = false;
     private string tempEmail = "";
     private string tempCode = "";
     private int tempYear;
+    private bool showCodeError = false;
+    private bool isValidCode = false;
 
     protected override void OnInitialized()
     {
-        years = Enumerable.Range(2020, DateTime.Now.Year - 2020 + 1).Reverse().ToList();
+        years = Enumerable.Range(2014, 2023 - 2014 + 1).Reverse().ToList();
         selectedYear = DateTime.Now.Year;
     }
 
@@ -199,11 +249,93 @@
         tempEmail = email;
         tempCode = code;
         tempYear = selectedYear;
+        showCodeError = false;
     }
 
-    private void SaveChanges()
+    private async Task<bool> ValidateCodeAndYear()
     {
-        isEditing = false;
+        try
+        {
+            string csvPath = $"wwwroot/data/{selectedYear}_final.csv";
+            if (!File.Exists(csvPath))
+            {
+                showCodeError = true;
+                isValidCode = false;
+                return false;
+            }
+
+            var lines = await File.ReadAllLinesAsync(csvPath);
+            var headerLine = lines[0];
+            var headers = headerLine.Split(',');
+
+            var romanianIndex = Array.IndexOf(headers, "romanian_grade_final");
+            var mandatoryIndex = Array.IndexOf(headers, "mandatory_grade_final");
+            var chosenIndex = Array.IndexOf(headers, "chosen_grade_final");
+            var codeIndex = Array.IndexOf(headers, "code");
+
+            if (romanianIndex == -1 || mandatoryIndex == -1 || chosenIndex == -1 || codeIndex == -1)
+            {
+                showCodeError = true;
+                isValidCode = false;
+                return false;
+            }
+
+
+            var matchingLine = lines.Skip(1).FirstOrDefault(line => 
+            {
+                var values = line.Split(',');
+                return values.Length > codeIndex && values[codeIndex].Trim() == code.Trim();
+            });
+
+            if (matchingLine == null)
+            {
+                showCodeError = true;
+                isValidCode = false;
+                return false;
+            }
+
+            var values = matchingLine.Split(',');
+            if (values.Length > Math.Max(romanianIndex, Math.Max(mandatoryIndex, chosenIndex)))
+            {
+                if (float.TryParse(values[romanianIndex].Trim(), CultureInfo.InvariantCulture, out float romanianGrade))
+                    number1 = romanianGrade;
+                if (float.TryParse(values[mandatoryIndex].Trim(), CultureInfo.InvariantCulture, out float mandatoryGrade))
+                    number2 = mandatoryGrade;
+                if (float.TryParse(values[chosenIndex].Trim(), CultureInfo.InvariantCulture, out float chosenGrade))
+                    number3 = chosenGrade;
+                Console.WriteLine(values[romanianIndex]);
+                Console.WriteLine(romanianGrade);
+                Console.WriteLine(values[mandatoryIndex]);
+                Console.WriteLine(mandatoryGrade);
+                Console.WriteLine(values[chosenIndex]);
+                Console.WriteLine(chosenGrade);
+
+            }
+
+            isValidCode = true;
+            return true;
+        }
+        catch (Exception ex)
+        {
+            showCodeError = true;
+            isValidCode = false;
+            return false;
+        }
+    }
+
+    private async Task SaveChanges()
+    {
+        if (await ValidateCodeAndYear())
+        {
+            isEditing = false;
+            showCodeError = false;
+        }
+        else
+        {
+            code = "";
+            selectedYear = DateTime.Now.Year;
+            isValidCode = false;
+        }
     }
 
     private void CancelEditing()
@@ -212,5 +344,11 @@
         email = tempEmail;
         code = tempCode;
         selectedYear = tempYear;
+        showCodeError = false;
+        isValidCode = false;
+        number1 = 0;
+        number2 = 0;
+        number3 = 0;
+        number4 = 0;
     }
 } 
