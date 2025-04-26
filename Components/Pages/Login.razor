@@ -1,18 +1,50 @@
 @page "/login"
 
-<h3>Login</h3>
+<h3>@(isLogin ? "Login" : "Registration")</h3>
 
-<div class="form-group">
-    <label for="email">Email</label>
-    <input type="email" class="form-control" id="email" @bind="email" />
-</div>
+<button class="btn btn-primary mb-3" @onclick="ToggleForm">Switch to @(isLogin ? "Registration" : "Login")</button>
 
-<div class="form-group">
-    <label for="password">Password</label>
-    <input type="password" class="form-control" id="password" @bind="password" />
-</div>
+@if (isLogin)
+{
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" @bind="email" />
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" @bind="password" />
+    </div>
+}
+else
+{
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" @bind="email" />
+    </div>
+
+    <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" class="form-control" id="password" @bind="password" />
+    </div>
+
+    <div class="form-group">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" class="form-control" id="confirmPassword" @bind="confirmPassword" />
+    </div>
+}
 
 @code {
+    private bool isLogin = true;
     private string email = "";
     private string password = "";
+    private string confirmPassword = "";
+
+    private void ToggleForm()
+    {
+        isLogin = !isLogin;
+        email = "";
+        password = "";
+        confirmPassword = "";
+    }
 } 

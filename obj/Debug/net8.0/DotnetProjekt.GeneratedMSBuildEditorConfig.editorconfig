@@ -48,10 +48,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xQcm9maWxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Egy2/dotnetProjekt/Components/Pages/Registration.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xSZWdpc3RyYXRpb24ucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Egy2/dotnetProjekt/Components/Pages/Search.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xTZWFyY2gucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
