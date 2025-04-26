@@ -6,6 +6,9 @@
 @using CsvHelper.Configuration
 @using System.Globalization
 
+@inject LoginService LoginService
+@inject NavigationManager NavigationManager
+
 <style>
     .profile-container {
     max-width: 1200px;
@@ -97,7 +100,7 @@
 <div class="profile-container">
     <div class="d-flex justify-content-between align-items-center mb-4">
         <h3 class="profile-title">Profile</h3>
-        <button class="btn btn-primary">kijelentkezes</button>
+        <button class="btn btn-primary" @onclick="Logout">kijelentkezes</button>
     </div>
 
     <div class="profile-card card mb-4">
@@ -197,6 +200,12 @@
     {
         years = Enumerable.Range(2014, 2023 - 2014 + 1).Reverse().ToList();
         selectedYear = DateTime.Now.Year;
+    }
+
+    private void Logout()
+    {
+        LoginService.Logout();
+        NavigationManager.NavigateTo("/login");
     }
 
     private void EnableEditing()

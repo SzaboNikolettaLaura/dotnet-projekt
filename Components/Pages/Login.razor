@@ -1,4 +1,6 @@
 @page "/login"
+@inject NavigationManager NavigationManager
+@inject LoginService LoginService
 
 <h3>@(isLogin ? "Login" : "Registration")</h3>
 
@@ -6,15 +8,18 @@
 
 @if (isLogin)
 {
-    <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" class="form-control" id="email" @bind="email" />
-    </div>
+    <form @onsubmit="HandleLogin">
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" id="email" @bind="email" />
+        </div>
 
-    <div class="form-group">
-        <label for="password">Password</label>
-        <input type="password" class="form-control" id="password" @bind="password" />
-    </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" id="password" @bind="password" />
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
 }
 else
 {
@@ -32,6 +37,7 @@ else
         <label for="confirmPassword">Confirm Password</label>
         <input type="password" class="form-control" id="confirmPassword" @bind="confirmPassword" />
     </div>
+    <button type="submit" class="btn btn-primary">Register</button>
 }
 
 @code {
@@ -46,5 +52,23 @@ else
         email = "";
         password = "";
         confirmPassword = "";
+    }
+
+    private void HandleLogin()
+    {
+        if (!string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(password))
+        {
+            LoginService.Login();
+            NavigationManager.NavigateTo("/profile");
+        }
+    }
+
+    private void HandleRegister()
+    {
+        if (!string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(password) && password == confirmPassword)
+        {
+            LoginService.Login();
+            NavigationManager.NavigateTo("/profile");
+        }
     }
 } 
