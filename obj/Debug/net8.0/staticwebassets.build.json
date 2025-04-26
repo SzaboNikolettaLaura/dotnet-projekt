@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CPw8lmk+tEeMXX45Y95wxfGRaW4cVlCISYJ6DKtWKXA=",
+  "Hash": "7euljANwLBJYl5Seso+jK3O6T2zb06OVVQc+y8OskXA=",
   "Source": "DotnetProjekt",
   "BasePath": "_content/DotnetProjekt",
   "Mode": "Default",
@@ -372,6 +372,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Egy2\\dotnetProjekt\\wwwroot\\images\\university-placeholder.jpg",
+      "SourceId": "DotnetProjekt",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Egy2\\dotnetProjekt\\wwwroot\\",
+      "BasePath": "_content/DotnetProjekt",
+      "RelativePath": "images/university-placeholder#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k2wa07qctu",
+      "Integrity": "JCOmTmhFPyTwF8aB0gyS2VOOMf+bv8Ax6DxYKLUh+jA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\university-placeholder.jpg"
     }
   ],
   "Endpoints": [
@@ -1766,6 +1787,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-4mWsDy3aHl36ZbGt8zByK7Pvd4kRUoNgTYzRnwmPHwg="
+        }
+      ]
+    },
+    {
+      "Route": "images/university-placeholder.jpg",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\images\\university-placeholder.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JCOmTmhFPyTwF8aB0gyS2VOOMf+bv8Ax6DxYKLUh+jA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 13:20:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-JCOmTmhFPyTwF8aB0gyS2VOOMf+bv8Ax6DxYKLUh+jA="
+        }
+      ]
+    },
+    {
+      "Route": "images/university-placeholder.k2wa07qctu.jpg",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\images\\university-placeholder.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "152682"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"JCOmTmhFPyTwF8aB0gyS2VOOMf+bv8Ax6DxYKLUh+jA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 26 Apr 2025 13:20:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k2wa07qctu"
+        },
+        {
+          "Name": "label",
+          "Value": "images/university-placeholder.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-JCOmTmhFPyTwF8aB0gyS2VOOMf+bv8Ax6DxYKLUh+jA="
         }
       ]
     }

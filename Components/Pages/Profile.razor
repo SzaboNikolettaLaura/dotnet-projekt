@@ -142,54 +142,11 @@
         </div>
     </div>
 
-    <div class="row mb-4 @(isValidCode ? "" : "blur-overlay")">
+    <div class="row @(isValidCode ? "" : "blur-overlay")">
         @if (!isValidCode)
         {
             <div class="blur-text">írj be egy kódot</div>
         }
-        <div class="col-md-3">
-            <div class="form-group">
-                <label for="dropdown1">Dropdown 1</label>
-                <select class="form-control" id="dropdown1" @bind="dropdown1">
-                    <option value="">Select an option</option>
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                </select>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="form-group">
-                <label for="dropdown2">Dropdown 2</label>
-                <select class="form-control" id="dropdown2" @bind="dropdown2">
-                    <option value="">Select an option</option>
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                </select>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="form-group">
-                <label for="dropdown3">Dropdown 3</label>
-                <select class="form-control" id="dropdown3" @bind="dropdown3">
-                    <option value="">Select an option</option>
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                </select>
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="form-group">
-                <label for="dropdown4">Dropdown 4</label>
-                <select class="form-control" id="dropdown4" @bind="dropdown4">
-                    <option value="">Select an option</option>
-                    <option value="1">Option 1</option>
-                    <option value="2">Option 2</option>
-                </select>
-            </div>
-        </div>
-    </div>
-
-    <div class="row @(isValidCode ? "" : "blur-overlay")">
         <div class="col-md-3">
             <div class="form-group">
                 <label for="number1">Romanian Grade</label>
@@ -222,10 +179,6 @@
     private string code = "";
     private int selectedYear;
     private List<int> years;
-    private string dropdown1 = "";
-    private string dropdown2 = "";
-    private string dropdown3 = "";
-    private string dropdown4 = "";
     private float number1;
     private float number2;
     private float number3;
@@ -250,6 +203,7 @@
         tempCode = code;
         tempYear = selectedYear;
         showCodeError = false;
+        isValidCode = false;
     }
 
     private async Task<bool> ValidateCodeAndYear()
@@ -267,7 +221,7 @@
             var lines = await File.ReadAllLinesAsync(csvPath);
             var headerLine = lines[0];
             var headers = headerLine.Split(',');
-
+            
             var romanianIndex = Array.IndexOf(headers, "romanian_grade_final");
             var mandatoryIndex = Array.IndexOf(headers, "mandatory_grade_final");
             var chosenIndex = Array.IndexOf(headers, "chosen_grade_final");
@@ -279,7 +233,6 @@
                 isValidCode = false;
                 return false;
             }
-
 
             var matchingLine = lines.Skip(1).FirstOrDefault(line => 
             {
@@ -309,7 +262,6 @@
                 Console.WriteLine(mandatoryGrade);
                 Console.WriteLine(values[chosenIndex]);
                 Console.WriteLine(chosenGrade);
-
             }
 
             isValidCode = true;

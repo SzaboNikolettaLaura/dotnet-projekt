@@ -1,11 +1,78 @@
 @page "/search"
+@using System.IO
+@using System.Linq
 
 <h3>Search</h3>
 
-<div class="form-group">
-    <input type="text" class="form-control" placeholder="Search..." @bind="searchQuery" />
+<div class="row mb-3">
+    <div class="col-md-8">
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search university..." @bind="searchQuery" />
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="form-group">
+            <select class="form-control" @bind="selectedCity">
+                <option value="">All Cities</option>
+                @foreach (var city in cities)
+                {
+                    <option value="@city">@city</option>
+                }
+            </select>
+        </div>
+    </div>
 </div>
+
+@if (filteredUniversities.Any())
+{
+    <div class="row">
+        @foreach (var uni in filteredUniversities)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="/images/university-placeholder.jpg" class="card-img-top" alt="University" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">@uni.Name</h5>
+                        <p class="card-text">@uni.City</p>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <div>No universities found.</div>
+}
 
 @code {
     private string searchQuery = "";
+    private string selectedCity = "";
+    private List<string> cities = new List<string>();
+    private List<University> universities = new List<University>();
+    private List<University> filteredUniversities => universities
+        .Where(u => (string.IsNullOrWhiteSpace(selectedCity) || u.City == selectedCity)
+            && (string.IsNullOrWhiteSpace(searchQuery) || u.Name.Contains(searchQuery, StringComparison.OrdinalIgnoreCase)))
+        .ToList();
+
+    protected override void OnInitialized()
+    {
+        string csvPath = @"Data/universities_with_links.csv";
+        if (File.Exists(csvPath))
+        {
+            var lines = File.ReadAllLines(csvPath);
+            universities = lines.Skip(1)
+                .Select(line => line.Split(','))
+                .Where(parts => parts.Length > 1)
+                .Select(parts => new University { Name = parts[0].Trim('"'), City = parts[1].Trim() })
+                .ToList();
+            cities = universities.Select(u => u.City).Distinct().OrderBy(c => c).ToList();
+        }
+    }
+
+    private class University
+    {
+        public string Name { get; set; }
+        public string City { get; set; }
+    }
 } 
