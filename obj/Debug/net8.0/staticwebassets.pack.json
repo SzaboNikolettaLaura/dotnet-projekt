@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\Data\\romaniamaphtml.txt"
     },
     {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\szakok_ul_li_info.csv",
+      "PackagePath": "staticwebassets\\Data\\szakok_ul_li_info.csv"
+    },
+    {
       "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Adventus Egyetem.webp",
       "PackagePath": "staticwebassets\\Data\\university_images\\Adventus Egyetem.webp"
     },
@@ -439,6 +443,14 @@
     {
       "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\images\\university-placeholder.jpg",
       "PackagePath": "staticwebassets\\images\\university-placeholder.jpg"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\js\\charts.js",
+      "PackagePath": "staticwebassets\\js\\charts.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DotnetProjekt.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

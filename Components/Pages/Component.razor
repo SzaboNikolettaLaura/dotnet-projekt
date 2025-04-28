@@ -1,0 +1,20 @@
+﻿@page "/JANOSLEGYEN"
+<h3>Component</h3>
+
+<input type="text" @bind="randominput"/>
+<button class="btn btn-outline-primary w-100" @onclick="ToggleSpan">
+    Press here
+</button>
+<span >
+    @spanSzoveg
+</span>
+
+@code {
+    string randominput = "";
+    string spanSzoveg = "";
+
+    private void ToggleSpan()
+    {
+        spanSzoveg = randominput;
+    }
+}

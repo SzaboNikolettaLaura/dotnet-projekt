@@ -2,49 +2,68 @@
 @using System.IO
 @using System.Linq
 
-<h3>Search</h3>
-
-<div class="row mb-3">
-    <div class="col-md-8">
-        <div class="form-group">
-            <input type="text" class="form-control" placeholder="Search university..." @bind="searchQuery" />
-        </div>
-    </div>
-    <div class="col-md-4">
-        <div class="form-group">
-            <select class="form-control" @bind="selectedCity">
-                <option value="">All Cities</option>
-                @foreach (var city in cities)
-                {
-                    <option value="@city">@city</option>
-                }
-            </select>
-        </div>
-    </div>
-</div>
-
-@if (filteredUniversities.Any())
-{
-    <div class="row">
-        @foreach (var uni in filteredUniversities)
-        {
-            <div class="col-md-4 mb-4">
-                <div class="card h-100">
-                    <img src="Data@(uni.ImageUrl)" class="card-img-top" alt="@uni.Name" style="height: 200px; object-fit: cover;">
-                    <div class="card-body">
-                        <h5 class="card-title">@uni.Name</h5>
-                        <p class="card-text">@uni.City</p>
-                        <a href="/university/@Uri.EscapeDataString(uni.Name)" class="btn btn-primary">View Details</a>
+<div class="container py-5">
+    <div class="row justify-content-center mb-5">
+        <div class="col-md-8 text-center">
+            <h1 class="display-4 mb-4">Egyetemek keresése</h1>
+            <div class="card shadow-sm">
+                <div class="card-body p-4">
+                    <div class="row g-3">
+                        <div class="col-md-8">
+                            <div class="input-group">
+                                <span class="input-group-text bg-light">
+                                    <i class="bi bi-search"></i>
+                                </span>
+                                <input type="text" class="form-control form-control-lg" placeholder="Egyetem keresése..." @bind="searchQuery" />
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <select class="form-select form-select-lg" @bind="selectedCity">
+                                <option value="">Összes város</option>
+                                @foreach (var city in cities)
+                                {
+                                    <option value="@city">@city</option>
+                                }
+                            </select>
+                        </div>
                     </div>
                 </div>
             </div>
-        }
+        </div>
     </div>
-}
-else
-{
-    <div>No universities found.</div>
-}
+
+    @if (filteredUniversities.Any())
+    {
+        <div class="row g-4">
+            @foreach (var uni in filteredUniversities)
+            {
+                <div class="col-md-4">
+                    <div class="card h-100 shadow-sm hover-shadow">
+                        <div class="position-relative">
+                            <img src="Data@(uni.ImageUrl)" class="card-img-top" alt="@uni.Name" style="height: 200px; object-fit: cover;">
+                            <div class="position-absolute top-0 end-0 m-2">
+                                <span class="badge bg-primary">@uni.City</span>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">@uni.Name</h5>
+                            <a href="/university/@Uri.EscapeDataString(uni.Name)" class="btn btn-primary stretched-link">Részletek</a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    }
+    else
+    {
+        <div class="text-center py-5">
+            <div class="alert alert-info">
+                <i class="bi bi-info-circle me-2"></i>
+                Nincs találat a keresési feltételeknek megfelelően.
+            </div>
+        </div>
+    }
+</div>
 
 @code {
     private string searchQuery = "";

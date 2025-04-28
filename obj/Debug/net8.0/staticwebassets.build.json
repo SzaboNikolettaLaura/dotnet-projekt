@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qjIJ1jdwwwXHi7YfbSDvRB5z90cVYOOOLtcInY7qXA0=",
+  "Hash": "6Nu6De8dbW5+nFQm+o7Z5ee5FzKtb14pgOpb2IgBZHw=",
   "Source": "DotnetProjekt",
   "BasePath": "_content/DotnetProjekt",
   "Mode": "Default",
@@ -414,6 +414,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Data\\romaniamaphtml.txt"
+    },
+    {
+      "Identity": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\szakok_ul_li_info.csv",
+      "SourceId": "DotnetProjekt",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Egy2\\dotnetProjekt\\wwwroot\\",
+      "BasePath": "_content/DotnetProjekt",
+      "RelativePath": "Data/szakok_ul_li_info#[.{fingerprint}]?.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "snxr1eqbxd",
+      "Integrity": "2CM0ETqqN3XqZmVeU96dQ5LcZJw270b+3Sy9zl1vzbs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Data\\szakok_ul_li_info.csv"
     },
     {
       "Identity": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Adventus Egyetem.webp",
@@ -2346,6 +2367,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\university-placeholder.jpg"
+    },
+    {
+      "Identity": "C:\\Egy2\\dotnetProjekt\\wwwroot\\index.html",
+      "SourceId": "DotnetProjekt",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Egy2\\dotnetProjekt\\wwwroot\\",
+      "BasePath": "_content/DotnetProjekt",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "e3de6yht3b",
+      "Integrity": "yhcKH1CNfqNat4C7fMPD4h/6WXWGNGD8wKjkKcTZmNk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Egy2\\dotnetProjekt\\wwwroot\\js\\charts.js",
+      "SourceId": "DotnetProjekt",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Egy2\\dotnetProjekt\\wwwroot\\",
+      "BasePath": "_content/DotnetProjekt",
+      "RelativePath": "js/charts#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "kdkwox8uba",
+      "Integrity": "KGs0/yogl2gXIoByylPJeXiH4FVs54lEqfdHOLCjMIQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\charts.js"
     }
   ],
   "Endpoints": [
@@ -3740,6 +3803,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Nw2aDdfdIUGRUKh273cMXmKYxDVTYg0dYCEEel8BOcg="
+        }
+      ]
+    },
+    {
+      "Route": "Data/szakok_ul_li_info.csv",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\szakok_ul_li_info.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2CM0ETqqN3XqZmVeU96dQ5LcZJw270b+3Sy9zl1vzbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 16:27:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2CM0ETqqN3XqZmVeU96dQ5LcZJw270b+3Sy9zl1vzbs="
+        }
+      ]
+    },
+    {
+      "Route": "Data/szakok_ul_li_info.snxr1eqbxd.csv",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\szakok_ul_li_info.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4054"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2CM0ETqqN3XqZmVeU96dQ5LcZJw270b+3Sy9zl1vzbs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 16:27:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "snxr1eqbxd"
+        },
+        {
+          "Name": "label",
+          "Value": "Data/szakok_ul_li_info.csv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2CM0ETqqN3XqZmVeU96dQ5LcZJw270b+3Sy9zl1vzbs="
         }
       ]
     },
@@ -11448,6 +11593,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-JCOmTmhFPyTwF8aB0gyS2VOOMf+bv8Ax6DxYKLUh+jA="
+        }
+      ]
+    },
+    {
+      "Route": "index.e3de6yht3b.html",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "846"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yhcKH1CNfqNat4C7fMPD4h/6WXWGNGD8wKjkKcTZmNk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 18:01:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "e3de6yht3b"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-yhcKH1CNfqNat4C7fMPD4h/6WXWGNGD8wKjkKcTZmNk="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "846"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"yhcKH1CNfqNat4C7fMPD4h/6WXWGNGD8wKjkKcTZmNk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 18:01:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-yhcKH1CNfqNat4C7fMPD4h/6WXWGNGD8wKjkKcTZmNk="
+        }
+      ]
+    },
+    {
+      "Route": "js/charts.js",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\js\\charts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1208"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KGs0/yogl2gXIoByylPJeXiH4FVs54lEqfdHOLCjMIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 18:16:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KGs0/yogl2gXIoByylPJeXiH4FVs54lEqfdHOLCjMIQ="
+        }
+      ]
+    },
+    {
+      "Route": "js/charts.kdkwox8uba.js",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\js\\charts.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1208"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KGs0/yogl2gXIoByylPJeXiH4FVs54lEqfdHOLCjMIQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 18:16:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "kdkwox8uba"
+        },
+        {
+          "Name": "label",
+          "Value": "js/charts.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KGs0/yogl2gXIoByylPJeXiH4FVs54lEqfdHOLCjMIQ="
         }
       ]
     }

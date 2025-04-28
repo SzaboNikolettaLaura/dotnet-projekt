@@ -1,0 +1,7 @@
+C:\Egy2\dotnetProjekt\obj\Debug\net7.0\DotnetProjekt.csproj.AssemblyReference.cache
+C:\Egy2\dotnetProjekt\obj\Debug\net7.0\DotnetProjekt.GeneratedMSBuildEditorConfig.editorconfig
+C:\Egy2\dotnetProjekt\obj\Debug\net7.0\DotnetProjekt.AssemblyInfoInputs.cache
+C:\Egy2\dotnetProjekt\obj\Debug\net7.0\DotnetProjekt.AssemblyInfo.cs
+C:\Egy2\dotnetProjekt\obj\Debug\net7.0\DotnetProjekt.csproj.CoreCompileInputs.cache
+C:\Egy2\dotnetProjekt\obj\Debug\net7.0\DotnetProjekt.MvcApplicationPartsAssemblyInfo.cache
+C:\Egy2\dotnetProjekt\obj\Debug\net7.0\DotnetProjekt.sourcelink.json

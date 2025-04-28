@@ -15,6 +15,7 @@ wwwroot\Data\grade_statistics.csv
 wwwroot\Data\map_data.txt
 wwwroot\Data\ms_final.csv
 wwwroot\Data\romaniamaphtml.txt
+wwwroot\Data\szakok_ul_li_info.csv
 wwwroot\Data\university_images\Adventus Egyetem.webp
 wwwroot\Data\university_images\Alexandru Ioan Cuza Rendőrakadémia.webp
 wwwroot\Data\university_images\Andrei Șaguna Egyetem.webp
@@ -107,3 +108,5 @@ wwwroot\Data\university_images\Tomis Egyetem.webp
 wwwroot\Data\university_images\Zsilvásárhelyi Constantin Brâncuși Egyetem.webp
 wwwroot\favicon.png
 wwwroot\images\university-placeholder.jpg
+wwwroot\index.html
+wwwroot\js\charts.js

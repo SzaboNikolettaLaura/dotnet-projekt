@@ -4,8 +4,8 @@
 
 <div class="top-row ps-3 navbar navbar-dark">
     <div class="container-fluid">
-        <a class="navbar-brand" href="">dotnetProjekt</a>
-        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+        <a class="navbar-brand" href="">OrszagosAtlagok</a>
+        <button title="Navigációs menü" class="navbar-toggler" @onclick="ToggleNavMenu">
             <span class="navbar-toggler-icon"></span>
         </button>
     </div>
@@ -15,14 +15,14 @@
     <nav class="flex-column">
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
-                <span class="oi oi-home" aria-hidden="true"></span> Home
+                <span class="oi oi-home" aria-hidden="true"></span> Főoldal
             </NavLink>
         </div>
         @if (loggedIn)
         {
             <div class="nav-item px-3">
                 <NavLink class="nav-link" href="profile">
-                    <span class="oi oi-person" aria-hidden="true"></span> Profile
+                    <span class="oi oi-person" aria-hidden="true"></span> Profil
                 </NavLink>
             </div>
         }
@@ -30,18 +30,18 @@
         {
             <div class="nav-item px-3">
                 <NavLink class="nav-link" href="login">
-                    <span class="oi oi-account-login" aria-hidden="true"></span> Login/Register
+                    <span class="oi oi-account-login" aria-hidden="true"></span> Bejelentkezés/Regisztráció
                 </NavLink>
             </div>
         }
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="search">
-                <span class="oi oi-magnifying-glass" aria-hidden="true"></span> Search
+                <span class="oi oi-magnifying-glass" aria-hidden="true"></span> Keresés
             </NavLink>
         </div>
         <div class="nav-item px-3">
             <NavLink class="nav-link" href="grades">
-                <span class="oi oi-book" aria-hidden="true"></span> Grades
+                <span class="oi oi-book" aria-hidden="true"></span> Jegyek
             </NavLink>
         </div>
     </nav>

@@ -7,45 +7,45 @@
         <div class="col-md-6 col-lg-4">
             <div class="card shadow-lg">
                 <div class="card-body p-5">
-                    <h3 class="text-center mb-4">@(isLogin ? "Login" : "Registration")</h3>
+                    <h3 class="text-center mb-4">@(isLogin ? "Bejelentkezés" : "Regisztráció")</h3>
 
                     @if (isLogin)
                     {
                         <form @onsubmit="HandleLogin">
                             <div class="mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" @bind="email" placeholder="Enter your email" />
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" @bind="email" placeholder="Add meg az e-mail címed" />
                             </div>
 
                             <div class="mb-3">
-                                <label for="password" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="password" @bind="password" placeholder="Enter your password" />
+                                <label for="password" class="form-label">Jelszó</label>
+                                <input type="password" class="form-control" id="password" @bind="password" placeholder="Add meg a jelszavad" />
                             </div>
-                            <button type="submit" class="btn btn-primary w-100 mb-3">Login</button>
+                            <button type="submit" class="btn btn-primary w-100 mb-3">Bejelentkezés</button>
                         </form>
                     }
                     else
                     {
                         <form @onsubmit="HandleRegister">
                             <div class="mb-3">
-                                <label for="email" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="email" @bind="email" placeholder="Enter your email" />
+                                <label for="email" class="form-label">E-mail</label>
+                                <input type="email" class="form-control" id="email" @bind="email" placeholder="Add meg az e-mail címed" />
                             </div>
 
                             <div class="mb-3">
-                                <label for="password" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="password" @bind="password" placeholder="Enter your password" />
+                                <label for="password" class="form-label">Jelszó</label>
+                                <input type="password" class="form-control" id="password" @bind="password" placeholder="Add meg a jelszavad" />
                             </div>
 
                             <div class="mb-3">
-                                <label for="confirmPassword" class="form-label">Confirm Password</label>
-                                <input type="password" class="form-control" id="confirmPassword" @bind="confirmPassword" placeholder="Confirm your password" />
+                                <label for="confirmPassword" class="form-label">Jelszó megerősítése</label>
+                                <input type="password" class="form-control" id="confirmPassword" @bind="confirmPassword" placeholder="Erősítsd meg a jelszavad" />
                             </div>
-                            <button type="submit" class="btn btn-primary w-100 mb-3">Register</button>
+                            <button type="submit" class="btn btn-primary w-100 mb-3">Regisztráció</button>
                         </form>
                     }
                     <button class="btn btn-outline-primary w-100" @onclick="ToggleForm">
-                        Switch to @(isLogin ? "Registration" : "Login")
+                        Váltás @(isLogin ? "regisztrációra" : "bejelentkezésre")
                     </button>
                 </div>
             </div>

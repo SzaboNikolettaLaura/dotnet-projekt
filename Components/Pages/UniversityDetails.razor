@@ -16,7 +16,7 @@
         {
             <div class="row">
                 <div class="col-md-8">
-                    <h3 class="mb-4">Available Majors</h3>
+                    <h3 class="mb-4">Elérhető szakok</h3>
                     @foreach (var major in majors)
                     {
                         <div class="card mb-4">
@@ -26,7 +26,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-md-8">
-                                        <h5 class="mb-3">Requirements</h5>
+                                        <h5 class="mb-3">Követelmények</h5>
                                         <div class="requirements">
                                             @if (!string.IsNullOrEmpty(major.Content))
                                             {
@@ -34,12 +34,12 @@
                                             }
                                             else
                                             {
-                                                <p class="text-muted">No specific requirements listed.</p>
+                                                <p class="text-muted">Nincsenek megadva követelmények.</p>
                                             }
                                         </div>
                                     </div>
                                     <div class="col-md-4 text-end">
-                                        <a href="@major.URL" target="_blank" class="btn btn-primary">View Details</a>
+                                        <a href="@major.URL" target="_blank" class="btn btn-primary">Részletek</a>
                                     </div>
                                 </div>
                             </div>
@@ -50,8 +50,8 @@
         }
         else
         {
-            <div class="alert alert-warning">University not found.</div>
-            <a href="/search" class="btn btn-primary">Back to Search</a>
+            <div class="alert alert-warning">Az egyetem nem található.</div>
+            <a href="/search" class="btn btn-primary">Vissza a kereséshez</a>
         }
     </div>
 </div>
