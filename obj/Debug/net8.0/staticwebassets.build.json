@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "7euljANwLBJYl5Seso+jK3O6T2zb06OVVQc+y8OskXA=",
+  "Hash": "If1jGCHU6uD4i+gzxwz/iNYiGFg2IEn8IXJRqsV2Ohk=",
   "Source": "DotnetProjekt",
   "BasePath": "_content/DotnetProjekt",
   "Mode": "Default",
@@ -393,6 +393,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\university-placeholder.jpg"
+    },
+    {
+      "Identity": "C:\\Egy2\\dotnetProjekt\\wwwroot\\js\\site.js",
+      "SourceId": "DotnetProjekt",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Egy2\\dotnetProjekt\\wwwroot\\",
+      "BasePath": "_content/DotnetProjekt",
+      "RelativePath": "js/site#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "akuo4jah9d",
+      "Integrity": "ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     }
   ],
   "Endpoints": [
@@ -1567,7 +1588,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 15:36:02 GMT"
+          "Value": "Mon, 28 Apr 2025 09:43:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1604,7 +1625,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 15:36:02 GMT"
+          "Value": "Mon, 28 Apr 2025 09:43:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1649,7 +1670,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 15:36:02 GMT"
+          "Value": "Mon, 28 Apr 2025 09:43:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1694,7 +1715,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 15:36:02 GMT"
+          "Value": "Mon, 28 Apr 2025 09:43:31 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1869,6 +1890,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-JCOmTmhFPyTwF8aB0gyS2VOOMf+bv8Ax6DxYKLUh+jA="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.akuo4jah9d.js",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 09:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "akuo4jah9d"
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU="
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\js\\site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 09:46:35 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU="
         }
       ]
     }

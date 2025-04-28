@@ -178,6 +178,45 @@
             </div>
         </div>
     </div>
+
+    @if (isValidCode)
+    {
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <div class="card profile-card">
+                    <div class="card-body">
+                        <h5 class="card-title">Statistics for @selectedYear</h5>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="text-center p-3">
+                                    <h6>Total Students</h6>
+                                    <h4>@GetTotalStudents()</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="text-center p-3">
+                                    <h6>Pass Rate</h6>
+                                    <h4>@GetPassRate()%</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="text-center p-3">
+                                    <h6>Top 10% Average</h6>
+                                    <h4>@GetTop10Average()</h4>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="text-center p-3">
+                                    <h6>Your Average</h6>
+                                    <h4>@GetStudentAverage()</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
 </div>
 
 @code {
@@ -314,5 +353,62 @@
         number2 = 0;
         number3 = 0;
         number4 = 0;
+    }
+
+    private string GetTotalStudents()
+    {
+        try
+        {
+            var lines = File.ReadAllLines("Data/grade_statistics.csv");
+            var matchingLine = lines.Skip(1).FirstOrDefault(line => line.StartsWith(selectedYear.ToString()));
+            if (matchingLine != null)
+            {
+                var values = matchingLine.Split(',');
+                return int.Parse(values[1]).ToString("N0");
+            }
+        }
+        catch { }
+        return "-";
+    }
+
+    private string GetPassRate()
+    {
+        try
+        {
+            var lines = File.ReadAllLines("Data/grade_statistics.csv");
+            var matchingLine = lines.Skip(1).FirstOrDefault(line => line.StartsWith(selectedYear.ToString()));
+            if (matchingLine != null)
+            {
+                var values = matchingLine.Split(',');
+                return float.Parse(values[6]).ToString("F1");
+            }
+        }
+        catch { }
+        return "-";
+    }
+
+    private string GetTop10Average()
+    {
+        try
+        {
+            var lines = File.ReadAllLines("Data/grade_statistics.csv");
+            var matchingLine = lines.Skip(1).FirstOrDefault(line => line.StartsWith(selectedYear.ToString()));
+            if (matchingLine != null)
+            {
+                var values = matchingLine.Split(',');
+                return float.Parse(values[7]).ToString("F2");
+            }
+        }
+        catch { }
+        return "-";
+    }
+
+    private string GetStudentAverage()
+    {
+        if (number1 > 0 && number2 > 0 && number3 > 0)
+        {
+            return ((number1 + number2 + number3) / 3).ToString("F2");
+        }
+        return "-";
     }
 } 

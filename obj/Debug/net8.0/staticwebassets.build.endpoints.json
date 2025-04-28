@@ -931,7 +931,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 15:36:02 GMT"
+          "Value": "Mon, 28 Apr 2025 09:43:31 GMT"
         }
       ],
       "EndpointProperties": [
@@ -976,7 +976,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 23 Apr 2025 15:36:02 GMT"
+          "Value": "Mon, 28 Apr 2025 09:43:31 GMT"
         }
       ],
       "EndpointProperties": [
@@ -1393,6 +1393,88 @@
         {
           "Name": "label",
           "Value": "images/university-placeholder.jpg"
+        }
+      ]
+    },
+    {
+      "Route": "js/site.akuo4jah9d.js",
+      "AssetFile": "js/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 09:46:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "akuo4jah9d"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU="
+        },
+        {
+          "Name": "label",
+          "Value": "js/site.js"
+        }
+      ]
+    },
+    {
+      "Route": "js/site.js",
+      "AssetFile": "js/site.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1675"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 09:46:35 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU="
         }
       ]
     }

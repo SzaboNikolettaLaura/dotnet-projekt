@@ -69,6 +69,10 @@
       "PackagePath": "staticwebassets\\images\\university-placeholder.jpg"
     },
     {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.DotnetProjekt.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

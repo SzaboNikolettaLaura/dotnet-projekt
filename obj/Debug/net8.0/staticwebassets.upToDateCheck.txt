@@ -14,3 +14,4 @@ wwwroot\Data\2023_final.csv
 wwwroot\Data\ms_final.csv
 wwwroot\favicon.png
 wwwroot\images\university-placeholder.jpg
+wwwroot\js\site.js
