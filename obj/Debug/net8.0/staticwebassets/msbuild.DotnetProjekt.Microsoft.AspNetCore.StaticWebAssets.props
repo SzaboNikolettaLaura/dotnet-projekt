@@ -270,6 +270,1626 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\ms_final.csv'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Adventus Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Adventus Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rvyynxbt9v</Fingerprint>
+      <Integrity>F3DN28+RIihuJpxaUL3oZRxed/0CeEfxwYCGR/H5YaE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Adventus Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Alexandru Ioan Cuza Rendőrakadémia.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Alexandru Ioan Cuza Rendőrakadémia.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>76g3n5kpwy</Fingerprint>
+      <Integrity>YWBxnWbcdQP9+0WKF13zR2dfqKqaLIBTn0Kwy4fWAz0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Alexandru Ioan Cuza Rendőrakadémia.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Andrei Șaguna Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Andrei Șaguna Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wri5xxkytt</Fingerprint>
+      <Integrity>tGzsfil1Dh2BOA7btHliOgaH++hLpyFLKzMKV3H44DA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Andrei Șaguna Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Aradi Aurel Vlaicu Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Aradi Aurel Vlaicu Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lk4v1my0dx</Fingerprint>
+      <Integrity>G/4Eq2mo8affciY6IvEWhHHdtmjvWTlvgXZXNIVo2iU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Aradi Aurel Vlaicu Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Aradi Vasile Goldiș Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Aradi Vasile Goldiș Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uc04f2l4cu</Fingerprint>
+      <Integrity>zuEBFr+dfbo8434kiLbX69qDPPRFiwq/vDG8UT3uehc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Aradi Vasile Goldiș Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Athenaeum Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Athenaeum Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>94iyfhno0f</Fingerprint>
+      <Integrity>x6xF4mz+zB7y7d4ZxdWn90wvzRAjcMAzwE6alRa0HmE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Athenaeum Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Baptista Teológiai Intézet.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Baptista Teológiai Intézet.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>c4ukelv2w9</Fingerprint>
+      <Integrity>fIdY344lDjs8cqnkVyQgM29NFHfzPG+qv0k8hbWR9qs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Baptista Teológiai Intézet.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\BIOTERRA Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/BIOTERRA Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>55dd5jrzxn</Fingerprint>
+      <Integrity>N7ul8N2ZZ/r+S9FaWPdO/b+NoX2fUlwO7pCb/R5ZrbY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\BIOTERRA Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bogdan-Vodă Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bogdan-Vodă Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>89nwl5s672</Fingerprint>
+      <Integrity>vOYAUZxs3bMV287UULCV41LGRyYNDm0wYTnl2/r9w60=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bogdan-Vodă Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Brassói Erdélyi Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Brassói Erdélyi Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>v9bzul5khi</Fingerprint>
+      <Integrity>08Vq7vffpGBh7nMVK4oQo50H+tv9AZ+3RLiY2WYKONU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Brassói Erdélyi Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Artifex Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bukaresti Artifex Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ngpujbtshy</Fingerprint>
+      <Integrity>Z6tOL6IyNSBiSbeDOLxonuqgfC3l9led8kBgjYn7KDc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Artifex Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bukaresti Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ho49cwjss1</Fingerprint>
+      <Integrity>D0T0eGjEe2akNn6v1y7cGzZsNMRhiucBURGtnWJEyVo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Gazdaságtudományi-Akadémia.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bukaresti Gazdaságtudományi-Akadémia.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ibv1zzik34</Fingerprint>
+      <Integrity>Mhx6ErYtydmb+h+OHstoTk2cZ0WuM/6grZEqoENP4vo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Gazdaságtudományi-Akadémia.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Hyperion Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bukaresti Hyperion Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>guuisj2ovm</Fingerprint>
+      <Integrity>WKsPTu0Y8RaxA6UNn6QDmK7owc7ssiOLm1mIDpxLNbo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Hyperion Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti I. Ferdinánd Katonai Műszaki Akadémia.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bukaresti I. Ferdinánd Katonai Műszaki Akadémia.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wrm09n0zu4</Fingerprint>
+      <Integrity>tGczMIHCgML3ckjIQNw2aT80nWU1/vWVBzXJmTaKufk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti I. Ferdinánd Katonai Műszaki Akadémia.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Mihai Viteazul Nemzeti Hírszerzési Akadémia.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bukaresti Mihai Viteazul Nemzeti Hírszerzési Akadémia.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uxooinlqov</Fingerprint>
+      <Integrity>vo35lKLNKPePcSXz58M06DN9WixT3uMU/0M9Uj56Clc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Mihai Viteazul Nemzeti Hírszerzési Akadémia.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Nemzeti Művészeti Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bukaresti Nemzeti Művészeti Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>y35sf77q8l</Fingerprint>
+      <Integrity>3uM28FQTOthadxuHt0bzz2oiiIS52XPzkiP41TJJIvA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Nemzeti Művészeti Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Nemzeti Tesnevelés és Sport Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bukaresti Nemzeti Tesnevelés és Sport Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vei0zfgu29</Fingerprint>
+      <Integrity>N3zzYKz9OsgAwXFUTRZ43VeTl/m+xzvUCm1NCtb3veI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Nemzeti Tesnevelés és Sport Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Nemzeti Zene Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bukaresti Nemzeti Zene Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nr6mo5s18k</Fingerprint>
+      <Integrity>wxdo1zm6d3FGUe59wgfxVXYiDJQCSp0YWT88ALiitGo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Nemzeti Zene Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Politechnikai Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bukaresti Politechnikai Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wemasf9iv2</Fingerprint>
+      <Integrity>+NczPwg31IJeu/PJIfVBHNvXcjRY2fEJfD+gJz8oOm0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Politechnikai Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Pünkösdi Teológiai Intézet.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bukaresti Pünkösdi Teológiai Intézet.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ogsfku5pix</Fingerprint>
+      <Integrity>KGbvmDx3ZGGykR+6aJuKfGq8vTHZmM6NnhQQDPLTulU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Pünkösdi Teológiai Intézet.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Timotheus Keresztény Evangélikus Intézmény.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bukaresti Timotheus Keresztény Evangélikus Intézmény.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>820wfsm60c</Fingerprint>
+      <Integrity>UAeStpwFk8wgfIadTTsHMMQfgvIYaOZh5nIEIZpqsuM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Timotheus Keresztény Evangélikus Intézmény.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Ökológia Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bukaresti Ökológia Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>m243xys8w4</Fingerprint>
+      <Integrity>XoAx8SOb8p4JdV4Ye8SCDkrgrrwZY4+Ge3UYTjTA8wI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Ökológia Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bákói George Bacovia Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bákói George Bacovia Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xnxhl0afa3</Fingerprint>
+      <Integrity>U6YmvztrjlbFiW8cBblP6sWoBZfnyuNps8HA1heDB5I=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bákói George Bacovia Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bákói Vasile Alecsandri Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bákói Vasile Alecsandri Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>39wjwpwiuf</Fingerprint>
+      <Integrity>+TFnNdtpFSO7n/ha3H2iVTjVhFp7AktLC0WWHCRq/QQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bákói Vasile Alecsandri Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bánsági Regele Mihai I Al României Mezőgazdasági és Állatorvostudományi Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Bánsági Regele Mihai I Al României Mezőgazdasági és Állatorvostudományi Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>l6t06xajvt</Fingerprint>
+      <Integrity>vd2RzmjcerVVYaVLb4gcMj7ac4DK4DoB2cwEKPaAVR0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bánsági Regele Mihai I Al României Mezőgazdasági és Állatorvostudományi Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Carol Davila Orvostudományi és Gyógyszerészeti Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Carol Davila Orvostudományi és Gyógyszerészeti Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>o78ddj7na3</Fingerprint>
+      <Integrity>1PN3d7MfpYMEvKmMUk8ZMNC0f1IDEnTf6zlDnrhQzgg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Carol Davila Orvostudományi és Gyógyszerészeti Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Carol I. Nemzetvédelmi Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Carol I. Nemzetvédelmi Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>5tj5abat4r</Fingerprint>
+      <Integrity>d9aSc41Dkmb1QgZs3c6oygaIdNLqEfd3eZEKDsSaVjE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Carol I. Nemzetvédelmi Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Constantin Brâncoveanu Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Constantin Brâncoveanu Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zfk8z4nqrt</Fingerprint>
+      <Integrity>f5wtg5Mw8QE/Tqzq4LjkFvg4JU2gMl1Ud135o58tNpo=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Constantin Brâncoveanu Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Danubius Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Danubius Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2hpoii2mrh</Fingerprint>
+      <Integrity>9hA1RipEh3d4FkyQ3CsYnQL6oP7y5SUeZlcchpEtENk=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Danubius Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Dimitrie Cantemir Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Dimitrie Cantemir Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2z2jxmg67h</Fingerprint>
+      <Integrity>zu5WoehR7EcpcuKYt3/3n8lr4N4LiN5Jszq/GmctNQI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Dimitrie Cantemir Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Dimitrie Cantemir Keresztény Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Dimitrie Cantemir Keresztény Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>w67ehtoht2</Fingerprint>
+      <Integrity>GN9slBPB+MjAx27pfO4QigO8otqHwj/5XRKRIS7yOaU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Dimitrie Cantemir Keresztény Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Galaci Dunărea de Jos Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Galaci Dunărea de Jos Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>sfu3lqcufa</Fingerprint>
+      <Integrity>2Nlo3Ec6SzECgWDWPHLzj/ZeXRNx0k1AdL+c5CcMr0U=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Galaci Dunărea de Jos Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Gheorghe Dima Zeneakadémia.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Gheorghe Dima Zeneakadémia.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>0cvxf2b9wo</Fingerprint>
+      <Integrity>4MNDzeBoH79ATpiaFT50EZVmXImc/JNx7ngbOoSkjZ0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Gheorghe Dima Zeneakadémia.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Gyulafehérvári 1 Decembrie 1918 Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Gyulafehérvári 1 Decembrie 1918 Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zcfc12dstc</Fingerprint>
+      <Integrity>w5G3pXK/1H87B9UeD6aqTwr+VrPROFhfnW4vaATIlZc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Gyulafehérvári 1 Decembrie 1918 Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Henri Coandă Légi Erők Akadémiája.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Henri Coandă Légi Erők Akadémiája.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>f2v193eer4</Fingerprint>
+      <Integrity>h0gdGsIUAS4OWL38Q37zKU2PzOHrzahoAZYfZm+Adac=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Henri Coandă Légi Erők Akadémiája.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\I.L.Caragiale Nemzeti Színművészeti és Film Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/I.L.Caragiale Nemzeti Színművészeti és Film Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zgrg1vgg9c</Fingerprint>
+      <Integrity>E2zdPa2DwJECFl63nX63ud2YlaTSjew5hL/eFQh+eVQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\I.L.Caragiale Nemzeti Színművészeti és Film Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Ioan Slavici Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Ioan Slavici Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bssem0177x</Fingerprint>
+      <Integrity>xdBz1YHg0qmp7D8P31IkEUY4ZCyXAmrKobHewrQcSFI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Ioan Slavici Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Ion Mincu Építészeti és Urbanisztikai Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Ion Mincu Építészeti és Urbanisztikai Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>85sdb9tdi7</Fingerprint>
+      <Integrity>RHGA8AFWn7OWZEFT4mJ9YjssZ+Iiu7syqGcD2VCpRMc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Ion Mincu Építészeti és Urbanisztikai Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Iuliu Hațieganu Orvostudomány és Gyógyszerészeti Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Iuliu Hațieganu Orvostudomány és Gyógyszerészeti Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>agb6wde46e</Fingerprint>
+      <Integrity>etNcJCpX4I9hEbNJWgno4VnJzX7IEiwJJ0DPSmkSNGE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Iuliu Hațieganu Orvostudomány és Gyógyszerészeti Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Alexandru Ioan Cuza Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Jászvásári Alexandru Ioan Cuza Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>b83avo5fzr</Fingerprint>
+      <Integrity>JeJew5sZyZzsFhuEdIgr06x2hijwoMFfjiNgnWcqS+k=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Alexandru Ioan Cuza Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Apollonia Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Jászvásári Apollonia Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qlbbgreyr9</Fingerprint>
+      <Integrity>gjSoUk1B1FyfgvDcgZJoM3ppglAory8SRnj4h/EBa7g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Apollonia Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári George Enescu Nemzeti Művészeti Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Jászvásári George Enescu Nemzeti Művészeti Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>98azlfbfkk</Fingerprint>
+      <Integrity>iV/CTTQ0sEoWVcWeqsx0AGahEa4mbpCRUfH+T96wuQY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári George Enescu Nemzeti Művészeti Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Gheorghe Asachi Műszaki Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Jászvásári Gheorghe Asachi Műszaki Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>55ssreg4my</Fingerprint>
+      <Integrity>eXC1xfzuw3hcpVCyzF9ZULdsNNWGAvzSxttLXs10ZcA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Gheorghe Asachi Műszaki Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Grigore T. Popa Orvostudományi és Gyógyszerészeti Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Jászvásári Grigore T. Popa Orvostudományi és Gyógyszerészeti Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>nnemdiiwfp</Fingerprint>
+      <Integrity>TTcJdKoQjSCjGZqKfCA7PCm8kGCpbh75ZvLvGlVRY0M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Grigore T. Popa Orvostudományi és Gyógyszerészeti Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Ion Ionescu de la Brad Mezőgazdasági és Állatorvostudományi Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Jászvásári Ion Ionescu de la Brad Mezőgazdasági és Állatorvostudományi Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>80671x59br</Fingerprint>
+      <Integrity>2JBvy954YmeEvyTPTr7xTZl229aUZLGszKrGal6/dmY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Ion Ionescu de la Brad Mezőgazdasági és Állatorvostudományi Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Petre Andrei Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Jászvásári Petre Andrei Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>yckbncqb9p</Fingerprint>
+      <Integrity>0sIGhjo7ZwhsU7xJJo8W87IZyZtXm7Wh+OUxLDDbQSI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Petre Andrei Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Agrártudományi és Állatorvostudományi Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Kolozsvári Agrártudományi és Állatorvostudományi Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>fvpscpqqln</Fingerprint>
+      <Integrity>+yENYK4zfF5/+fj6aMz7XB75UlZscEsjFRzHXvyE89M=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Agrártudományi és Állatorvostudományi Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Műszaki Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Kolozsvári Műszaki Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>wf2oi5eh28</Fingerprint>
+      <Integrity>XMg69fUmROh1ynYgfBBUOIoJaIR0+vfJgvaLGpf2pH0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Műszaki Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Művészeti és Formatervezési Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Kolozsvári Művészeti és Formatervezési Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>s0sr8c74ax</Fingerprint>
+      <Integrity>nO5w6vhVkpp6P63Gq63gfh64w3GgE4EZspUaaA1ZLT0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Művészeti és Formatervezési Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Protestáns Teológiai Intézet.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Kolozsvári Protestáns Teológiai Intézet.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>yyjoy5gc7t</Fingerprint>
+      <Integrity>GhElpqN9ubQ7G79vsZ2zYHX324up753Mzw9cqL+a07Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Protestáns Teológiai Intézet.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Konstancai Ovidius Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Konstancai Ovidius Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>t7hgygsq77</Fingerprint>
+      <Integrity>12LXwq69hJyudVIt9UYfC9fpNBzxxR6oHlfn4gzJ3P8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Konstancai Ovidius Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Konstancai Tengerészeti Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Konstancai Tengerészeti Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>17v29t4008</Fingerprint>
+      <Integrity>bYcpZN+QVeZH2sG8o9/Pg5MoLJ+8N8r+s9CFjWsgFL4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Konstancai Tengerészeti Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Krajovai Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Krajovai Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>migcmuezud</Fingerprint>
+      <Integrity>noxjJcSTXe9KjP5an8SGH+KXOP2vyJst2UILOK1ILPA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Krajovai Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Krajovai Orvostudomáyni és Gyógyszerészeti Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Krajovai Orvostudomáyni és Gyógyszerészeti Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>tqjygiztbc</Fingerprint>
+      <Integrity>daD5IFJwcmVkqvjta1YA8atKl0gLmllEnGykVlqBDlQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Krajovai Orvostudomáyni és Gyógyszerészeti Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Lugosi Drăgan Európai Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Lugosi Drăgan Európai Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vyrcywlzvj</Fingerprint>
+      <Integrity>afUAy73Bjjrde/HLQY5VjmAd1SkojaoitpG/Ab3UokE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Lugosi Drăgan Európai Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Lumina Délkelet-Európai Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Lumina Délkelet-Európai Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>qaqmfuhlph</Fingerprint>
+      <Integrity>oiWoULmHc4tDeh5l6/Wkr6vQRzgVZAfW7tLr3n8tRQg=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Lumina Délkelet-Európai Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Marosvásárhelyi Művészeti Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Marosvásárhelyi Művészeti Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>k547orx4zn</Fingerprint>
+      <Integrity>OHsb9I5d9EmMAXGloAWPiu7QH+O6cO9dG16wnxPeExI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Marosvásárhelyi Művészeti Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Marosvásárhelyi George Emil Palade Orvosi, Gyógyszerészeti, Tudomány- és Technológiai Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Marosvásárhelyi George Emil Palade Orvosi, Gyógyszerészeti, Tudomány- és Technológiai Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>8xhrft4j3p</Fingerprint>
+      <Integrity>fJbaCCCaKzsti1usCFX6Mv4x0fwggyqF4eaDYODi91g=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Marosvásárhelyi George Emil Palade Orvosi, Gyógyszerészeti, Tudomány- és Technológiai Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Mezőgazdasági és Állatorvosi Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Mezőgazdasági és Állatorvosi Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zs87fhnvo0</Fingerprint>
+      <Integrity>rVQZ+4oMYjuJ9W5cEv4P39m448EESRZD7WoO5iQSQCU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Mezőgazdasági és Állatorvosi Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Mircea Cel Bătrân Tengerészeti Akadémia.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Mircea Cel Bătrân Tengerészeti Akadémia.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>49k4x4bsd5</Fingerprint>
+      <Integrity>eL8eTB0TjXXkXz8XbVZ2i893mGqWrtvejoBIXlu7Cw0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Mircea Cel Bătrân Tengerészeti Akadémia.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyszebeni  Nicolae Balcescu Szárazföldi Erők Akadémiája.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Nagyszebeni  Nicolae Balcescu Szárazföldi Erők Akadémiája.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xp2joj34ol</Fingerprint>
+      <Integrity>e/cOzahyTC2JPmL4INJGl0nicSlfFnGRWyICZj7ogyw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyszebeni  Nicolae Balcescu Szárazföldi Erők Akadémiája.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyszebeni Lucian Blaga Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Nagyszebeni Lucian Blaga Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rip5ei65uc</Fingerprint>
+      <Integrity>jfn1GwT74Fq3XnpoJeaM27xedMTT+7I2i0ZVzZ83/UI=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyszebeni Lucian Blaga Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyszebeni Román-Német Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Nagyszebeni Román-Német Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>499h37bobi</Fingerprint>
+      <Integrity>GFhCAm6nfUECZnz26BpY7q0z/fnaPAsLDNkVvMAFMo8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyszebeni Román-Német Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyváradi Agora Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Nagyváradi Agora Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>xvx99r7wni</Fingerprint>
+      <Integrity>M4fyetIf+bimQOWObRWAVe8KTdVcsY8ojDDnEdyA3nA=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyváradi Agora Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyváradi Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Nagyváradi Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hbm4wx8jkw</Fingerprint>
+      <Integrity>/c1h2YJNan15RVrfLBmkXxfErcoku7FUzsRsOVe8EEE=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyváradi Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyváradi Emanuel Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Nagyváradi Emanuel Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>762w2orla5</Fingerprint>
+      <Integrity>/2R5sDyO0EkqJ5BfS1GZ7pssb8EZhv11LTsOArYFpro=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyváradi Emanuel Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nemzeti Politikai és Adminisztratív Tanulmányok Egyeteme.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Nemzeti Politikai és Adminisztratív Tanulmányok Egyeteme.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>umk5a4hkzc</Fingerprint>
+      <Integrity>Sh4xp4cXulHhEKrFQwCkZ+agl1peymzk0hcOBbHQ42w=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nemzeti Politikai és Adminisztratív Tanulmányok Egyeteme.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nicolae Titulescu Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Nicolae Titulescu Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>g0q8rv3z9l</Fingerprint>
+      <Integrity>UAPP41AeaFzsSBt9+iBhSHXBTmYyokzfh6Q97XZurjs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nicolae Titulescu Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Partiumi Keresztény Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Partiumi Keresztény Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>3ckpiohnun</Fingerprint>
+      <Integrity>M7VQI6ZpHBggJ1iBqNwqq/4g6YDEhNq1xRBB7LNWw/Y=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Partiumi Keresztény Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Petrozsényi Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Petrozsényi Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>6ialsq8ry6</Fingerprint>
+      <Integrity>klNL+SPghTaIzRCZOXDo/gUV1/DE+poFZPwHZlJPVOU=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Petrozsényi Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Pitești Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Pitești Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>k550ryco6r</Fingerprint>
+      <Integrity>6GK10gHZBfqtUjlPoUYLoA34qFO+VbCb9TJOz4XTp3s=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Pitești Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Ploiești-i Petrol-Gaz Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Ploiești-i Petrol-Gaz Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>a7cvibnllt</Fingerprint>
+      <Integrity>eqKIW6nlacfXW3ycSmNHxGfXj7vu8GaTMmD9TU9ScL0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Ploiești-i Petrol-Gaz Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Resicabányai Eftimie Murgu Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Resicabányai Eftimie Murgu Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>vop9amtncg</Fingerprint>
+      <Integrity>T9wpntTBLg9LBCsYzOmt9If0CadIfiAQ+lXbwQye8IM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Resicabányai Eftimie Murgu Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Román-Amerikai Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Román-Amerikai Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bwmjwaszd0</Fingerprint>
+      <Integrity>qwLCpwyV00ZVnphq/tlqyLihkQOXV5qGZaxq/HQUkiM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Román-Amerikai Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Római-Katolikus Ferences Teológiai Intézet.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Római-Katolikus Ferences Teológiai Intézet.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>y5qb42kuuf</Fingerprint>
+      <Integrity>yhr5d5HV+rLNU1v27sB/HKXmzQLZxaqn6FxiHHiUvfY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Római-Katolikus Ferences Teológiai Intézet.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Sapientia Erdélyi Magyar Tudományegyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Sapientia Erdélyi Magyar Tudományegyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>9df4ji721b</Fingerprint>
+      <Integrity>M25jOJUN8IasnE5HI714brDHHb5oMLBkt3ynnKe7IbY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Sapientia Erdélyi Magyar Tudományegyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Semmelweis Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Semmelweis Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>r6ymfeg3r1</Fingerprint>
+      <Integrity>bYJ/seeoD07lKZQhsxvxSx0gcOF4sJAbOJ/5ClmeeLM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Semmelweis Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Spiru Haret Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Spiru Haret Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bf465lyold</Fingerprint>
+      <Integrity>5xQj0h6yA5JwWwijQ3E2DSRnKsyRkU/iTzFBOu445zM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Spiru Haret Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Szucsávai Ștefan cel Mare Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Szucsávai Ștefan cel Mare Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hl8ssuizqi</Fingerprint>
+      <Integrity>ezFbveFRmYH5wH2b2r/L77sEt9soEzSq0wprebqmsO4=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Szucsávai Ștefan cel Mare Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Székelyudvarhelyi Egyetemi Központ.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Székelyudvarhelyi Egyetemi Központ.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>uyqutlx509</Fingerprint>
+      <Integrity>+hpnWyxwHcD8kLzvGZs9fF8ntUfJjTrjsp7zLHfodts=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Székelyudvarhelyi Egyetemi Központ.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Műszaki Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Temesvári Műszaki Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>u8w9prnmf6</Fingerprint>
+      <Integrity>fgBioxsMR11zImi2jckrMHczjb9QoMpYC+XKxZqQVE0=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Műszaki Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Nyugati Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Temesvári Nyugati Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>n4y0zdpu1r</Fingerprint>
+      <Integrity>xxNd97WbuPYQrg844RgBEGfvNuCx2Sbyi7xo4hcmymw=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Nyugati Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Tibiscus Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Temesvári Tibiscus Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>2r6mhdpcn5</Fingerprint>
+      <Integrity>rmDMmYXGK98CLPsId8zXp9tiCwluiqZIH39Gep8tgOQ=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Tibiscus Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Victor Babeș Orvostudományi és Gyógszerészeti Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Temesvári Victor Babeș Orvostudományi és Gyógszerészeti Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>61lswya1ni</Fingerprint>
+      <Integrity>eiE2vYudxuVksBnrP35e2MpUOicwvFMdhYrHvru1288=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Victor Babeș Orvostudományi és Gyógszerészeti Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Titu Maiorescu Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Titu Maiorescu Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>zjdgl05i8b</Fingerprint>
+      <Integrity>n60VluaU/HkaO8jT7+OKxMvL3VEmgOUGVwopsRvLfs8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Titu Maiorescu Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Tomis Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Tomis Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ynu2fvfdab</Fingerprint>
+      <Integrity>voItZeFC7EhDnjr58e77/faOCu5pKi+9A76UJmCvehM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Tomis Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Târgoviște-i  Valahia Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Târgoviște-i  Valahia Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ezefwuwwyp</Fingerprint>
+      <Integrity>Zq7h1dGaGWqf4NIC9zghEAveyUCzeCYDjalnGOHzH7Q=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Târgoviște-i  Valahia Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Zsilvásárhelyi Constantin Brâncuși Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Zsilvásárhelyi Constantin Brâncuși Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>rn4tpprryi</Fingerprint>
+      <Integrity>KRbfRWKx2IW3V82tbNdFU4mkMMkQwrbrO5pfeqCaHMY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Zsilvásárhelyi Constantin Brâncuși Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Építőipari Műszaki Egyetem.webp'))">
+      <SourceType>Package</SourceType>
+      <SourceId>DotnetProjekt</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/DotnetProjekt</BasePath>
+      <RelativePath>Data/university_images/Építőipari Műszaki Egyetem.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>jza0bx0y51</Fingerprint>
+      <Integrity>YTl5f34iM53Hjf5j7TBv2gURQF6fDQlnxDmM3GthM8Y=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Építőipari Műszaki Egyetem.webp'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DotnetProjekt.mwlte96io8.bundle.scp.css'))">
       <SourceType>Package</SourceType>
       <SourceId>DotnetProjekt</SourceId>

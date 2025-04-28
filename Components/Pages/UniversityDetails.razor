@@ -4,7 +4,7 @@
 
 <div class="container-fluid p-0" style="padding: 0; margin: 0;">
     <div class="position-relative">
-        <img src="/images/university-placeholder.jpg" class="w-100" alt="@university?.Name" style="height: 400px; object-fit: cover;">
+        <img src="Data@(university?.ImageUrl)" class="w-100" alt="@university?.Name" style="height: 400px; object-fit: cover;">
         <div class="position-absolute bottom-0 start-0 p-4 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.7)); width: 100%;">
             <h1 class="display-4">@university?.Name</h1>
             <h4 class="text-light">@university?.City</h4>
@@ -72,14 +72,18 @@
 
     protected override void OnInitialized()
     {
-        string csvPath = @"Data/universities_with_links.csv";
+        string csvPath = @"Data/all_universities.csv";
         if (File.Exists(csvPath))
         {
             var lines = File.ReadAllLines(csvPath);
             university = lines.Skip(1)
                 .Select(line => line.Split(','))
-                .Where(parts => parts.Length > 1)
-                .Select(parts => new University { Name = parts[0].Trim('"'), City = parts[1].Trim() })
+                .Where(parts => parts.Length > 2)
+                .Select(parts => new University { 
+                    Name = parts[0].Trim('"'), 
+                    City = parts[1].Trim(),
+                    ImageUrl = $"/{parts[2].Trim()}"
+                })
                 .FirstOrDefault(u => u.Name == Name);
         }
 
@@ -103,6 +107,7 @@
     {
         public string Name { get; set; }
         public string City { get; set; }
+        public string ImageUrl { get; set; }
     }
 
     private class Major

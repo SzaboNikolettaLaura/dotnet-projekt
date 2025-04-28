@@ -30,7 +30,7 @@
         {
             <div class="col-md-4 mb-4">
                 <div class="card h-100">
-                    <img src="/images/university-placeholder.jpg" class="card-img-top" alt="University" style="height: 200px; object-fit: cover;">
+                    <img src="Data@(uni.ImageUrl)" class="card-img-top" alt="@uni.Name" style="height: 200px; object-fit: cover;">
                     <div class="card-body">
                         <h5 class="card-title">@uni.Name</h5>
                         <p class="card-text">@uni.City</p>
@@ -58,14 +58,18 @@ else
 
     protected override void OnInitialized()
     {
-        string csvPath = @"Data/universities_with_links.csv";
+        string csvPath = @"Data/all_universities.csv";
         if (File.Exists(csvPath))
         {
             var lines = File.ReadAllLines(csvPath);
             universities = lines.Skip(1)
                 .Select(line => line.Split(','))
-                .Where(parts => parts.Length > 1)
-                .Select(parts => new University { Name = parts[0].Trim('"'), City = parts[1].Trim() })
+                .Where(parts => parts.Length > 2)
+                .Select(parts => new University { 
+                    Name = parts[0].Trim('"'), 
+                    City = parts[1].Trim(),
+                    ImageUrl = $"/{parts[2].Trim()}"
+                })
                 .ToList();
             cities = universities.Select(u => u.City).Distinct().OrderBy(c => c).ToList();
         }
@@ -75,5 +79,6 @@ else
     {
         public string Name { get; set; }
         public string City { get; set; }
+        public string ImageUrl { get; set; }
     }
 } 

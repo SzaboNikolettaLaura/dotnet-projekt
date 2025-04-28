@@ -53,6 +53,366 @@
       "PackagePath": "staticwebassets\\Data\\ms_final.csv"
     },
     {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Adventus Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Adventus Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Alexandru Ioan Cuza Rendőrakadémia.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Alexandru Ioan Cuza Rendőrakadémia.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Andrei Șaguna Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Andrei Șaguna Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Aradi Aurel Vlaicu Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Aradi Aurel Vlaicu Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Aradi Vasile Goldiș Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Aradi Vasile Goldiș Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Athenaeum Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Athenaeum Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\BIOTERRA Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\BIOTERRA Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Baptista Teológiai Intézet.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Baptista Teológiai Intézet.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bogdan-Vodă Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bogdan-Vodă Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Brassói Erdélyi Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Brassói Erdélyi Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bukaresti Artifex Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bukaresti Artifex Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bukaresti Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bukaresti Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bukaresti Gazdaságtudományi-Akadémia.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bukaresti Gazdaságtudományi-Akadémia.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bukaresti Hyperion Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bukaresti Hyperion Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bukaresti I. Ferdinánd Katonai Műszaki Akadémia.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bukaresti I. Ferdinánd Katonai Műszaki Akadémia.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bukaresti Mihai Viteazul Nemzeti Hírszerzési Akadémia.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bukaresti Mihai Viteazul Nemzeti Hírszerzési Akadémia.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bukaresti Nemzeti Művészeti Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bukaresti Nemzeti Művészeti Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bukaresti Nemzeti Tesnevelés és Sport Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bukaresti Nemzeti Tesnevelés és Sport Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bukaresti Nemzeti Zene Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bukaresti Nemzeti Zene Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bukaresti Politechnikai Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bukaresti Politechnikai Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bukaresti Pünkösdi Teológiai Intézet.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bukaresti Pünkösdi Teológiai Intézet.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bukaresti Timotheus Keresztény Evangélikus Intézmény.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bukaresti Timotheus Keresztény Evangélikus Intézmény.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bukaresti Ökológia Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bukaresti Ökológia Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bákói George Bacovia Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bákói George Bacovia Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bákói Vasile Alecsandri Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bákói Vasile Alecsandri Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Bánsági Regele Mihai I Al României Mezőgazdasági és Állatorvostudományi Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Bánsági Regele Mihai I Al României Mezőgazdasági és Állatorvostudományi Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Carol Davila Orvostudományi és Gyógyszerészeti Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Carol Davila Orvostudományi és Gyógyszerészeti Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Carol I. Nemzetvédelmi Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Carol I. Nemzetvédelmi Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Constantin Brâncoveanu Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Constantin Brâncoveanu Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Danubius Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Danubius Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Dimitrie Cantemir Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Dimitrie Cantemir Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Dimitrie Cantemir Keresztény Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Dimitrie Cantemir Keresztény Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Galaci Dunărea de Jos Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Galaci Dunărea de Jos Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Gheorghe Dima Zeneakadémia.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Gheorghe Dima Zeneakadémia.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Gyulafehérvári 1 Decembrie 1918 Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Gyulafehérvári 1 Decembrie 1918 Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Henri Coandă Légi Erők Akadémiája.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Henri Coandă Légi Erők Akadémiája.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\I.L.Caragiale Nemzeti Színművészeti és Film Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\I.L.Caragiale Nemzeti Színművészeti és Film Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Ioan Slavici Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Ioan Slavici Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Ion Mincu Építészeti és Urbanisztikai Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Ion Mincu Építészeti és Urbanisztikai Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Iuliu Hațieganu Orvostudomány és Gyógyszerészeti Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Iuliu Hațieganu Orvostudomány és Gyógyszerészeti Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Jászvásári Alexandru Ioan Cuza Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Jászvásári Alexandru Ioan Cuza Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Jászvásári Apollonia Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Jászvásári Apollonia Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Jászvásári George Enescu Nemzeti Művészeti Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Jászvásári George Enescu Nemzeti Művészeti Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Jászvásári Gheorghe Asachi Műszaki Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Jászvásári Gheorghe Asachi Műszaki Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Jászvásári Grigore T. Popa Orvostudományi és Gyógyszerészeti Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Jászvásári Grigore T. Popa Orvostudományi és Gyógyszerészeti Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Jászvásári Ion Ionescu de la Brad Mezőgazdasági és Állatorvostudományi Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Jászvásári Ion Ionescu de la Brad Mezőgazdasági és Állatorvostudományi Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Jászvásári Petre Andrei Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Jászvásári Petre Andrei Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Kolozsvári Agrártudományi és Állatorvostudományi Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Kolozsvári Agrártudományi és Állatorvostudományi Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Kolozsvári Műszaki Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Kolozsvári Műszaki Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Kolozsvári Művészeti és Formatervezési Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Kolozsvári Művészeti és Formatervezési Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Kolozsvári Protestáns Teológiai Intézet.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Kolozsvári Protestáns Teológiai Intézet.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Konstancai Ovidius Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Konstancai Ovidius Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Konstancai Tengerészeti Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Konstancai Tengerészeti Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Krajovai Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Krajovai Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Krajovai Orvostudomáyni és Gyógyszerészeti Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Krajovai Orvostudomáyni és Gyógyszerészeti Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Lugosi Drăgan Európai Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Lugosi Drăgan Európai Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Lumina Délkelet-Európai Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Lumina Délkelet-Európai Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Marosvásárhelyi Művészeti Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Marosvásárhelyi Művészeti Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Marosvásárhelyi\u00A0George Emil Palade\u00A0Orvosi, Gyógyszerészeti, Tudomány-\u00A0és Technológiai Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Marosvásárhelyi\u00A0George Emil Palade\u00A0Orvosi, Gyógyszerészeti, Tudomány-\u00A0és Technológiai Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Mezőgazdasági és Állatorvosi Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Mezőgazdasági és Állatorvosi Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Mircea Cel Bătrân Tengerészeti Akadémia.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Mircea Cel Bătrân Tengerészeti Akadémia.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Nagyszebeni  Nicolae Balcescu\u00A0Szárazföldi Erők Akadémiája.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Nagyszebeni  Nicolae Balcescu\u00A0Szárazföldi Erők Akadémiája.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Nagyszebeni Lucian Blaga Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Nagyszebeni Lucian Blaga Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Nagyszebeni Román-Német Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Nagyszebeni Román-Német Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Nagyváradi Agora Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Nagyváradi Agora Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Nagyváradi Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Nagyváradi Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Nagyváradi Emanuel Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Nagyváradi Emanuel Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Nemzeti Politikai és Adminisztratív Tanulmányok Egyeteme.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Nemzeti Politikai és Adminisztratív Tanulmányok Egyeteme.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Nicolae Titulescu Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Nicolae Titulescu Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Partiumi Keresztény Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Partiumi Keresztény Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Petrozsényi Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Petrozsényi Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Pitești Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Pitești Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Ploiești-i Petrol-Gaz Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Ploiești-i Petrol-Gaz Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Resicabányai Eftimie Murgu Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Resicabányai Eftimie Murgu Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Román-Amerikai Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Román-Amerikai Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Római-Katolikus Ferences Teológiai Intézet.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Római-Katolikus Ferences Teológiai Intézet.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Sapientia Erdélyi Magyar Tudományegyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Sapientia Erdélyi Magyar Tudományegyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Semmelweis Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Semmelweis Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Spiru Haret Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Spiru Haret Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Szucsávai Ștefan cel Mare Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Szucsávai Ștefan cel Mare Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Székelyudvarhelyi Egyetemi Központ.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Székelyudvarhelyi Egyetemi Központ.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Temesvári Műszaki Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Temesvári Műszaki Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Temesvári Nyugati Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Temesvári Nyugati Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Temesvári Tibiscus Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Temesvári Tibiscus Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Temesvári Victor Babeș Orvostudományi és Gyógszerészeti Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Temesvári Victor Babeș Orvostudományi és Gyógszerészeti Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Titu Maiorescu Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Titu Maiorescu Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Tomis Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Tomis Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Târgoviște-i  Valahia Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Târgoviște-i  Valahia Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Zsilvásárhelyi Constantin Brâncuși Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Zsilvásárhelyi Constantin Brâncuși Egyetem.webp"
+    },
+    {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Építőipari Műszaki Egyetem.webp",
+      "PackagePath": "staticwebassets\\Data\\university_images\\Építőipari Műszaki Egyetem.webp"
+    },
+    {
       "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\app.css",
       "PackagePath": "staticwebassets\\app.css"
     },

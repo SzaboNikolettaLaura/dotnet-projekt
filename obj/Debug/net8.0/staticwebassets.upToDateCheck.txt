@@ -13,5 +13,95 @@ wwwroot\Data\2022_final.csv
 wwwroot\Data\2023_final.csv
 wwwroot\Data\map_data.txt
 wwwroot\Data\ms_final.csv
+wwwroot\Data\university_images\Adventus Egyetem.webp
+wwwroot\Data\university_images\Alexandru Ioan Cuza Rendőrakadémia.webp
+wwwroot\Data\university_images\Andrei Șaguna Egyetem.webp
+wwwroot\Data\university_images\Aradi Aurel Vlaicu Egyetem.webp
+wwwroot\Data\university_images\Aradi Vasile Goldiș Egyetem.webp
+wwwroot\Data\university_images\Athenaeum Egyetem.webp
+wwwroot\Data\university_images\Bákói George Bacovia Egyetem.webp
+wwwroot\Data\university_images\Bákói Vasile Alecsandri Egyetem.webp
+wwwroot\Data\university_images\Bánsági Regele Mihai I Al României Mezőgazdasági és Állatorvostudományi Egyetem.webp
+wwwroot\Data\university_images\Baptista Teológiai Intézet.webp
+wwwroot\Data\university_images\BIOTERRA Egyetem.webp
+wwwroot\Data\university_images\Bogdan-Vodă Egyetem.webp
+wwwroot\Data\university_images\Brassói Erdélyi Egyetem.webp
+wwwroot\Data\university_images\Bukaresti Artifex Egyetem.webp
+wwwroot\Data\university_images\Bukaresti Egyetem.webp
+wwwroot\Data\university_images\Bukaresti Gazdaságtudományi-Akadémia.webp
+wwwroot\Data\university_images\Bukaresti Hyperion Egyetem.webp
+wwwroot\Data\university_images\Bukaresti I. Ferdinánd Katonai Műszaki Akadémia.webp
+wwwroot\Data\university_images\Bukaresti Mihai Viteazul Nemzeti Hírszerzési Akadémia.webp
+wwwroot\Data\university_images\Bukaresti Nemzeti Művészeti Egyetem.webp
+wwwroot\Data\university_images\Bukaresti Nemzeti Tesnevelés és Sport Egyetem.webp
+wwwroot\Data\university_images\Bukaresti Nemzeti Zene Egyetem.webp
+wwwroot\Data\university_images\Bukaresti Ökológia Egyetem.webp
+wwwroot\Data\university_images\Bukaresti Politechnikai Egyetem.webp
+wwwroot\Data\university_images\Bukaresti Pünkösdi Teológiai Intézet.webp
+wwwroot\Data\university_images\Bukaresti Timotheus Keresztény Evangélikus Intézmény.webp
+wwwroot\Data\university_images\Carol Davila Orvostudományi és Gyógyszerészeti Egyetem.webp
+wwwroot\Data\university_images\Carol I. Nemzetvédelmi Egyetem.webp
+wwwroot\Data\university_images\Constantin Brâncoveanu Egyetem.webp
+wwwroot\Data\university_images\Danubius Egyetem.webp
+wwwroot\Data\university_images\Dimitrie Cantemir Egyetem.webp
+wwwroot\Data\university_images\Dimitrie Cantemir Keresztény Egyetem.webp
+wwwroot\Data\university_images\Építőipari Műszaki Egyetem.webp
+wwwroot\Data\university_images\Galaci Dunărea de Jos Egyetem.webp
+wwwroot\Data\university_images\Gheorghe Dima Zeneakadémia.webp
+wwwroot\Data\university_images\Gyulafehérvári 1 Decembrie 1918 Egyetem.webp
+wwwroot\Data\university_images\Henri Coandă Légi Erők Akadémiája.webp
+wwwroot\Data\university_images\I.L.Caragiale Nemzeti Színművészeti és Film Egyetem.webp
+wwwroot\Data\university_images\Ioan Slavici Egyetem.webp
+wwwroot\Data\university_images\Ion Mincu Építészeti és Urbanisztikai Egyetem.webp
+wwwroot\Data\university_images\Iuliu Hațieganu Orvostudomány és Gyógyszerészeti Egyetem.webp
+wwwroot\Data\university_images\Jászvásári Alexandru Ioan Cuza Egyetem.webp
+wwwroot\Data\university_images\Jászvásári Apollonia Egyetem.webp
+wwwroot\Data\university_images\Jászvásári George Enescu Nemzeti Művészeti Egyetem.webp
+wwwroot\Data\university_images\Jászvásári Gheorghe Asachi Műszaki Egyetem.webp
+wwwroot\Data\university_images\Jászvásári Grigore T. Popa Orvostudományi és Gyógyszerészeti Egyetem.webp
+wwwroot\Data\university_images\Jászvásári Ion Ionescu de la Brad Mezőgazdasági és Állatorvostudományi Egyetem.webp
+wwwroot\Data\university_images\Jászvásári Petre Andrei Egyetem.webp
+wwwroot\Data\university_images\Kolozsvári Agrártudományi és Állatorvostudományi Egyetem.webp
+wwwroot\Data\university_images\Kolozsvári Műszaki Egyetem.webp
+wwwroot\Data\university_images\Kolozsvári Művészeti és Formatervezési Egyetem.webp
+wwwroot\Data\university_images\Kolozsvári Protestáns Teológiai Intézet.webp
+wwwroot\Data\university_images\Konstancai Ovidius Egyetem.webp
+wwwroot\Data\university_images\Konstancai Tengerészeti Egyetem.webp
+wwwroot\Data\university_images\Krajovai Egyetem.webp
+wwwroot\Data\university_images\Krajovai Orvostudomáyni és Gyógyszerészeti Egyetem.webp
+wwwroot\Data\university_images\Lugosi Drăgan Európai Egyetem.webp
+wwwroot\Data\university_images\Lumina Délkelet-Európai Egyetem.webp
+wwwroot\Data\university_images\Marosvásárhelyi Művészeti Egyetem.webp
+wwwroot\Data\university_images\Marosvásárhelyi George Emil Palade Orvosi, Gyógyszerészeti, Tudomány- és Technológiai Egyetem.webp
+wwwroot\Data\university_images\Mezőgazdasági és Állatorvosi Egyetem.webp
+wwwroot\Data\university_images\Mircea Cel Bătrân Tengerészeti Akadémia.webp
+wwwroot\Data\university_images\Nagyszebeni  Nicolae Balcescu Szárazföldi Erők Akadémiája.webp
+wwwroot\Data\university_images\Nagyszebeni Lucian Blaga Egyetem.webp
+wwwroot\Data\university_images\Nagyszebeni Román-Német Egyetem.webp
+wwwroot\Data\university_images\Nagyváradi Agora Egyetem.webp
+wwwroot\Data\university_images\Nagyváradi Egyetem.webp
+wwwroot\Data\university_images\Nagyváradi Emanuel Egyetem.webp
+wwwroot\Data\university_images\Nemzeti Politikai és Adminisztratív Tanulmányok Egyeteme.webp
+wwwroot\Data\university_images\Nicolae Titulescu Egyetem.webp
+wwwroot\Data\university_images\Partiumi Keresztény Egyetem.webp
+wwwroot\Data\university_images\Petrozsényi Egyetem.webp
+wwwroot\Data\university_images\Pitești Egyetem.webp
+wwwroot\Data\university_images\Ploiești-i Petrol-Gaz Egyetem.webp
+wwwroot\Data\university_images\Resicabányai Eftimie Murgu Egyetem.webp
+wwwroot\Data\university_images\Római-Katolikus Ferences Teológiai Intézet.webp
+wwwroot\Data\university_images\Román-Amerikai Egyetem.webp
+wwwroot\Data\university_images\Sapientia Erdélyi Magyar Tudományegyetem.webp
+wwwroot\Data\university_images\Semmelweis Egyetem.webp
+wwwroot\Data\university_images\Spiru Haret Egyetem.webp
+wwwroot\Data\university_images\Székelyudvarhelyi Egyetemi Központ.webp
+wwwroot\Data\university_images\Szucsávai Ștefan cel Mare Egyetem.webp
+wwwroot\Data\university_images\Târgoviște-i  Valahia Egyetem.webp
+wwwroot\Data\university_images\Temesvári Műszaki Egyetem.webp
+wwwroot\Data\university_images\Temesvári Nyugati Egyetem.webp
+wwwroot\Data\university_images\Temesvári Tibiscus Egyetem.webp
+wwwroot\Data\university_images\Temesvári Victor Babeș Orvostudományi és Gyógszerészeti Egyetem.webp
+wwwroot\Data\university_images\Titu Maiorescu Egyetem.webp
+wwwroot\Data\university_images\Tomis Egyetem.webp
+wwwroot\Data\university_images\Zsilvásárhelyi Constantin Brâncuși Egyetem.webp
 wwwroot\favicon.png
 wwwroot\images\university-placeholder.jpg

@@ -180,6 +180,1086 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k93un4zn27"},{"Name":"integrity","Value":"sha256-CGMymT8\u002BDTt39ABAst/glJLvZE8yqwfvpnw5OyVEU9c="},{"Name":"label","Value":"_content/DotnetProjekt/Data/ms_final.csv"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1293170"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022CGMymT8\u002BDTt39ABAst/glJLvZE8yqwfvpnw5OyVEU9c=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Jul 2023 11:21:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Adventus Egyetem.rvyynxbt9v.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Adventus Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rvyynxbt9v"},{"Name":"integrity","Value":"sha256-F3DN28\u002BRIihuJpxaUL3oZRxed/0CeEfxwYCGR/H5YaE="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Adventus Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15106"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022F3DN28\u002BRIihuJpxaUL3oZRxed/0CeEfxwYCGR/H5YaE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Adventus Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Adventus Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-F3DN28\u002BRIihuJpxaUL3oZRxed/0CeEfxwYCGR/H5YaE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"15106"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022F3DN28\u002BRIihuJpxaUL3oZRxed/0CeEfxwYCGR/H5YaE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Alexandru Ioan Cuza Rendőrakadémia.76g3n5kpwy.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Alexandru Ioan Cuza Rendőrakadémia.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"76g3n5kpwy"},{"Name":"integrity","Value":"sha256-YWBxnWbcdQP9\u002B0WKF13zR2dfqKqaLIBTn0Kwy4fWAz0="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Alexandru Ioan Cuza Rend\u0151rakad\u00E9mia.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17352"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022YWBxnWbcdQP9\u002B0WKF13zR2dfqKqaLIBTn0Kwy4fWAz0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Alexandru Ioan Cuza Rendőrakadémia.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Alexandru Ioan Cuza Rendőrakadémia.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YWBxnWbcdQP9\u002B0WKF13zR2dfqKqaLIBTn0Kwy4fWAz0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"17352"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022YWBxnWbcdQP9\u002B0WKF13zR2dfqKqaLIBTn0Kwy4fWAz0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Andrei Șaguna Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Andrei Șaguna Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tGzsfil1Dh2BOA7btHliOgaH\u002B\u002BhLpyFLKzMKV3H44DA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5154"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022tGzsfil1Dh2BOA7btHliOgaH\u002B\u002BhLpyFLKzMKV3H44DA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Andrei Șaguna Egyetem.wri5xxkytt.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Andrei Șaguna Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wri5xxkytt"},{"Name":"integrity","Value":"sha256-tGzsfil1Dh2BOA7btHliOgaH\u002B\u002BhLpyFLKzMKV3H44DA="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Andrei \u0218aguna Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5154"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022tGzsfil1Dh2BOA7btHliOgaH\u002B\u002BhLpyFLKzMKV3H44DA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:49 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Aradi Aurel Vlaicu Egyetem.lk4v1my0dx.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Aradi Aurel Vlaicu Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"lk4v1my0dx"},{"Name":"integrity","Value":"sha256-G/4Eq2mo8affciY6IvEWhHHdtmjvWTlvgXZXNIVo2iU="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Aradi Aurel Vlaicu Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"68262"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022G/4Eq2mo8affciY6IvEWhHHdtmjvWTlvgXZXNIVo2iU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:32:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Aradi Aurel Vlaicu Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Aradi Aurel Vlaicu Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-G/4Eq2mo8affciY6IvEWhHHdtmjvWTlvgXZXNIVo2iU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"68262"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022G/4Eq2mo8affciY6IvEWhHHdtmjvWTlvgXZXNIVo2iU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:32:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Aradi Vasile Goldiș Egyetem.uc04f2l4cu.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Aradi Vasile Goldiș Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uc04f2l4cu"},{"Name":"integrity","Value":"sha256-zuEBFr\u002Bdfbo8434kiLbX69qDPPRFiwq/vDG8UT3uehc="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Aradi Vasile Goldi\u0219 Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"11668"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022zuEBFr\u002Bdfbo8434kiLbX69qDPPRFiwq/vDG8UT3uehc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:32:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Aradi Vasile Goldiș Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Aradi Vasile Goldiș Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zuEBFr\u002Bdfbo8434kiLbX69qDPPRFiwq/vDG8UT3uehc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"11668"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022zuEBFr\u002Bdfbo8434kiLbX69qDPPRFiwq/vDG8UT3uehc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:32:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Athenaeum Egyetem.94iyfhno0f.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Athenaeum Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"94iyfhno0f"},{"Name":"integrity","Value":"sha256-x6xF4mz\u002BzB7y7d4ZxdWn90wvzRAjcMAzwE6alRa0HmE="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Athenaeum Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"6584"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022x6xF4mz\u002BzB7y7d4ZxdWn90wvzRAjcMAzwE6alRa0HmE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Athenaeum Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Athenaeum Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-x6xF4mz\u002BzB7y7d4ZxdWn90wvzRAjcMAzwE6alRa0HmE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"6584"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022x6xF4mz\u002BzB7y7d4ZxdWn90wvzRAjcMAzwE6alRa0HmE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Baptista Teológiai Intézet.c4ukelv2w9.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Baptista Teológiai Intézet.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"c4ukelv2w9"},{"Name":"integrity","Value":"sha256-fIdY344lDjs8cqnkVyQgM29NFHfzPG\u002Bqv0k8hbWR9qs="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Baptista Teol\u00F3giai Int\u00E9zet.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7562"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022fIdY344lDjs8cqnkVyQgM29NFHfzPG\u002Bqv0k8hbWR9qs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Baptista Teológiai Intézet.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Baptista Teológiai Intézet.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fIdY344lDjs8cqnkVyQgM29NFHfzPG\u002Bqv0k8hbWR9qs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7562"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022fIdY344lDjs8cqnkVyQgM29NFHfzPG\u002Bqv0k8hbWR9qs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/BIOTERRA Egyetem.55dd5jrzxn.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\BIOTERRA Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"55dd5jrzxn"},{"Name":"integrity","Value":"sha256-N7ul8N2ZZ/r\u002BS9FaWPdO/b\u002BNoX2fUlwO7pCb/R5ZrbY="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/BIOTERRA Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15390"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022N7ul8N2ZZ/r\u002BS9FaWPdO/b\u002BNoX2fUlwO7pCb/R5ZrbY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/BIOTERRA Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\BIOTERRA Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-N7ul8N2ZZ/r\u002BS9FaWPdO/b\u002BNoX2fUlwO7pCb/R5ZrbY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"15390"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022N7ul8N2ZZ/r\u002BS9FaWPdO/b\u002BNoX2fUlwO7pCb/R5ZrbY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bogdan-Vodă Egyetem.89nwl5s672.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bogdan-Vodă Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"89nwl5s672"},{"Name":"integrity","Value":"sha256-vOYAUZxs3bMV287UULCV41LGRyYNDm0wYTnl2/r9w60="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Bogdan-Vod\u0103 Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"70352"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022vOYAUZxs3bMV287UULCV41LGRyYNDm0wYTnl2/r9w60=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bogdan-Vodă Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bogdan-Vodă Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vOYAUZxs3bMV287UULCV41LGRyYNDm0wYTnl2/r9w60="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"70352"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022vOYAUZxs3bMV287UULCV41LGRyYNDm0wYTnl2/r9w60=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:35 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Brassói Erdélyi Egyetem.v9bzul5khi.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Brassói Erdélyi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"v9bzul5khi"},{"Name":"integrity","Value":"sha256-08Vq7vffpGBh7nMVK4oQo50H\u002Btv9AZ\u002B3RLiY2WYKONU="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Brass\u00F3i Erd\u00E9lyi Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"388010"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u002208Vq7vffpGBh7nMVK4oQo50H\u002Btv9AZ\u002B3RLiY2WYKONU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Brassói Erdélyi Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Brassói Erdélyi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-08Vq7vffpGBh7nMVK4oQo50H\u002Btv9AZ\u002B3RLiY2WYKONU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"388010"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u002208Vq7vffpGBh7nMVK4oQo50H\u002Btv9AZ\u002B3RLiY2WYKONU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Artifex Egyetem.ngpujbtshy.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Artifex Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ngpujbtshy"},{"Name":"integrity","Value":"sha256-Z6tOL6IyNSBiSbeDOLxonuqgfC3l9led8kBgjYn7KDc="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Bukaresti Artifex Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25612"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Z6tOL6IyNSBiSbeDOLxonuqgfC3l9led8kBgjYn7KDc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Artifex Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Artifex Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Z6tOL6IyNSBiSbeDOLxonuqgfC3l9led8kBgjYn7KDc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"25612"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Z6tOL6IyNSBiSbeDOLxonuqgfC3l9led8kBgjYn7KDc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Egyetem.ho49cwjss1.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ho49cwjss1"},{"Name":"integrity","Value":"sha256-D0T0eGjEe2akNn6v1y7cGzZsNMRhiucBURGtnWJEyVo="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Bukaresti Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"30036"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022D0T0eGjEe2akNn6v1y7cGzZsNMRhiucBURGtnWJEyVo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-D0T0eGjEe2akNn6v1y7cGzZsNMRhiucBURGtnWJEyVo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"30036"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022D0T0eGjEe2akNn6v1y7cGzZsNMRhiucBURGtnWJEyVo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Gazdaságtudományi-Akadémia.ibv1zzik34.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Gazdaságtudományi-Akadémia.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ibv1zzik34"},{"Name":"integrity","Value":"sha256-Mhx6ErYtydmb\u002Bh\u002BOHstoTk2cZ0WuM/6grZEqoENP4vo="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Bukaresti Gazdas\u00E1gtudom\u00E1nyi-Akad\u00E9mia.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4672"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Mhx6ErYtydmb\u002Bh\u002BOHstoTk2cZ0WuM/6grZEqoENP4vo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Gazdaságtudományi-Akadémia.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Gazdaságtudományi-Akadémia.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Mhx6ErYtydmb\u002Bh\u002BOHstoTk2cZ0WuM/6grZEqoENP4vo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4672"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Mhx6ErYtydmb\u002Bh\u002BOHstoTk2cZ0WuM/6grZEqoENP4vo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Hyperion Egyetem.guuisj2ovm.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Hyperion Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"guuisj2ovm"},{"Name":"integrity","Value":"sha256-WKsPTu0Y8RaxA6UNn6QDmK7owc7ssiOLm1mIDpxLNbo="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Bukaresti Hyperion Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3654"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022WKsPTu0Y8RaxA6UNn6QDmK7owc7ssiOLm1mIDpxLNbo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Hyperion Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Hyperion Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WKsPTu0Y8RaxA6UNn6QDmK7owc7ssiOLm1mIDpxLNbo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3654"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022WKsPTu0Y8RaxA6UNn6QDmK7owc7ssiOLm1mIDpxLNbo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:22 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti I. Ferdinánd Katonai Műszaki Akadémia.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti I. Ferdinánd Katonai Műszaki Akadémia.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tGczMIHCgML3ckjIQNw2aT80nWU1/vWVBzXJmTaKufk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"189204"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022tGczMIHCgML3ckjIQNw2aT80nWU1/vWVBzXJmTaKufk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti I. Ferdinánd Katonai Műszaki Akadémia.wrm09n0zu4.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti I. Ferdinánd Katonai Műszaki Akadémia.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wrm09n0zu4"},{"Name":"integrity","Value":"sha256-tGczMIHCgML3ckjIQNw2aT80nWU1/vWVBzXJmTaKufk="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Bukaresti I. Ferdin\u00E1nd Katonai M\u0171szaki Akad\u00E9mia.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"189204"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022tGczMIHCgML3ckjIQNw2aT80nWU1/vWVBzXJmTaKufk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:38 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Mihai Viteazul Nemzeti Hírszerzési Akadémia.uxooinlqov.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Mihai Viteazul Nemzeti Hírszerzési Akadémia.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uxooinlqov"},{"Name":"integrity","Value":"sha256-vo35lKLNKPePcSXz58M06DN9WixT3uMU/0M9Uj56Clc="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Bukaresti Mihai Viteazul Nemzeti H\u00EDrszerz\u00E9si Akad\u00E9mia.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28344"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022vo35lKLNKPePcSXz58M06DN9WixT3uMU/0M9Uj56Clc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Mihai Viteazul Nemzeti Hírszerzési Akadémia.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Mihai Viteazul Nemzeti Hírszerzési Akadémia.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vo35lKLNKPePcSXz58M06DN9WixT3uMU/0M9Uj56Clc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"28344"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022vo35lKLNKPePcSXz58M06DN9WixT3uMU/0M9Uj56Clc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Nemzeti Művészeti Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Nemzeti Művészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3uM28FQTOthadxuHt0bzz2oiiIS52XPzkiP41TJJIvA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"89656"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00223uM28FQTOthadxuHt0bzz2oiiIS52XPzkiP41TJJIvA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Nemzeti Művészeti Egyetem.y35sf77q8l.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Nemzeti Művészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y35sf77q8l"},{"Name":"integrity","Value":"sha256-3uM28FQTOthadxuHt0bzz2oiiIS52XPzkiP41TJJIvA="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Bukaresti Nemzeti M\u0171v\u00E9szeti Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"89656"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00223uM28FQTOthadxuHt0bzz2oiiIS52XPzkiP41TJJIvA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:02 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Nemzeti Tesnevelés és Sport Egyetem.vei0zfgu29.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Nemzeti Tesnevelés és Sport Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vei0zfgu29"},{"Name":"integrity","Value":"sha256-N3zzYKz9OsgAwXFUTRZ43VeTl/m\u002BxzvUCm1NCtb3veI="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Bukaresti Nemzeti Tesnevel\u00E9s \u00E9s Sport Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12022"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022N3zzYKz9OsgAwXFUTRZ43VeTl/m\u002BxzvUCm1NCtb3veI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Nemzeti Tesnevelés és Sport Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Nemzeti Tesnevelés és Sport Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-N3zzYKz9OsgAwXFUTRZ43VeTl/m\u002BxzvUCm1NCtb3veI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"12022"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022N3zzYKz9OsgAwXFUTRZ43VeTl/m\u002BxzvUCm1NCtb3veI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:07 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Nemzeti Zene Egyetem.nr6mo5s18k.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Nemzeti Zene Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nr6mo5s18k"},{"Name":"integrity","Value":"sha256-wxdo1zm6d3FGUe59wgfxVXYiDJQCSp0YWT88ALiitGo="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Bukaresti Nemzeti Zene Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12042"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022wxdo1zm6d3FGUe59wgfxVXYiDJQCSp0YWT88ALiitGo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Nemzeti Zene Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Nemzeti Zene Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-wxdo1zm6d3FGUe59wgfxVXYiDJQCSp0YWT88ALiitGo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"12042"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022wxdo1zm6d3FGUe59wgfxVXYiDJQCSp0YWT88ALiitGo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Politechnikai Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Politechnikai Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BNczPwg31IJeu/PJIfVBHNvXcjRY2fEJfD\u002BgJz8oOm0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"93308"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022\u002BNczPwg31IJeu/PJIfVBHNvXcjRY2fEJfD\u002BgJz8oOm0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Politechnikai Egyetem.wemasf9iv2.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Politechnikai Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wemasf9iv2"},{"Name":"integrity","Value":"sha256-\u002BNczPwg31IJeu/PJIfVBHNvXcjRY2fEJfD\u002BgJz8oOm0="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Bukaresti Politechnikai Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"93308"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022\u002BNczPwg31IJeu/PJIfVBHNvXcjRY2fEJfD\u002BgJz8oOm0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:41 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Pünkösdi Teológiai Intézet.ogsfku5pix.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Pünkösdi Teológiai Intézet.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ogsfku5pix"},{"Name":"integrity","Value":"sha256-KGbvmDx3ZGGykR\u002B6aJuKfGq8vTHZmM6NnhQQDPLTulU="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Bukaresti P\u00FCnk\u00F6sdi Teol\u00F3giai Int\u00E9zet.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28266"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022KGbvmDx3ZGGykR\u002B6aJuKfGq8vTHZmM6NnhQQDPLTulU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Pünkösdi Teológiai Intézet.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Pünkösdi Teológiai Intézet.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KGbvmDx3ZGGykR\u002B6aJuKfGq8vTHZmM6NnhQQDPLTulU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"28266"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022KGbvmDx3ZGGykR\u002B6aJuKfGq8vTHZmM6NnhQQDPLTulU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Timotheus Keresztény Evangélikus Intézmény.820wfsm60c.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Timotheus Keresztény Evangélikus Intézmény.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"820wfsm60c"},{"Name":"integrity","Value":"sha256-UAeStpwFk8wgfIadTTsHMMQfgvIYaOZh5nIEIZpqsuM="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Bukaresti Timotheus Kereszt\u00E9ny Evang\u00E9likus Int\u00E9zm\u00E9ny.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25914"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022UAeStpwFk8wgfIadTTsHMMQfgvIYaOZh5nIEIZpqsuM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Timotheus Keresztény Evangélikus Intézmény.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Timotheus Keresztény Evangélikus Intézmény.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UAeStpwFk8wgfIadTTsHMMQfgvIYaOZh5nIEIZpqsuM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"25914"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022UAeStpwFk8wgfIadTTsHMMQfgvIYaOZh5nIEIZpqsuM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Ökológia Egyetem.m243xys8w4.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Ökológia Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"m243xys8w4"},{"Name":"integrity","Value":"sha256-XoAx8SOb8p4JdV4Ye8SCDkrgrrwZY4\u002BGe3UYTjTA8wI="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Bukaresti \u00D6kol\u00F3gia Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20488"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022XoAx8SOb8p4JdV4Ye8SCDkrgrrwZY4\u002BGe3UYTjTA8wI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bukaresti Ökológia Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bukaresti Ökológia Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XoAx8SOb8p4JdV4Ye8SCDkrgrrwZY4\u002BGe3UYTjTA8wI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20488"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022XoAx8SOb8p4JdV4Ye8SCDkrgrrwZY4\u002BGe3UYTjTA8wI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bákói George Bacovia Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bákói George Bacovia Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-U6YmvztrjlbFiW8cBblP6sWoBZfnyuNps8HA1heDB5I="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"63798"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022U6YmvztrjlbFiW8cBblP6sWoBZfnyuNps8HA1heDB5I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bákói George Bacovia Egyetem.xnxhl0afa3.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bákói George Bacovia Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xnxhl0afa3"},{"Name":"integrity","Value":"sha256-U6YmvztrjlbFiW8cBblP6sWoBZfnyuNps8HA1heDB5I="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/B\u00E1k\u00F3i George Bacovia Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"63798"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022U6YmvztrjlbFiW8cBblP6sWoBZfnyuNps8HA1heDB5I=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bákói Vasile Alecsandri Egyetem.39wjwpwiuf.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bákói Vasile Alecsandri Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"39wjwpwiuf"},{"Name":"integrity","Value":"sha256-\u002BTFnNdtpFSO7n/ha3H2iVTjVhFp7AktLC0WWHCRq/QQ="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/B\u00E1k\u00F3i Vasile Alecsandri Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"7562"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022\u002BTFnNdtpFSO7n/ha3H2iVTjVhFp7AktLC0WWHCRq/QQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:32:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bákói Vasile Alecsandri Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bákói Vasile Alecsandri Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BTFnNdtpFSO7n/ha3H2iVTjVhFp7AktLC0WWHCRq/QQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"7562"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022\u002BTFnNdtpFSO7n/ha3H2iVTjVhFp7AktLC0WWHCRq/QQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:32:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bánsági Regele Mihai I Al României Mezőgazdasági és Állatorvostudományi Egyetem.l6t06xajvt.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bánsági Regele Mihai I Al României Mezőgazdasági és Állatorvostudományi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"l6t06xajvt"},{"Name":"integrity","Value":"sha256-vd2RzmjcerVVYaVLb4gcMj7ac4DK4DoB2cwEKPaAVR0="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/B\u00E1ns\u00E1gi Regele Mihai I Al Rom\u00E2niei Mez\u0151gazdas\u00E1gi \u00E9s \u00C1llatorvostudom\u00E1nyi Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18442"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022vd2RzmjcerVVYaVLb4gcMj7ac4DK4DoB2cwEKPaAVR0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Bánsági Regele Mihai I Al României Mezőgazdasági és Állatorvostudományi Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Bánsági Regele Mihai I Al României Mezőgazdasági és Állatorvostudományi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-vd2RzmjcerVVYaVLb4gcMj7ac4DK4DoB2cwEKPaAVR0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"18442"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022vd2RzmjcerVVYaVLb4gcMj7ac4DK4DoB2cwEKPaAVR0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Carol Davila Orvostudományi és Gyógyszerészeti Egyetem.o78ddj7na3.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Carol Davila Orvostudományi és Gyógyszerészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"o78ddj7na3"},{"Name":"integrity","Value":"sha256-1PN3d7MfpYMEvKmMUk8ZMNC0f1IDEnTf6zlDnrhQzgg="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Carol Davila Orvostudom\u00E1nyi \u00E9s Gy\u00F3gyszer\u00E9szeti Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17574"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00221PN3d7MfpYMEvKmMUk8ZMNC0f1IDEnTf6zlDnrhQzgg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Carol Davila Orvostudományi és Gyógyszerészeti Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Carol Davila Orvostudományi és Gyógyszerészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-1PN3d7MfpYMEvKmMUk8ZMNC0f1IDEnTf6zlDnrhQzgg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"17574"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00221PN3d7MfpYMEvKmMUk8ZMNC0f1IDEnTf6zlDnrhQzgg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Carol I. Nemzetvédelmi Egyetem.5tj5abat4r.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Carol I. Nemzetvédelmi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5tj5abat4r"},{"Name":"integrity","Value":"sha256-d9aSc41Dkmb1QgZs3c6oygaIdNLqEfd3eZEKDsSaVjE="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Carol I. Nemzetv\u00E9delmi Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4284"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022d9aSc41Dkmb1QgZs3c6oygaIdNLqEfd3eZEKDsSaVjE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Carol I. Nemzetvédelmi Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Carol I. Nemzetvédelmi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-d9aSc41Dkmb1QgZs3c6oygaIdNLqEfd3eZEKDsSaVjE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4284"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022d9aSc41Dkmb1QgZs3c6oygaIdNLqEfd3eZEKDsSaVjE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Constantin Brâncoveanu Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Constantin Brâncoveanu Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-f5wtg5Mw8QE/Tqzq4LjkFvg4JU2gMl1Ud135o58tNpo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37446"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022f5wtg5Mw8QE/Tqzq4LjkFvg4JU2gMl1Ud135o58tNpo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:38:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Constantin Brâncoveanu Egyetem.zfk8z4nqrt.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Constantin Brâncoveanu Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zfk8z4nqrt"},{"Name":"integrity","Value":"sha256-f5wtg5Mw8QE/Tqzq4LjkFvg4JU2gMl1Ud135o58tNpo="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Constantin Br\u00E2ncoveanu Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37446"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022f5wtg5Mw8QE/Tqzq4LjkFvg4JU2gMl1Ud135o58tNpo=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:38:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Danubius Egyetem.2hpoii2mrh.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Danubius Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2hpoii2mrh"},{"Name":"integrity","Value":"sha256-9hA1RipEh3d4FkyQ3CsYnQL6oP7y5SUeZlcchpEtENk="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Danubius Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"29506"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00229hA1RipEh3d4FkyQ3CsYnQL6oP7y5SUeZlcchpEtENk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Danubius Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Danubius Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-9hA1RipEh3d4FkyQ3CsYnQL6oP7y5SUeZlcchpEtENk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"29506"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00229hA1RipEh3d4FkyQ3CsYnQL6oP7y5SUeZlcchpEtENk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Dimitrie Cantemir Egyetem.2z2jxmg67h.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Dimitrie Cantemir Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2z2jxmg67h"},{"Name":"integrity","Value":"sha256-zu5WoehR7EcpcuKYt3/3n8lr4N4LiN5Jszq/GmctNQI="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Dimitrie Cantemir Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"24842"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022zu5WoehR7EcpcuKYt3/3n8lr4N4LiN5Jszq/GmctNQI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:32:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Dimitrie Cantemir Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Dimitrie Cantemir Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-zu5WoehR7EcpcuKYt3/3n8lr4N4LiN5Jszq/GmctNQI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"24842"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022zu5WoehR7EcpcuKYt3/3n8lr4N4LiN5Jszq/GmctNQI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:32:30 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Dimitrie Cantemir Keresztény Egyetem.w67ehtoht2.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Dimitrie Cantemir Keresztény Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"w67ehtoht2"},{"Name":"integrity","Value":"sha256-GN9slBPB\u002BMjAx27pfO4QigO8otqHwj/5XRKRIS7yOaU="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Dimitrie Cantemir Kereszt\u00E9ny Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"54670"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022GN9slBPB\u002BMjAx27pfO4QigO8otqHwj/5XRKRIS7yOaU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Dimitrie Cantemir Keresztény Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Dimitrie Cantemir Keresztény Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GN9slBPB\u002BMjAx27pfO4QigO8otqHwj/5XRKRIS7yOaU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"54670"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022GN9slBPB\u002BMjAx27pfO4QigO8otqHwj/5XRKRIS7yOaU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:32 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Galaci Dunărea de Jos Egyetem.sfu3lqcufa.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Galaci Dunărea de Jos Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"sfu3lqcufa"},{"Name":"integrity","Value":"sha256-2Nlo3Ec6SzECgWDWPHLzj/ZeXRNx0k1AdL\u002Bc5CcMr0U="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Galaci Dun\u0103rea de Jos Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"56308"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00222Nlo3Ec6SzECgWDWPHLzj/ZeXRNx0k1AdL\u002Bc5CcMr0U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Galaci Dunărea de Jos Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Galaci Dunărea de Jos Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2Nlo3Ec6SzECgWDWPHLzj/ZeXRNx0k1AdL\u002Bc5CcMr0U="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"56308"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00222Nlo3Ec6SzECgWDWPHLzj/ZeXRNx0k1AdL\u002Bc5CcMr0U=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:24 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Gheorghe Dima Zeneakadémia.0cvxf2b9wo.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Gheorghe Dima Zeneakadémia.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"0cvxf2b9wo"},{"Name":"integrity","Value":"sha256-4MNDzeBoH79ATpiaFT50EZVmXImc/JNx7ngbOoSkjZ0="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Gheorghe Dima Zeneakad\u00E9mia.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"23950"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00224MNDzeBoH79ATpiaFT50EZVmXImc/JNx7ngbOoSkjZ0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Gheorghe Dima Zeneakadémia.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Gheorghe Dima Zeneakadémia.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-4MNDzeBoH79ATpiaFT50EZVmXImc/JNx7ngbOoSkjZ0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"23950"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00224MNDzeBoH79ATpiaFT50EZVmXImc/JNx7ngbOoSkjZ0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:31 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Gyulafehérvári 1 Decembrie 1918 Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Gyulafehérvári 1 Decembrie 1918 Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-w5G3pXK/1H87B9UeD6aqTwr\u002BVrPROFhfnW4vaATIlZc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"36668"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022w5G3pXK/1H87B9UeD6aqTwr\u002BVrPROFhfnW4vaATIlZc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Gyulafehérvári 1 Decembrie 1918 Egyetem.zcfc12dstc.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Gyulafehérvári 1 Decembrie 1918 Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zcfc12dstc"},{"Name":"integrity","Value":"sha256-w5G3pXK/1H87B9UeD6aqTwr\u002BVrPROFhfnW4vaATIlZc="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Gyulafeh\u00E9rv\u00E1ri 1 Decembrie 1918 Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"36668"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022w5G3pXK/1H87B9UeD6aqTwr\u002BVrPROFhfnW4vaATIlZc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:37 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Henri Coandă Légi Erők Akadémiája.f2v193eer4.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Henri Coandă Légi Erők Akadémiája.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"f2v193eer4"},{"Name":"integrity","Value":"sha256-h0gdGsIUAS4OWL38Q37zKU2PzOHrzahoAZYfZm\u002BAdac="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Henri Coand\u0103 L\u00E9gi Er\u0151k Akad\u00E9mi\u00E1ja.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"59140"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022h0gdGsIUAS4OWL38Q37zKU2PzOHrzahoAZYfZm\u002BAdac=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Henri Coandă Légi Erők Akadémiája.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Henri Coandă Légi Erők Akadémiája.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-h0gdGsIUAS4OWL38Q37zKU2PzOHrzahoAZYfZm\u002BAdac="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"59140"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022h0gdGsIUAS4OWL38Q37zKU2PzOHrzahoAZYfZm\u002BAdac=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/I.L.Caragiale Nemzeti Színművészeti és Film Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\I.L.Caragiale Nemzeti Színművészeti és Film Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-E2zdPa2DwJECFl63nX63ud2YlaTSjew5hL/eFQh\u002BeVQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"44468"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022E2zdPa2DwJECFl63nX63ud2YlaTSjew5hL/eFQh\u002BeVQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/I.L.Caragiale Nemzeti Színművészeti és Film Egyetem.zgrg1vgg9c.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\I.L.Caragiale Nemzeti Színművészeti és Film Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zgrg1vgg9c"},{"Name":"integrity","Value":"sha256-E2zdPa2DwJECFl63nX63ud2YlaTSjew5hL/eFQh\u002BeVQ="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/I.L.Caragiale Nemzeti Sz\u00EDnm\u0171v\u00E9szeti \u00E9s Film Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"44468"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022E2zdPa2DwJECFl63nX63ud2YlaTSjew5hL/eFQh\u002BeVQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Ioan Slavici Egyetem.bssem0177x.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Ioan Slavici Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bssem0177x"},{"Name":"integrity","Value":"sha256-xdBz1YHg0qmp7D8P31IkEUY4ZCyXAmrKobHewrQcSFI="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Ioan Slavici Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17422"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022xdBz1YHg0qmp7D8P31IkEUY4ZCyXAmrKobHewrQcSFI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Ioan Slavici Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Ioan Slavici Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xdBz1YHg0qmp7D8P31IkEUY4ZCyXAmrKobHewrQcSFI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"17422"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022xdBz1YHg0qmp7D8P31IkEUY4ZCyXAmrKobHewrQcSFI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Ion Mincu Építészeti és Urbanisztikai Egyetem.85sdb9tdi7.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Ion Mincu Építészeti és Urbanisztikai Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"85sdb9tdi7"},{"Name":"integrity","Value":"sha256-RHGA8AFWn7OWZEFT4mJ9YjssZ\u002BIiu7syqGcD2VCpRMc="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Ion Mincu \u00C9p\u00EDt\u00E9szeti \u00E9s Urbanisztikai Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"70090"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022RHGA8AFWn7OWZEFT4mJ9YjssZ\u002BIiu7syqGcD2VCpRMc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Ion Mincu Építészeti és Urbanisztikai Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Ion Mincu Építészeti és Urbanisztikai Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RHGA8AFWn7OWZEFT4mJ9YjssZ\u002BIiu7syqGcD2VCpRMc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"70090"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022RHGA8AFWn7OWZEFT4mJ9YjssZ\u002BIiu7syqGcD2VCpRMc=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:29 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Iuliu Hațieganu Orvostudomány és Gyógyszerészeti Egyetem.agb6wde46e.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Iuliu Hațieganu Orvostudomány és Gyógyszerészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"agb6wde46e"},{"Name":"integrity","Value":"sha256-etNcJCpX4I9hEbNJWgno4VnJzX7IEiwJJ0DPSmkSNGE="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Iuliu Ha\u021Bieganu Orvostudom\u00E1ny \u00E9s Gy\u00F3gyszer\u00E9szeti Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13386"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022etNcJCpX4I9hEbNJWgno4VnJzX7IEiwJJ0DPSmkSNGE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Iuliu Hațieganu Orvostudomány és Gyógyszerészeti Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Iuliu Hațieganu Orvostudomány és Gyógyszerészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-etNcJCpX4I9hEbNJWgno4VnJzX7IEiwJJ0DPSmkSNGE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"13386"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022etNcJCpX4I9hEbNJWgno4VnJzX7IEiwJJ0DPSmkSNGE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Jászvásári Alexandru Ioan Cuza Egyetem.b83avo5fzr.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Alexandru Ioan Cuza Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"b83avo5fzr"},{"Name":"integrity","Value":"sha256-JeJew5sZyZzsFhuEdIgr06x2hijwoMFfjiNgnWcqS\u002Bk="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/J\u00E1szv\u00E1s\u00E1ri Alexandru Ioan Cuza Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28456"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022JeJew5sZyZzsFhuEdIgr06x2hijwoMFfjiNgnWcqS\u002Bk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Jászvásári Alexandru Ioan Cuza Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Alexandru Ioan Cuza Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-JeJew5sZyZzsFhuEdIgr06x2hijwoMFfjiNgnWcqS\u002Bk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"28456"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022JeJew5sZyZzsFhuEdIgr06x2hijwoMFfjiNgnWcqS\u002Bk=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Jászvásári Apollonia Egyetem.qlbbgreyr9.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Apollonia Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qlbbgreyr9"},{"Name":"integrity","Value":"sha256-gjSoUk1B1FyfgvDcgZJoM3ppglAory8SRnj4h/EBa7g="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/J\u00E1szv\u00E1s\u00E1ri Apollonia Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"86908"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022gjSoUk1B1FyfgvDcgZJoM3ppglAory8SRnj4h/EBa7g=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Jászvásári Apollonia Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Apollonia Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-gjSoUk1B1FyfgvDcgZJoM3ppglAory8SRnj4h/EBa7g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"86908"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022gjSoUk1B1FyfgvDcgZJoM3ppglAory8SRnj4h/EBa7g=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Jászvásári George Enescu Nemzeti Művészeti Egyetem.98azlfbfkk.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári George Enescu Nemzeti Művészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"98azlfbfkk"},{"Name":"integrity","Value":"sha256-iV/CTTQ0sEoWVcWeqsx0AGahEa4mbpCRUfH\u002BT96wuQY="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/J\u00E1szv\u00E1s\u00E1ri George Enescu Nemzeti M\u0171v\u00E9szeti Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"17504"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022iV/CTTQ0sEoWVcWeqsx0AGahEa4mbpCRUfH\u002BT96wuQY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Jászvásári George Enescu Nemzeti Művészeti Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári George Enescu Nemzeti Művészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iV/CTTQ0sEoWVcWeqsx0AGahEa4mbpCRUfH\u002BT96wuQY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"17504"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022iV/CTTQ0sEoWVcWeqsx0AGahEa4mbpCRUfH\u002BT96wuQY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Jászvásári Gheorghe Asachi Műszaki Egyetem.55ssreg4my.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Gheorghe Asachi Műszaki Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"55ssreg4my"},{"Name":"integrity","Value":"sha256-eXC1xfzuw3hcpVCyzF9ZULdsNNWGAvzSxttLXs10ZcA="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/J\u00E1szv\u00E1s\u00E1ri Gheorghe Asachi M\u0171szaki Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"27980"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022eXC1xfzuw3hcpVCyzF9ZULdsNNWGAvzSxttLXs10ZcA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Jászvásári Gheorghe Asachi Műszaki Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Gheorghe Asachi Műszaki Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eXC1xfzuw3hcpVCyzF9ZULdsNNWGAvzSxttLXs10ZcA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"27980"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022eXC1xfzuw3hcpVCyzF9ZULdsNNWGAvzSxttLXs10ZcA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Jászvásári Grigore T. Popa Orvostudományi és Gyógyszerészeti Egyetem.nnemdiiwfp.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Grigore T. Popa Orvostudományi és Gyógyszerészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"nnemdiiwfp"},{"Name":"integrity","Value":"sha256-TTcJdKoQjSCjGZqKfCA7PCm8kGCpbh75ZvLvGlVRY0M="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/J\u00E1szv\u00E1s\u00E1ri Grigore T. Popa Orvostudom\u00E1nyi \u00E9s Gy\u00F3gyszer\u00E9szeti Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28998"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022TTcJdKoQjSCjGZqKfCA7PCm8kGCpbh75ZvLvGlVRY0M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Jászvásári Grigore T. Popa Orvostudományi és Gyógyszerészeti Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Grigore T. Popa Orvostudományi és Gyógyszerészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-TTcJdKoQjSCjGZqKfCA7PCm8kGCpbh75ZvLvGlVRY0M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"28998"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022TTcJdKoQjSCjGZqKfCA7PCm8kGCpbh75ZvLvGlVRY0M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Jászvásári Ion Ionescu de la Brad Mezőgazdasági és Állatorvostudományi Egyetem.80671x59br.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Ion Ionescu de la Brad Mezőgazdasági és Állatorvostudományi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"80671x59br"},{"Name":"integrity","Value":"sha256-2JBvy954YmeEvyTPTr7xTZl229aUZLGszKrGal6/dmY="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/J\u00E1szv\u00E1s\u00E1ri Ion Ionescu de la Brad Mez\u0151gazdas\u00E1gi \u00E9s \u00C1llatorvostudom\u00E1nyi Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"16944"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00222JBvy954YmeEvyTPTr7xTZl229aUZLGszKrGal6/dmY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Jászvásári Ion Ionescu de la Brad Mezőgazdasági és Állatorvostudományi Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Ion Ionescu de la Brad Mezőgazdasági és Állatorvostudományi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-2JBvy954YmeEvyTPTr7xTZl229aUZLGszKrGal6/dmY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"16944"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00222JBvy954YmeEvyTPTr7xTZl229aUZLGszKrGal6/dmY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:35:52 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Jászvásári Petre Andrei Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Petre Andrei Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-0sIGhjo7ZwhsU7xJJo8W87IZyZtXm7Wh\u002BOUxLDDbQSI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"75482"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00220sIGhjo7ZwhsU7xJJo8W87IZyZtXm7Wh\u002BOUxLDDbQSI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Jászvásári Petre Andrei Egyetem.yckbncqb9p.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Jászvásári Petre Andrei Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yckbncqb9p"},{"Name":"integrity","Value":"sha256-0sIGhjo7ZwhsU7xJJo8W87IZyZtXm7Wh\u002BOUxLDDbQSI="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/J\u00E1szv\u00E1s\u00E1ri Petre Andrei Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"75482"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00220sIGhjo7ZwhsU7xJJo8W87IZyZtXm7Wh\u002BOUxLDDbQSI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Kolozsvári Agrártudományi és Állatorvostudományi Egyetem.fvpscpqqln.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Agrártudományi és Állatorvostudományi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"fvpscpqqln"},{"Name":"integrity","Value":"sha256-\u002ByENYK4zfF5/\u002Bfj6aMz7XB75UlZscEsjFRzHXvyE89M="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Kolozsv\u00E1ri Agr\u00E1rtudom\u00E1nyi \u00E9s \u00C1llatorvostudom\u00E1nyi Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"795970"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022\u002ByENYK4zfF5/\u002Bfj6aMz7XB75UlZscEsjFRzHXvyE89M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Kolozsvári Agrártudományi és Állatorvostudományi Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Agrártudományi és Állatorvostudományi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002ByENYK4zfF5/\u002Bfj6aMz7XB75UlZscEsjFRzHXvyE89M="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"795970"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022\u002ByENYK4zfF5/\u002Bfj6aMz7XB75UlZscEsjFRzHXvyE89M=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:26 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Kolozsvári Műszaki Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Műszaki Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XMg69fUmROh1ynYgfBBUOIoJaIR0\u002BvfJgvaLGpf2pH0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20934"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022XMg69fUmROh1ynYgfBBUOIoJaIR0\u002BvfJgvaLGpf2pH0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:40:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Kolozsvári Műszaki Egyetem.wf2oi5eh28.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Műszaki Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wf2oi5eh28"},{"Name":"integrity","Value":"sha256-XMg69fUmROh1ynYgfBBUOIoJaIR0\u002BvfJgvaLGpf2pH0="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Kolozsv\u00E1ri M\u0171szaki Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20934"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022XMg69fUmROh1ynYgfBBUOIoJaIR0\u002BvfJgvaLGpf2pH0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:40:12 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Kolozsvári Művészeti és Formatervezési Egyetem.s0sr8c74ax.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Művészeti és Formatervezési Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"s0sr8c74ax"},{"Name":"integrity","Value":"sha256-nO5w6vhVkpp6P63Gq63gfh64w3GgE4EZspUaaA1ZLT0="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Kolozsv\u00E1ri M\u0171v\u00E9szeti \u00E9s Formatervez\u00E9si Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"18666"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022nO5w6vhVkpp6P63Gq63gfh64w3GgE4EZspUaaA1ZLT0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Kolozsvári Művészeti és Formatervezési Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Művészeti és Formatervezési Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nO5w6vhVkpp6P63Gq63gfh64w3GgE4EZspUaaA1ZLT0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"18666"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022nO5w6vhVkpp6P63Gq63gfh64w3GgE4EZspUaaA1ZLT0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Kolozsvári Protestáns Teológiai Intézet.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Protestáns Teológiai Intézet.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GhElpqN9ubQ7G79vsZ2zYHX324up753Mzw9cqL\u002Ba07Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"28554"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022GhElpqN9ubQ7G79vsZ2zYHX324up753Mzw9cqL\u002Ba07Q=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Kolozsvári Protestáns Teológiai Intézet.yyjoy5gc7t.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Kolozsvári Protestáns Teológiai Intézet.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yyjoy5gc7t"},{"Name":"integrity","Value":"sha256-GhElpqN9ubQ7G79vsZ2zYHX324up753Mzw9cqL\u002Ba07Q="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Kolozsv\u00E1ri Protest\u00E1ns Teol\u00F3giai Int\u00E9zet.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28554"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022GhElpqN9ubQ7G79vsZ2zYHX324up753Mzw9cqL\u002Ba07Q=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Konstancai Ovidius Egyetem.t7hgygsq77.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Konstancai Ovidius Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"t7hgygsq77"},{"Name":"integrity","Value":"sha256-12LXwq69hJyudVIt9UYfC9fpNBzxxR6oHlfn4gzJ3P8="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Konstancai Ovidius Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"174240"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u002212LXwq69hJyudVIt9UYfC9fpNBzxxR6oHlfn4gzJ3P8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Konstancai Ovidius Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Konstancai Ovidius Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-12LXwq69hJyudVIt9UYfC9fpNBzxxR6oHlfn4gzJ3P8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"174240"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u002212LXwq69hJyudVIt9UYfC9fpNBzxxR6oHlfn4gzJ3P8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:45 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Konstancai Tengerészeti Egyetem.17v29t4008.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Konstancai Tengerészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"17v29t4008"},{"Name":"integrity","Value":"sha256-bYcpZN\u002BQVeZH2sG8o9/Pg5MoLJ\u002B8N8r\u002Bs9CFjWsgFL4="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Konstancai Tenger\u00E9szeti Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25186"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022bYcpZN\u002BQVeZH2sG8o9/Pg5MoLJ\u002B8N8r\u002Bs9CFjWsgFL4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Konstancai Tengerészeti Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Konstancai Tengerészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bYcpZN\u002BQVeZH2sG8o9/Pg5MoLJ\u002B8N8r\u002Bs9CFjWsgFL4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"25186"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022bYcpZN\u002BQVeZH2sG8o9/Pg5MoLJ\u002B8N8r\u002Bs9CFjWsgFL4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Krajovai Egyetem.migcmuezud.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Krajovai Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"migcmuezud"},{"Name":"integrity","Value":"sha256-noxjJcSTXe9KjP5an8SGH\u002BKXOP2vyJst2UILOK1ILPA="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Krajovai Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"25756"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022noxjJcSTXe9KjP5an8SGH\u002BKXOP2vyJst2UILOK1ILPA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Krajovai Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Krajovai Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-noxjJcSTXe9KjP5an8SGH\u002BKXOP2vyJst2UILOK1ILPA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"25756"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022noxjJcSTXe9KjP5an8SGH\u002BKXOP2vyJst2UILOK1ILPA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:01 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Krajovai Orvostudomáyni és Gyógyszerészeti Egyetem.tqjygiztbc.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Krajovai Orvostudomáyni és Gyógyszerészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tqjygiztbc"},{"Name":"integrity","Value":"sha256-daD5IFJwcmVkqvjta1YA8atKl0gLmllEnGykVlqBDlQ="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Krajovai Orvostudom\u00E1yni \u00E9s Gy\u00F3gyszer\u00E9szeti Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58910"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022daD5IFJwcmVkqvjta1YA8atKl0gLmllEnGykVlqBDlQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Krajovai Orvostudomáyni és Gyógyszerészeti Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Krajovai Orvostudomáyni és Gyógyszerészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-daD5IFJwcmVkqvjta1YA8atKl0gLmllEnGykVlqBDlQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"58910"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022daD5IFJwcmVkqvjta1YA8atKl0gLmllEnGykVlqBDlQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Lugosi Drăgan Európai Egyetem.vyrcywlzvj.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Lugosi Drăgan Európai Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vyrcywlzvj"},{"Name":"integrity","Value":"sha256-afUAy73Bjjrde/HLQY5VjmAd1SkojaoitpG/Ab3UokE="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Lugosi Dr\u0103gan Eur\u00F3pai Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"9098"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022afUAy73Bjjrde/HLQY5VjmAd1SkojaoitpG/Ab3UokE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Lugosi Drăgan Európai Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Lugosi Drăgan Európai Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-afUAy73Bjjrde/HLQY5VjmAd1SkojaoitpG/Ab3UokE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"9098"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022afUAy73Bjjrde/HLQY5VjmAd1SkojaoitpG/Ab3UokE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Lumina Délkelet-Európai Egyetem.qaqmfuhlph.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Lumina Délkelet-Európai Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"qaqmfuhlph"},{"Name":"integrity","Value":"sha256-oiWoULmHc4tDeh5l6/Wkr6vQRzgVZAfW7tLr3n8tRQg="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Lumina D\u00E9lkelet-Eur\u00F3pai Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"15980"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022oiWoULmHc4tDeh5l6/Wkr6vQRzgVZAfW7tLr3n8tRQg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Lumina Délkelet-Európai Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Lumina Délkelet-Európai Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-oiWoULmHc4tDeh5l6/Wkr6vQRzgVZAfW7tLr3n8tRQg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"15980"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022oiWoULmHc4tDeh5l6/Wkr6vQRzgVZAfW7tLr3n8tRQg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Marosvásárhelyi Művészeti Egyetem.k547orx4zn.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Marosvásárhelyi Művészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k547orx4zn"},{"Name":"integrity","Value":"sha256-OHsb9I5d9EmMAXGloAWPiu7QH\u002BO6cO9dG16wnxPeExI="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Marosv\u00E1s\u00E1rhelyi M\u0171v\u00E9szeti Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"113830"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022OHsb9I5d9EmMAXGloAWPiu7QH\u002BO6cO9dG16wnxPeExI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:32:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Marosvásárhelyi Művészeti Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Marosvásárhelyi Művészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-OHsb9I5d9EmMAXGloAWPiu7QH\u002BO6cO9dG16wnxPeExI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"113830"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022OHsb9I5d9EmMAXGloAWPiu7QH\u002BO6cO9dG16wnxPeExI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:32:23 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Marosvásárhelyi George Emil Palade Orvosi, Gyógyszerészeti, Tudomány- és Technológiai Egyetem.8xhrft4j3p.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Marosvásárhelyi George Emil Palade Orvosi, Gyógyszerészeti, Tudomány- és Technológiai Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"8xhrft4j3p"},{"Name":"integrity","Value":"sha256-fJbaCCCaKzsti1usCFX6Mv4x0fwggyqF4eaDYODi91g="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Marosv\u00E1s\u00E1rhelyi\u00A0George Emil Palade\u00A0Orvosi, Gy\u00F3gyszer\u00E9szeti, Tudom\u00E1ny-\u00A0\u00E9s Technol\u00F3giai Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1430724"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022fJbaCCCaKzsti1usCFX6Mv4x0fwggyqF4eaDYODi91g=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:32:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Marosvásárhelyi George Emil Palade Orvosi, Gyógyszerészeti, Tudomány- és Technológiai Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Marosvásárhelyi George Emil Palade Orvosi, Gyógyszerészeti, Tudomány- és Technológiai Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fJbaCCCaKzsti1usCFX6Mv4x0fwggyqF4eaDYODi91g="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1430724"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022fJbaCCCaKzsti1usCFX6Mv4x0fwggyqF4eaDYODi91g=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:32:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Mezőgazdasági és Állatorvosi Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Mezőgazdasági és Állatorvosi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rVQZ\u002B4oMYjuJ9W5cEv4P39m448EESRZD7WoO5iQSQCU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"47976"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022rVQZ\u002B4oMYjuJ9W5cEv4P39m448EESRZD7WoO5iQSQCU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Mezőgazdasági és Állatorvosi Egyetem.zs87fhnvo0.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Mezőgazdasági és Állatorvosi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zs87fhnvo0"},{"Name":"integrity","Value":"sha256-rVQZ\u002B4oMYjuJ9W5cEv4P39m448EESRZD7WoO5iQSQCU="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Mez\u0151gazdas\u00E1gi \u00E9s \u00C1llatorvosi Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"47976"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022rVQZ\u002B4oMYjuJ9W5cEv4P39m448EESRZD7WoO5iQSQCU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Mircea Cel Bătrân Tengerészeti Akadémia.49k4x4bsd5.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Mircea Cel Bătrân Tengerészeti Akadémia.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"49k4x4bsd5"},{"Name":"integrity","Value":"sha256-eL8eTB0TjXXkXz8XbVZ2i893mGqWrtvejoBIXlu7Cw0="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Mircea Cel B\u0103tr\u00E2n Tenger\u00E9szeti Akad\u00E9mia.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"19112"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022eL8eTB0TjXXkXz8XbVZ2i893mGqWrtvejoBIXlu7Cw0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Mircea Cel Bătrân Tengerészeti Akadémia.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Mircea Cel Bătrân Tengerészeti Akadémia.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eL8eTB0TjXXkXz8XbVZ2i893mGqWrtvejoBIXlu7Cw0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"19112"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022eL8eTB0TjXXkXz8XbVZ2i893mGqWrtvejoBIXlu7Cw0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:51 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nagyszebeni  Nicolae Balcescu Szárazföldi Erők Akadémiája.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyszebeni  Nicolae Balcescu Szárazföldi Erők Akadémiája.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-e/cOzahyTC2JPmL4INJGl0nicSlfFnGRWyICZj7ogyw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"26174"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022e/cOzahyTC2JPmL4INJGl0nicSlfFnGRWyICZj7ogyw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nagyszebeni  Nicolae Balcescu Szárazföldi Erők Akadémiája.xp2joj34ol.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyszebeni  Nicolae Balcescu Szárazföldi Erők Akadémiája.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xp2joj34ol"},{"Name":"integrity","Value":"sha256-e/cOzahyTC2JPmL4INJGl0nicSlfFnGRWyICZj7ogyw="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Nagyszebeni  Nicolae Balcescu\u00A0Sz\u00E1razf\u00F6ldi Er\u0151k Akad\u00E9mi\u00E1ja.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"26174"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022e/cOzahyTC2JPmL4INJGl0nicSlfFnGRWyICZj7ogyw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:36 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nagyszebeni Lucian Blaga Egyetem.rip5ei65uc.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyszebeni Lucian Blaga Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rip5ei65uc"},{"Name":"integrity","Value":"sha256-jfn1GwT74Fq3XnpoJeaM27xedMTT\u002B7I2i0ZVzZ83/UI="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Nagyszebeni Lucian Blaga Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12676"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022jfn1GwT74Fq3XnpoJeaM27xedMTT\u002B7I2i0ZVzZ83/UI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nagyszebeni Lucian Blaga Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyszebeni Lucian Blaga Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-jfn1GwT74Fq3XnpoJeaM27xedMTT\u002B7I2i0ZVzZ83/UI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"12676"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022jfn1GwT74Fq3XnpoJeaM27xedMTT\u002B7I2i0ZVzZ83/UI=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nagyszebeni Román-Német Egyetem.499h37bobi.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyszebeni Román-Német Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"499h37bobi"},{"Name":"integrity","Value":"sha256-GFhCAm6nfUECZnz26BpY7q0z/fnaPAsLDNkVvMAFMo8="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Nagyszebeni Rom\u00E1n-N\u00E9met Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"287790"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022GFhCAm6nfUECZnz26BpY7q0z/fnaPAsLDNkVvMAFMo8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nagyszebeni Román-Német Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyszebeni Román-Német Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-GFhCAm6nfUECZnz26BpY7q0z/fnaPAsLDNkVvMAFMo8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"287790"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022GFhCAm6nfUECZnz26BpY7q0z/fnaPAsLDNkVvMAFMo8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nagyváradi Agora Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyváradi Agora Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-M4fyetIf\u002BbimQOWObRWAVe8KTdVcsY8ojDDnEdyA3nA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20380"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022M4fyetIf\u002BbimQOWObRWAVe8KTdVcsY8ojDDnEdyA3nA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nagyváradi Agora Egyetem.xvx99r7wni.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyváradi Agora Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xvx99r7wni"},{"Name":"integrity","Value":"sha256-M4fyetIf\u002BbimQOWObRWAVe8KTdVcsY8ojDDnEdyA3nA="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Nagyv\u00E1radi Agora Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20380"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022M4fyetIf\u002BbimQOWObRWAVe8KTdVcsY8ojDDnEdyA3nA=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:46 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nagyváradi Egyetem.hbm4wx8jkw.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyváradi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hbm4wx8jkw"},{"Name":"integrity","Value":"sha256-/c1h2YJNan15RVrfLBmkXxfErcoku7FUzsRsOVe8EEE="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Nagyv\u00E1radi Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20766"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022/c1h2YJNan15RVrfLBmkXxfErcoku7FUzsRsOVe8EEE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nagyváradi Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyváradi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/c1h2YJNan15RVrfLBmkXxfErcoku7FUzsRsOVe8EEE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20766"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022/c1h2YJNan15RVrfLBmkXxfErcoku7FUzsRsOVe8EEE=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:42 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nagyváradi Emanuel Egyetem.762w2orla5.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyváradi Emanuel Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"762w2orla5"},{"Name":"integrity","Value":"sha256-/2R5sDyO0EkqJ5BfS1GZ7pssb8EZhv11LTsOArYFpro="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Nagyv\u00E1radi Emanuel Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"233444"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022/2R5sDyO0EkqJ5BfS1GZ7pssb8EZhv11LTsOArYFpro=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nagyváradi Emanuel Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nagyváradi Emanuel Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/2R5sDyO0EkqJ5BfS1GZ7pssb8EZhv11LTsOArYFpro="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"233444"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022/2R5sDyO0EkqJ5BfS1GZ7pssb8EZhv11LTsOArYFpro=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:48 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nemzeti Politikai és Adminisztratív Tanulmányok Egyeteme.umk5a4hkzc.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nemzeti Politikai és Adminisztratív Tanulmányok Egyeteme.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"umk5a4hkzc"},{"Name":"integrity","Value":"sha256-Sh4xp4cXulHhEKrFQwCkZ\u002Bagl1peymzk0hcOBbHQ42w="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Nemzeti Politikai \u00E9s Adminisztrat\u00EDv Tanulm\u00E1nyok Egyeteme.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"531306"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Sh4xp4cXulHhEKrFQwCkZ\u002Bagl1peymzk0hcOBbHQ42w=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nemzeti Politikai és Adminisztratív Tanulmányok Egyeteme.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nemzeti Politikai és Adminisztratív Tanulmányok Egyeteme.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Sh4xp4cXulHhEKrFQwCkZ\u002Bagl1peymzk0hcOBbHQ42w="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"531306"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Sh4xp4cXulHhEKrFQwCkZ\u002Bagl1peymzk0hcOBbHQ42w=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:10 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nicolae Titulescu Egyetem.g0q8rv3z9l.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nicolae Titulescu Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g0q8rv3z9l"},{"Name":"integrity","Value":"sha256-UAPP41AeaFzsSBt9\u002BiBhSHXBTmYyokzfh6Q97XZurjs="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Nicolae Titulescu Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"10542"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022UAPP41AeaFzsSBt9\u002BiBhSHXBTmYyokzfh6Q97XZurjs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Nicolae Titulescu Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Nicolae Titulescu Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-UAPP41AeaFzsSBt9\u002BiBhSHXBTmYyokzfh6Q97XZurjs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"10542"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022UAPP41AeaFzsSBt9\u002BiBhSHXBTmYyokzfh6Q97XZurjs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:17 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Partiumi Keresztény Egyetem.3ckpiohnun.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Partiumi Keresztény Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"3ckpiohnun"},{"Name":"integrity","Value":"sha256-M7VQI6ZpHBggJ1iBqNwqq/4g6YDEhNq1xRBB7LNWw/Y="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Partiumi Kereszt\u00E9ny Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"64072"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022M7VQI6ZpHBggJ1iBqNwqq/4g6YDEhNq1xRBB7LNWw/Y=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Partiumi Keresztény Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Partiumi Keresztény Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-M7VQI6ZpHBggJ1iBqNwqq/4g6YDEhNq1xRBB7LNWw/Y="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"64072"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022M7VQI6ZpHBggJ1iBqNwqq/4g6YDEhNq1xRBB7LNWw/Y=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Petrozsényi Egyetem.6ialsq8ry6.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Petrozsényi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6ialsq8ry6"},{"Name":"integrity","Value":"sha256-klNL\u002BSPghTaIzRCZOXDo/gUV1/DE\u002BpoFZPwHZlJPVOU="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Petrozs\u00E9nyi Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"47992"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022klNL\u002BSPghTaIzRCZOXDo/gUV1/DE\u002BpoFZPwHZlJPVOU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Petrozsényi Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Petrozsényi Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-klNL\u002BSPghTaIzRCZOXDo/gUV1/DE\u002BpoFZPwHZlJPVOU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"47992"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022klNL\u002BSPghTaIzRCZOXDo/gUV1/DE\u002BpoFZPwHZlJPVOU=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:37:58 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Pitești Egyetem.k550ryco6r.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Pitești Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k550ryco6r"},{"Name":"integrity","Value":"sha256-6GK10gHZBfqtUjlPoUYLoA34qFO\u002BVbCb9TJOz4XTp3s="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Pite\u0219ti Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"58682"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00226GK10gHZBfqtUjlPoUYLoA34qFO\u002BVbCb9TJOz4XTp3s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:38:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Pitești Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Pitești Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-6GK10gHZBfqtUjlPoUYLoA34qFO\u002BVbCb9TJOz4XTp3s="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"58682"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00226GK10gHZBfqtUjlPoUYLoA34qFO\u002BVbCb9TJOz4XTp3s=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:38:04 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Ploiești-i Petrol-Gaz Egyetem.a7cvibnllt.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Ploiești-i Petrol-Gaz Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a7cvibnllt"},{"Name":"integrity","Value":"sha256-eqKIW6nlacfXW3ycSmNHxGfXj7vu8GaTMmD9TU9ScL0="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Ploie\u0219ti-i Petrol-Gaz Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"53646"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022eqKIW6nlacfXW3ycSmNHxGfXj7vu8GaTMmD9TU9ScL0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:38:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Ploiești-i Petrol-Gaz Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Ploiești-i Petrol-Gaz Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eqKIW6nlacfXW3ycSmNHxGfXj7vu8GaTMmD9TU9ScL0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"53646"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022eqKIW6nlacfXW3ycSmNHxGfXj7vu8GaTMmD9TU9ScL0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:38:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Resicabányai Eftimie Murgu Egyetem.vop9amtncg.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Resicabányai Eftimie Murgu Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"vop9amtncg"},{"Name":"integrity","Value":"sha256-T9wpntTBLg9LBCsYzOmt9If0CadIfiAQ\u002BlXbwQye8IM="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Resicab\u00E1nyai Eftimie Murgu Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"65814"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022T9wpntTBLg9LBCsYzOmt9If0CadIfiAQ\u002BlXbwQye8IM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:38:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Resicabányai Eftimie Murgu Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Resicabányai Eftimie Murgu Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-T9wpntTBLg9LBCsYzOmt9If0CadIfiAQ\u002BlXbwQye8IM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"65814"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022T9wpntTBLg9LBCsYzOmt9If0CadIfiAQ\u002BlXbwQye8IM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:38:28 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Román-Amerikai Egyetem.bwmjwaszd0.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Román-Amerikai Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bwmjwaszd0"},{"Name":"integrity","Value":"sha256-qwLCpwyV00ZVnphq/tlqyLihkQOXV5qGZaxq/HQUkiM="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Rom\u00E1n-Amerikai Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"12008"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022qwLCpwyV00ZVnphq/tlqyLihkQOXV5qGZaxq/HQUkiM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Román-Amerikai Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Román-Amerikai Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qwLCpwyV00ZVnphq/tlqyLihkQOXV5qGZaxq/HQUkiM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"12008"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022qwLCpwyV00ZVnphq/tlqyLihkQOXV5qGZaxq/HQUkiM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:34:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Római-Katolikus Ferences Teológiai Intézet.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Római-Katolikus Ferences Teológiai Intézet.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-yhr5d5HV\u002BrLNU1v27sB/HKXmzQLZxaqn6FxiHHiUvfY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"36744"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022yhr5d5HV\u002BrLNU1v27sB/HKXmzQLZxaqn6FxiHHiUvfY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:38:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Római-Katolikus Ferences Teológiai Intézet.y5qb42kuuf.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Római-Katolikus Ferences Teológiai Intézet.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"y5qb42kuuf"},{"Name":"integrity","Value":"sha256-yhr5d5HV\u002BrLNU1v27sB/HKXmzQLZxaqn6FxiHHiUvfY="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/R\u00F3mai-Katolikus Ferences Teol\u00F3giai Int\u00E9zet.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"36744"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022yhr5d5HV\u002BrLNU1v27sB/HKXmzQLZxaqn6FxiHHiUvfY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:38:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Sapientia Erdélyi Magyar Tudományegyetem.9df4ji721b.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Sapientia Erdélyi Magyar Tudományegyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9df4ji721b"},{"Name":"integrity","Value":"sha256-M25jOJUN8IasnE5HI714brDHHb5oMLBkt3ynnKe7IbY="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Sapientia Erd\u00E9lyi Magyar Tudom\u00E1nyegyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"586254"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022M25jOJUN8IasnE5HI714brDHHb5oMLBkt3ynnKe7IbY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:38:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Sapientia Erdélyi Magyar Tudományegyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Sapientia Erdélyi Magyar Tudományegyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-M25jOJUN8IasnE5HI714brDHHb5oMLBkt3ynnKe7IbY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"586254"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022M25jOJUN8IasnE5HI714brDHHb5oMLBkt3ynnKe7IbY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:38:55 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Semmelweis Egyetem.r6ymfeg3r1.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Semmelweis Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"r6ymfeg3r1"},{"Name":"integrity","Value":"sha256-bYJ/seeoD07lKZQhsxvxSx0gcOF4sJAbOJ/5ClmeeLM="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Semmelweis Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"62670"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022bYJ/seeoD07lKZQhsxvxSx0gcOF4sJAbOJ/5ClmeeLM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Semmelweis Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Semmelweis Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-bYJ/seeoD07lKZQhsxvxSx0gcOF4sJAbOJ/5ClmeeLM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"62670"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022bYJ/seeoD07lKZQhsxvxSx0gcOF4sJAbOJ/5ClmeeLM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:34 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Spiru Haret Egyetem.bf465lyold.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Spiru Haret Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bf465lyold"},{"Name":"integrity","Value":"sha256-5xQj0h6yA5JwWwijQ3E2DSRnKsyRkU/iTzFBOu445zM="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Spiru Haret Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28778"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00225xQj0h6yA5JwWwijQ3E2DSRnKsyRkU/iTzFBOu445zM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Spiru Haret Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Spiru Haret Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-5xQj0h6yA5JwWwijQ3E2DSRnKsyRkU/iTzFBOu445zM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"28778"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u00225xQj0h6yA5JwWwijQ3E2DSRnKsyRkU/iTzFBOu445zM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:59 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Szucsávai Ștefan cel Mare Egyetem.hl8ssuizqi.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Szucsávai Ștefan cel Mare Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hl8ssuizqi"},{"Name":"integrity","Value":"sha256-ezFbveFRmYH5wH2b2r/L77sEt9soEzSq0wprebqmsO4="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Szucs\u00E1vai \u0218tefan cel Mare Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"28256"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022ezFbveFRmYH5wH2b2r/L77sEt9soEzSq0wprebqmsO4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Szucsávai Ștefan cel Mare Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Szucsávai Ștefan cel Mare Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-ezFbveFRmYH5wH2b2r/L77sEt9soEzSq0wprebqmsO4="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"28256"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022ezFbveFRmYH5wH2b2r/L77sEt9soEzSq0wprebqmsO4=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Székelyudvarhelyi Egyetemi Központ.uyqutlx509.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Székelyudvarhelyi Egyetemi Központ.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"uyqutlx509"},{"Name":"integrity","Value":"sha256-\u002BhpnWyxwHcD8kLzvGZs9fF8ntUfJjTrjsp7zLHfodts="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Sz\u00E9kelyudvarhelyi Egyetemi K\u00F6zpont.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"166866"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022\u002BhpnWyxwHcD8kLzvGZs9fF8ntUfJjTrjsp7zLHfodts=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Székelyudvarhelyi Egyetemi Központ.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Székelyudvarhelyi Egyetemi Központ.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BhpnWyxwHcD8kLzvGZs9fF8ntUfJjTrjsp7zLHfodts="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"166866"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022\u002BhpnWyxwHcD8kLzvGZs9fF8ntUfJjTrjsp7zLHfodts=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:15 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Temesvári Műszaki Egyetem.u8w9prnmf6.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Műszaki Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"u8w9prnmf6"},{"Name":"integrity","Value":"sha256-fgBioxsMR11zImi2jckrMHczjb9QoMpYC\u002BXKxZqQVE0="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Temesv\u00E1ri M\u0171szaki Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"218834"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022fgBioxsMR11zImi2jckrMHczjb9QoMpYC\u002BXKxZqQVE0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:40:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Temesvári Műszaki Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Műszaki Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fgBioxsMR11zImi2jckrMHczjb9QoMpYC\u002BXKxZqQVE0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"218834"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022fgBioxsMR11zImi2jckrMHczjb9QoMpYC\u002BXKxZqQVE0=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:40:05 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Temesvári Nyugati Egyetem.n4y0zdpu1r.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Nyugati Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"n4y0zdpu1r"},{"Name":"integrity","Value":"sha256-xxNd97WbuPYQrg844RgBEGfvNuCx2Sbyi7xo4hcmymw="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Temesv\u00E1ri Nyugati Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"34082"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022xxNd97WbuPYQrg844RgBEGfvNuCx2Sbyi7xo4hcmymw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Temesvári Nyugati Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Nyugati Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-xxNd97WbuPYQrg844RgBEGfvNuCx2Sbyi7xo4hcmymw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"34082"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022xxNd97WbuPYQrg844RgBEGfvNuCx2Sbyi7xo4hcmymw=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Temesvári Tibiscus Egyetem.2r6mhdpcn5.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Tibiscus Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2r6mhdpcn5"},{"Name":"integrity","Value":"sha256-rmDMmYXGK98CLPsId8zXp9tiCwluiqZIH39Gep8tgOQ="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Temesv\u00E1ri Tibiscus Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"22266"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022rmDMmYXGK98CLPsId8zXp9tiCwluiqZIH39Gep8tgOQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Temesvári Tibiscus Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Tibiscus Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-rmDMmYXGK98CLPsId8zXp9tiCwluiqZIH39Gep8tgOQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"22266"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022rmDMmYXGK98CLPsId8zXp9tiCwluiqZIH39Gep8tgOQ=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:50 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Temesvári Victor Babeș Orvostudományi és Gyógszerészeti Egyetem.61lswya1ni.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Victor Babeș Orvostudományi és Gyógszerészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"61lswya1ni"},{"Name":"integrity","Value":"sha256-eiE2vYudxuVksBnrP35e2MpUOicwvFMdhYrHvru1288="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Temesv\u00E1ri Victor Babe\u0219 Orvostudom\u00E1nyi \u00E9s Gy\u00F3gszer\u00E9szeti Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"191504"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022eiE2vYudxuVksBnrP35e2MpUOicwvFMdhYrHvru1288=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Temesvári Victor Babeș Orvostudományi és Gyógszerészeti Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Temesvári Victor Babeș Orvostudományi és Gyógszerészeti Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-eiE2vYudxuVksBnrP35e2MpUOicwvFMdhYrHvru1288="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"191504"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022eiE2vYudxuVksBnrP35e2MpUOicwvFMdhYrHvru1288=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Titu Maiorescu Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Titu Maiorescu Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-n60VluaU/HkaO8jT7\u002BOKxMvL3VEmgOUGVwopsRvLfs8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"13514"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022n60VluaU/HkaO8jT7\u002BOKxMvL3VEmgOUGVwopsRvLfs8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:40:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Titu Maiorescu Egyetem.zjdgl05i8b.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Titu Maiorescu Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zjdgl05i8b"},{"Name":"integrity","Value":"sha256-n60VluaU/HkaO8jT7\u002BOKxMvL3VEmgOUGVwopsRvLfs8="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Titu Maiorescu Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"13514"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022n60VluaU/HkaO8jT7\u002BOKxMvL3VEmgOUGVwopsRvLfs8=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:40:18 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Tomis Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Tomis Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-voItZeFC7EhDnjr58e77/faOCu5pKi\u002B9A76UJmCvehM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"14770"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022voItZeFC7EhDnjr58e77/faOCu5pKi\u002B9A76UJmCvehM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Tomis Egyetem.ynu2fvfdab.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Tomis Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ynu2fvfdab"},{"Name":"integrity","Value":"sha256-voItZeFC7EhDnjr58e77/faOCu5pKi\u002B9A76UJmCvehM="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Tomis Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"14770"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022voItZeFC7EhDnjr58e77/faOCu5pKi\u002B9A76UJmCvehM=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:36:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Târgoviște-i  Valahia Egyetem.ezefwuwwyp.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Târgoviște-i  Valahia Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ezefwuwwyp"},{"Name":"integrity","Value":"sha256-Zq7h1dGaGWqf4NIC9zghEAveyUCzeCYDjalnGOHzH7Q="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/T\u00E2rgovi\u0219te-i  Valahia Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"37786"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Zq7h1dGaGWqf4NIC9zghEAveyUCzeCYDjalnGOHzH7Q=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Târgoviște-i  Valahia Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Târgoviște-i  Valahia Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Zq7h1dGaGWqf4NIC9zghEAveyUCzeCYDjalnGOHzH7Q="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"37786"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022Zq7h1dGaGWqf4NIC9zghEAveyUCzeCYDjalnGOHzH7Q=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:39:27 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Zsilvásárhelyi Constantin Brâncuși Egyetem.rn4tpprryi.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Zsilvásárhelyi Constantin Brâncuși Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rn4tpprryi"},{"Name":"integrity","Value":"sha256-KRbfRWKx2IW3V82tbNdFU4mkMMkQwrbrO5pfeqCaHMY="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/Zsilv\u00E1s\u00E1rhelyi Constantin Br\u00E2ncu\u0219i Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"339770"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022KRbfRWKx2IW3V82tbNdFU4mkMMkQwrbrO5pfeqCaHMY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:40:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Zsilvásárhelyi Constantin Brâncuși Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Zsilvásárhelyi Constantin Brâncuși Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-KRbfRWKx2IW3V82tbNdFU4mkMMkQwrbrO5pfeqCaHMY="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"339770"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022KRbfRWKx2IW3V82tbNdFU4mkMMkQwrbrO5pfeqCaHMY=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:40:21 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Építőipari Műszaki Egyetem.jza0bx0y51.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Építőipari Műszaki Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"jza0bx0y51"},{"Name":"integrity","Value":"sha256-YTl5f34iM53Hjf5j7TBv2gURQF6fDQlnxDmM3GthM8Y="},{"Name":"label","Value":"_content/DotnetProjekt/Data/university_images/\u00C9p\u00EDt\u0151ipari M\u0171szaki Egyetem.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"20068"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022YTl5f34iM53Hjf5j7TBv2gURQF6fDQlnxDmM3GthM8Y=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Építőipari Műszaki Egyetem.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Építőipari Műszaki Egyetem.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-YTl5f34iM53Hjf5j7TBv2gURQF6fDQlnxDmM3GthM8Y="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"20068"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022YTl5f34iM53Hjf5j7TBv2gURQF6fDQlnxDmM3GthM8Y=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 14:33:44 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DotnetProjekt/DotnetProjekt.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\DotnetProjekt.mwlte96io8.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
