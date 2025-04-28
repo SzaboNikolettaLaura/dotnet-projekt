@@ -90,7 +90,7 @@
                 .Select(parts => new Major { 
                     Name = parts[0].Trim('"'), 
                     URL = parts[1].Trim(),
-                    Content = parts[2].Trim()
+                    Content = parts[2]
                 })
                 .ToList();
         }

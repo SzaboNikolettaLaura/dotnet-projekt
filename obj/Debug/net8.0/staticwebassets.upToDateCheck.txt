@@ -14,6 +14,7 @@ wwwroot\Data\2023_final.csv
 wwwroot\Data\grade_statistics.csv
 wwwroot\Data\map_data.txt
 wwwroot\Data\ms_final.csv
+wwwroot\Data\romaniamaphtml.txt
 wwwroot\Data\university_images\Adventus Egyetem.webp
 wwwroot\Data\university_images\Alexandru Ioan Cuza Rendőrakadémia.webp
 wwwroot\Data\university_images\Andrei Șaguna Egyetem.webp

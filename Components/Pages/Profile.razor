@@ -155,25 +155,25 @@
         }
         <div class="col-md-3">
             <div class="form-group">
-                <label for="number1">Romanian Grade</label>
+                <label for="number1">@romanianSubject</label>
                 <input type="number" class="form-control" id="number1" @bind="number1" readonly />
             </div>
         </div>
         <div class="col-md-3">
             <div class="form-group">
-                <label for="number2">Mandatory Subject Grade</label>
+                <label for="number2">@mandatorySubject</label>
                 <input type="number" class="form-control" id="number2" @bind="number2" readonly />
             </div>
         </div>
         <div class="col-md-3">
             <div class="form-group">
-                <label for="number3">Chosen Subject Grade</label>
+                <label for="number3">@chosenSubject</label>
                 <input type="number" class="form-control" id="number3" @bind="number3" readonly />
             </div>
         </div>
         <div class="col-md-3">
             <div class="form-group">
-                <label for="number4">Native Language Grade</label>
+                <label for="number4">@nativeSubject</label>
                 <input type="number" class="form-control" id="number4" @bind="number4" readonly />
             </div>
         </div>
@@ -234,6 +234,10 @@
     private int tempYear;
     private bool showCodeError = false;
     private bool isValidCode = false;
+    private string romanianSubject = "Romanian Grade";
+    private string mandatorySubject = "Mandatory Subject Grade";
+    private string chosenSubject = "Chosen Subject Grade";
+    private string nativeSubject = "Native Language Grade";
 
     protected override async Task OnInitializedAsync()
     {
@@ -300,6 +304,9 @@
             var chosenIndex = Array.IndexOf(headers, "chosen_grade_final");
             var nativeIndex = Array.IndexOf(headers, "native_grade_final");
             var codeIndex = Array.IndexOf(headers, "code");
+            var mandatorySubjectIndex = Array.IndexOf(headers, "mandatory_subject");
+            var chosenSubjectIndex = Array.IndexOf(headers, "chosen_subject");
+            var nativeSubjectIndex = Array.IndexOf(headers, "native_subject");
 
             if (romanianIndex == -1 || mandatoryIndex == -1 || chosenIndex == -1 || codeIndex == -1)
             {
@@ -332,6 +339,13 @@
                     number3 = chosenGrade;
                 if (nativeIndex != -1 && float.TryParse(values[nativeIndex].Trim(), CultureInfo.InvariantCulture, out float nativeGrade) && nativeGrade > 0)
                     number4 = nativeGrade;
+
+                if (mandatorySubjectIndex != -1)
+                    mandatorySubject = values[mandatorySubjectIndex].Trim() + " Grade";
+                if (chosenSubjectIndex != -1)
+                    chosenSubject = values[chosenSubjectIndex].Trim() + " Grade";
+                if (nativeSubjectIndex != -1)
+                    nativeSubject = values[nativeSubjectIndex].Trim() + " Grade";
             }
 
             isValidCode = true;

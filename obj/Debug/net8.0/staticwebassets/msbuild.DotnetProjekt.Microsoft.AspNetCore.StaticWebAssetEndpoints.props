@@ -192,6 +192,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"k93un4zn27"},{"Name":"integrity","Value":"sha256-CGMymT8\u002BDTt39ABAst/glJLvZE8yqwfvpnw5OyVEU9c="},{"Name":"label","Value":"_content/DotnetProjekt/Data/ms_final.csv"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1293170"},{"Name":"Content-Type","Value":"text/csv"},{"Name":"ETag","Value":"\u0022CGMymT8\u002BDTt39ABAst/glJLvZE8yqwfvpnw5OyVEU9c=\u0022"},{"Name":"Last-Modified","Value":"Mon, 03 Jul 2023 11:21:18 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/romaniamaphtml.tnvufaepal.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\romaniamaphtml.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tnvufaepal"},{"Name":"integrity","Value":"sha256-Nw2aDdfdIUGRUKh273cMXmKYxDVTYg0dYCEEel8BOcg="},{"Name":"label","Value":"_content/DotnetProjekt/Data/romaniamaphtml.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"360895"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022Nw2aDdfdIUGRUKh273cMXmKYxDVTYg0dYCEEel8BOcg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 11:25:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/romaniamaphtml.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\romaniamaphtml.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Nw2aDdfdIUGRUKh273cMXmKYxDVTYg0dYCEEel8BOcg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"360895"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022Nw2aDdfdIUGRUKh273cMXmKYxDVTYg0dYCEEel8BOcg=\u0022"},{"Name":"Last-Modified","Value":"Mon, 28 Apr 2025 11:25:13 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/DotnetProjekt/Data/university_images/Adventus Egyetem.rvyynxbt9v.webp">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Data\university_images\Adventus Egyetem.webp'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>

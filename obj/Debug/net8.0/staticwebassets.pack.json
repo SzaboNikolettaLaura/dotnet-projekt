@@ -57,6 +57,10 @@
       "PackagePath": "staticwebassets\\Data\\ms_final.csv"
     },
     {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\romaniamaphtml.txt",
+      "PackagePath": "staticwebassets\\Data\\romaniamaphtml.txt"
+    },
+    {
       "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Adventus Egyetem.webp",
       "PackagePath": "staticwebassets\\Data\\university_images\\Adventus Egyetem.webp"
     },

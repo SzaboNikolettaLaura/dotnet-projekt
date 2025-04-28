@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R98CBSmMXceBAhofdsE4FuzSmRpwK8tkkGHc5eRg5fg=",
+  "Hash": "qjIJ1jdwwwXHi7YfbSDvRB5z90cVYOOOLtcInY7qXA0=",
   "Source": "DotnetProjekt",
   "BasePath": "_content/DotnetProjekt",
   "Mode": "Default",
@@ -393,6 +393,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Data\\ms_final.csv"
+    },
+    {
+      "Identity": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\romaniamaphtml.txt",
+      "SourceId": "DotnetProjekt",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Egy2\\dotnetProjekt\\wwwroot\\",
+      "BasePath": "_content/DotnetProjekt",
+      "RelativePath": "Data/romaniamaphtml#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tnvufaepal",
+      "Integrity": "Nw2aDdfdIUGRUKh273cMXmKYxDVTYg0dYCEEel8BOcg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Data\\romaniamaphtml.txt"
     },
     {
       "Identity": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\university_images\\Adventus Egyetem.webp",
@@ -3637,6 +3658,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-CGMymT8+DTt39ABAst/glJLvZE8yqwfvpnw5OyVEU9c="
+        }
+      ]
+    },
+    {
+      "Route": "Data/romaniamaphtml.tnvufaepal.txt",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\romaniamaphtml.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "360895"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nw2aDdfdIUGRUKh273cMXmKYxDVTYg0dYCEEel8BOcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 11:25:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tnvufaepal"
+        },
+        {
+          "Name": "label",
+          "Value": "Data/romaniamaphtml.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nw2aDdfdIUGRUKh273cMXmKYxDVTYg0dYCEEel8BOcg="
+        }
+      ]
+    },
+    {
+      "Route": "Data/romaniamaphtml.txt",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\romaniamaphtml.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "360895"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Nw2aDdfdIUGRUKh273cMXmKYxDVTYg0dYCEEel8BOcg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 11:25:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Nw2aDdfdIUGRUKh273cMXmKYxDVTYg0dYCEEel8BOcg="
         }
       ]
     },
