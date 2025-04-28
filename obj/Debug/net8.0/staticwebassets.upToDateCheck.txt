@@ -11,6 +11,7 @@ wwwroot\Data\2020_final.csv
 wwwroot\Data\2021_final.csv
 wwwroot\Data\2022_final.csv
 wwwroot\Data\2023_final.csv
+wwwroot\Data\grade_statistics.csv
 wwwroot\Data\map_data.txt
 wwwroot\Data\ms_final.csv
 wwwroot\Data\university_images\Adventus Egyetem.webp

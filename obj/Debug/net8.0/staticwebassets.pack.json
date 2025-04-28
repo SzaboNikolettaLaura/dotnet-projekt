@@ -45,6 +45,10 @@
       "PackagePath": "staticwebassets\\Data\\2023_final.csv"
     },
     {
+      "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\grade_statistics.csv",
+      "PackagePath": "staticwebassets\\Data\\grade_statistics.csv"
+    },
+    {
       "Id": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\map_data.txt",
       "PackagePath": "staticwebassets\\Data\\map_data.txt"
     },

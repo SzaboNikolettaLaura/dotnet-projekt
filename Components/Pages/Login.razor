@@ -71,7 +71,7 @@
     {
         if (!string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(password))
         {
-            LoginService.Login();
+            LoginService.Login(email);
             NavigationManager.NavigateTo("/profile");
         }
     }
@@ -80,7 +80,7 @@
     {
         if (!string.IsNullOrEmpty(email) && !string.IsNullOrEmpty(password) && password == confirmPassword)
         {
-            LoginService.Login();
+            LoginService.Login(email);
             NavigationManager.NavigateTo("/profile");
         }
     }

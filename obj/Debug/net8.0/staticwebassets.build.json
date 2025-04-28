@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "9fAetVWNdMeqw3JOGL8APiA0ATw3xPMzmzbS/VIqN2g=",
+  "Hash": "R98CBSmMXceBAhofdsE4FuzSmRpwK8tkkGHc5eRg5fg=",
   "Source": "DotnetProjekt",
   "BasePath": "_content/DotnetProjekt",
   "Mode": "Default",
@@ -241,8 +241,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "i80wl6ojsb",
-      "Integrity": "MhbxBw7IuN8xbQNmxzc0bAmDr7dubLjmO5WqYN++0+Q=",
+      "Fingerprint": "6upbi25gje",
+      "Integrity": "jkE1i1NYKghtftih3XCAAcuX4KEWLVWaippIpE6Pm40=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Data\\2019_final.csv"
@@ -330,6 +330,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Data\\2023_final.csv"
+    },
+    {
+      "Identity": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\grade_statistics.csv",
+      "SourceId": "DotnetProjekt",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Egy2\\dotnetProjekt\\wwwroot\\",
+      "BasePath": "_content/DotnetProjekt",
+      "RelativePath": "Data/grade_statistics#[.{fingerprint}]?.csv",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yw45g480qq",
+      "Integrity": "3jf9gldtYZS9gkFdjN7/QvN8WIoCTBnD6PYhqNxX1uA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Data\\grade_statistics.csv"
     },
     {
       "Identity": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\map_data.txt",
@@ -2964,6 +2985,51 @@
       ]
     },
     {
+      "Route": "Data/2019_final.6upbi25gje.csv",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\2019_final.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "49315337"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jkE1i1NYKghtftih3XCAAcuX4KEWLVWaippIpE6Pm40=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 15:46:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "6upbi25gje"
+        },
+        {
+          "Name": "label",
+          "Value": "Data/2019_final.csv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jkE1i1NYKghtftih3XCAAcuX4KEWLVWaippIpE6Pm40="
+        }
+      ]
+    },
+    {
       "Route": "Data/2019_final.csv",
       "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\2019_final.csv",
       "Selectors": [],
@@ -2974,7 +3040,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "49316523"
+          "Value": "49315337"
         },
         {
           "Name": "Content-Type",
@@ -2982,11 +3048,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"MhbxBw7IuN8xbQNmxzc0bAmDr7dubLjmO5WqYN++0+Q=\""
+          "Value": "\"jkE1i1NYKghtftih3XCAAcuX4KEWLVWaippIpE6Pm40=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 30 Jun 2023 10:28:11 GMT"
+          "Value": "Mon, 28 Apr 2025 15:46:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2996,52 +3062,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-MhbxBw7IuN8xbQNmxzc0bAmDr7dubLjmO5WqYN++0+Q="
-        }
-      ]
-    },
-    {
-      "Route": "Data/2019_final.i80wl6ojsb.csv",
-      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\2019_final.csv",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "49316523"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/csv"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"MhbxBw7IuN8xbQNmxzc0bAmDr7dubLjmO5WqYN++0+Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 30 Jun 2023 10:28:11 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "i80wl6ojsb"
-        },
-        {
-          "Name": "label",
-          "Value": "Data/2019_final.csv"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-MhbxBw7IuN8xbQNmxzc0bAmDr7dubLjmO5WqYN++0+Q="
+          "Value": "sha256-jkE1i1NYKghtftih3XCAAcuX4KEWLVWaippIpE6Pm40="
         }
       ]
     },
@@ -3370,6 +3391,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-CBFIaCVQXxmn10eN8l9/c1ETaOY+bRnG4WzvCHLON34="
+        }
+      ]
+    },
+    {
+      "Route": "Data/grade_statistics.csv",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\grade_statistics.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "577"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3jf9gldtYZS9gkFdjN7/QvN8WIoCTBnD6PYhqNxX1uA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 19:48:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3jf9gldtYZS9gkFdjN7/QvN8WIoCTBnD6PYhqNxX1uA="
+        }
+      ]
+    },
+    {
+      "Route": "Data/grade_statistics.yw45g480qq.csv",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\grade_statistics.csv",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "577"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/csv"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3jf9gldtYZS9gkFdjN7/QvN8WIoCTBnD6PYhqNxX1uA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 27 Apr 2025 19:48:15 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yw45g480qq"
+        },
+        {
+          "Name": "label",
+          "Value": "Data/grade_statistics.csv"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3jf9gldtYZS9gkFdjN7/QvN8WIoCTBnD6PYhqNxX1uA="
         }
       ]
     },
