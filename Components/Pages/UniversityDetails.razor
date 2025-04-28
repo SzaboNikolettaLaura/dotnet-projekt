@@ -2,59 +2,130 @@
 @using System.IO
 @using System.Linq
 
-<div class="container-fluid p-0" style="padding: 0; margin: 0;">
-    <div class="position-relative">
-        <img src="Data@(university?.ImageUrl)" class="w-100" alt="@university?.Name" style="height: 400px; object-fit: cover;">
-        <div class="position-absolute bottom-0 start-0 p-4 text-white" style="background: linear-gradient(transparent, rgba(0,0,0,0.7)); width: 100%;">
-            <h1 class="display-4">@university?.Name</h1>
-            <h4 class="text-light">@university?.City</h4>
+<div class="university-header position-relative">
+    <div class="header-overlay"></div>
+    <img src="Data@(university?.ImageUrl)" class="w-100" alt="@university?.Name" style="height: 500px; object-fit: cover;">
+    <div class="header-content position-absolute bottom-0 start-0 p-4 p-md-5 text-white">
+        <div class="container">
+            <h1 class="display-3 fw-bold mb-3">@university?.Name</h1>
+            <div class="d-flex align-items-center">
+                <i class="bi bi-geo-alt-fill me-2"></i>
+                <h4 class="mb-0">@university?.City</h4>
+            </div>
         </div>
     </div>
+</div>
 
-    <div class="container mt-4">
-        @if (university != null)
-        {
-            <div class="row">
-                <div class="col-md-8">
-                    <h3 class="mb-4">Elérhető szakok</h3>
-                    @foreach (var major in majors)
-                    {
-                        <div class="card mb-4">
-                            <div class="card-header bg-light">
-                                <h4 class="mb-0">@major.Name</h4>
-                            </div>
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-md-8">
-                                        <h5 class="mb-3">Követelmények</h5>
-                                        <div class="requirements">
-                                            @if (!string.IsNullOrEmpty(major.Content))
-                                            {
-                                                <p>@major.Content</p>
-                                            }
-                                            else
-                                            {
-                                                <p class="text-muted">Nincsenek megadva követelmények.</p>
-                                            }
+<div class="container py-5">
+    @if (university != null)
+    {
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-header bg-primary text-white">
+                        <h3 class="mb-0">
+                            <i class="bi bi-book me-2"></i>
+                            Elérhető szakok
+                        </h3>
+                    </div>
+                    <div class="card-body p-0">
+                        @foreach (var major in majors)
+                        {
+                            <div class="p-4 border-bottom">
+                                <div class="d-flex justify-content-between align-items-start mb-3">
+                                    <h4 class="mb-0">@major.Name</h4>
+                                    <a href="@major.URL" target="_blank" class="btn btn-outline-primary">
+                                        <i class="bi bi-box-arrow-up-right me-2"></i>
+                                        Részletek
+                                    </a>
+                                </div>
+                                <div class="requirements mt-3">
+                                    @if (!string.IsNullOrEmpty(major.Content))
+                                    {
+                                        <div class="alert alert-info">
+                                            <i class="bi bi-info-circle me-2"></i>
+                                            @major.Content
                                         </div>
-                                    </div>
-                                    <div class="col-md-4 text-end">
-                                        <a href="@major.URL" target="_blank" class="btn btn-primary">Részletek</a>
-                                    </div>
+                                    }
+                                    else
+                                    {
+                                        <div class="alert alert-light">
+                                            <i class="bi bi-info-circle me-2"></i>
+                                            Nincsenek megadva követelmények.
+                                        </div>
+                                    }
                                 </div>
                             </div>
-                        </div>
-                    }
+                        }
+                    </div>
                 </div>
             </div>
-        }
-        else
-        {
-            <div class="alert alert-warning">Az egyetem nem található.</div>
-            <a href="/search" class="btn btn-primary">Vissza a kereséshez</a>
-        }
-    </div>
+            <div class="col-lg-4">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white">
+                        <h3 class="mb-0">
+                            <i class="bi bi-info-circle me-2"></i>
+                            Információk
+                        </h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="bi bi-geo-alt-fill text-primary me-2"></i>
+                            <span>@university.City</span>
+                        </div>
+                        <div class="d-flex align-items-center">
+                            <i class="bi bi-building text-primary me-2"></i>
+                            <span>@university.Name</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="text-center py-5">
+            <div class="alert alert-warning">
+                <i class="bi bi-exclamation-triangle me-2"></i>
+                Az egyetem nem található.
+            </div>
+            <a href="/search" class="btn btn-primary mt-3">
+                <i class="bi bi-arrow-left me-2"></i>
+                Vissza a kereséshez
+            </a>
+        </div>
+    }
 </div>
+
+<style>
+    .university-header {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .header-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0.7));
+        z-index: 1;
+    }
+
+    .header-content {
+        z-index: 2;
+    }
+
+    .hover-shadow {
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .hover-shadow:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+    }
+</style>
 
 @code {
     [Parameter]

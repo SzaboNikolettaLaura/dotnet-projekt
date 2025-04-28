@@ -9,215 +9,216 @@
 @inject LoginService LoginService
 @inject NavigationManager NavigationManager
 
-<style>
-    .profile-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem;
-    }
-
-    .profile-title {
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 0.5rem;
-    }
-
-    .profile-card {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    border: none;
-    border-radius: 8px;
-    }
-
-    .form-control {
-    border-radius: 6px;
-    border: 1px solid #ddd;
-    transition: border-color 0.2s ease;
-    }
-
-    .form-control:focus {
-    border-color: #3498db;
-    box-shadow: 0 0 0 0.2rem rgba(52, 152, 219, 0.25);
-    }
-
-    .btn-primary {
-    background-color: #3498db;
-    border: none;
-    padding: 0.5rem 1.5rem;
-    border-radius: 6px;
-    transition: background-color 0.2s ease;
-    }
-
-    .btn-primary:hover {
-    background-color: #2980b9;
-    }
-
-    label {
-    color: #34495e;
-    font-weight: 500;
-    margin-bottom: 0.5rem;
-    }
-
-    .form-group {
-    margin-bottom: 1.5rem;
-    }
-
-    .validation-error {
-    color: #dc3545;
-    font-size: 0.875rem;
-    margin-top: 0.25rem;
-    }
-
-    .blur-overlay {
-    position: relative;
-    }
-
-    .blur-overlay::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.8);
-    backdrop-filter: blur(4px);
-    z-index: 1;
-    }
-
-    .blur-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    color: #2c3e50;
-    font-size: 1.5rem;
-    font-weight: 700;
-    text-align: center;
-    width: 100%;
-    }
-</style>
-
-<div class="profile-container">
-    <div class="d-flex justify-content-between align-items-center mb-4">
-        <h3 class="profile-title">Profile</h3>
-        <button class="btn btn-primary" @onclick="Logout">kijelentkezes</button>
-    </div>
-
-    <div class="profile-card card mb-4">
-        <div class="card-body">
-            <div class="form-group mb-3">
-                <label for="email">Email</label>
-                <input type="email" class="form-control" id="email" @bind="email" disabled="@(!isEditing)" />
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-10">
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <h1 class="display-5 fw-bold text-primary">Profil</h1>
+                <button class="btn btn-outline-danger" @onclick="Logout">
+                    <i class="bi bi-box-arrow-right me-2"></i>
+                    Kijelentkezés
+                </button>
             </div>
 
-            <div class="row mb-3">
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="code">Code</label>
-                        <input type="text" class="form-control" id="code" @bind="code" placeholder="TM202461" disabled="@(!isEditing)" />
-                        @if (showCodeError)
-                        {
-                            <div class="validation-error">Invalid code for the selected year</div>
-                        }
+            <div class="card shadow-sm mb-4">
+                <div class="card-body p-4">
+                    <div class="row g-3">
+                        <div class="col-md-12">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="email" @bind="email" disabled="@(!isEditing)" placeholder="Email" />
+                                <label for="email">Email</label>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="code" @bind="code" placeholder="TM202461" disabled="@(!isEditing)" />
+                                <label for="code">Kód</label>
+                                @if (showCodeError)
+                                {
+                                    <div class="invalid-feedback d-block">Érvénytelen kód a kiválasztott évhez</div>
+                                }
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <select class="form-select" id="year" @bind="selectedYear" disabled="@(!isEditing)">
+                                    @foreach (var year in years)
+                                    {
+                                        <option value="@year">@year</option>
+                                    }
+                                </select>
+                                <label for="year">Év</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    @if (!isEditing)
+                    {
+                        <button class="btn btn-primary" @onclick="EnableEditing">
+                            <i class="bi bi-pencil me-2"></i>
+                            Szerkesztés
+                        </button>
+                    }
+                    else
+                    {
+                        <div class="mt-3">
+                            <button class="btn btn-success me-2" @onclick="SaveChanges">
+                                <i class="bi bi-check-lg me-2"></i>
+                                Mentés
+                            </button>
+                            <button class="btn btn-secondary" @onclick="CancelEditing">
+                                <i class="bi bi-x-lg me-2"></i>
+                                Mégse
+                            </button>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <div class="row @(isValidCode ? "" : "blur-overlay")">
+                @if (!isValidCode)
+                {
+                    <div class="blur-text">Írj be egy kódot</div>
+                }
+                <div class="col-md-3">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">@romanianSubject</h5>
+                            <div class="display-4 fw-bold text-primary">@number1</div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                        <label for="year">Year</label>
-                        <select class="form-control" id="year" @bind="selectedYear" disabled="@(!isEditing)">
-                            @foreach (var year in years)
-                            {
-                                <option value="@year">@year</option>
-                            }
-                        </select>
+                <div class="col-md-3">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">@mandatorySubject</h5>
+                            <div class="display-4 fw-bold text-primary">@number2</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">@chosenSubject</h5>
+                            <div class="display-4 fw-bold text-primary">@number3</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow-sm h-100">
+                        <div class="card-body text-center">
+                            <h5 class="card-title text-primary">@nativeSubject</h5>
+                            <div class="display-4 fw-bold text-primary">@number4</div>
+                        </div>
                     </div>
                 </div>
             </div>
 
-            @if (!isEditing)
+            @if (isValidCode)
             {
-                <button class="btn btn-primary" @onclick="EnableEditing">Szerkesztés</button>
-            }
-            else
-            {
-                <div class="mt-3">
-                    <button class="btn btn-success me-2" @onclick="SaveChanges">Mentés</button>
-                    <button class="btn btn-secondary" @onclick="CancelEditing">Mégse</button>
-                </div>
-            }
-        </div>
-    </div>
-
-    <div class="row @(isValidCode ? "" : "blur-overlay")">
-        @if (!isValidCode)
-        {
-            <div class="blur-text">írj be egy kódot</div>
-        }
-        <div class="col-md-3">
-            <div class="form-group">
-                <label for="number1">@romanianSubject</label>
-                <input type="number" class="form-control" id="number1" @bind="number1" readonly />
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="form-group">
-                <label for="number2">@mandatorySubject</label>
-                <input type="number" class="form-control" id="number2" @bind="number2" readonly />
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="form-group">
-                <label for="number3">@chosenSubject</label>
-                <input type="number" class="form-control" id="number3" @bind="number3" readonly />
-            </div>
-        </div>
-        <div class="col-md-3">
-            <div class="form-group">
-                <label for="number4">@nativeSubject</label>
-                <input type="number" class="form-control" id="number4" @bind="number4" readonly />
-            </div>
-        </div>
-    </div>
-
-    @if (isValidCode)
-    {
-        <div class="row mt-4">
-            <div class="col-md-12">
-                <div class="card profile-card">
-                    <div class="card-body">
-                        <h5 class="card-title">Statistics for @selectedYear</h5>
-                        <div class="row">
-                            <div class="col-md-3">
-                                <div class="text-center p-3">
-                                    <h6>Total Students</h6>
-                                    <h4>@GetTotalStudents()</h4>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="text-center p-3">
-                                    <h6>Pass Rate</h6>
-                                    <h4>@GetPassRate()%</h4>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="text-center p-3">
-                                    <h6>Top 10% Average</h6>
-                                    <h4>@GetTop10Average()</h4>
-                                </div>
-                            </div>
-                            <div class="col-md-3">
-                                <div class="text-center p-3">
-                                    <h6>Your Average</h6>
-                                    <h4>@GetStudentAverage()</h4>
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h4 class="card-title text-primary mb-4">Statisztikák @selectedYear-re</h4>
+                                <div class="row g-4">
+                                    <div class="col-md-3">
+                                        <div class="text-center p-3">
+                                            <div class="display-6 text-primary mb-2">
+                                                <i class="bi bi-people"></i>
+                                            </div>
+                                            <h6 class="text-muted">Összes diák</h6>
+                                            <h4 class="fw-bold">@GetTotalStudents()</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="text-center p-3">
+                                            <div class="display-6 text-primary mb-2">
+                                                <i class="bi bi-graph-up"></i>
+                                            </div>
+                                            <h6 class="text-muted">Sikeres arány</h6>
+                                            <h4 class="fw-bold">@GetPassRate()%</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="text-center p-3">
+                                            <div class="display-6 text-primary mb-2">
+                                                <i class="bi bi-trophy"></i>
+                                            </div>
+                                            <h6 class="text-muted">Top 10% átlag</h6>
+                                            <h4 class="fw-bold">@GetTop10Average()</h4>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="text-center p-3">
+                                            <div class="display-6 text-primary mb-2">
+                                                <i class="bi bi-person"></i>
+                                            </div>
+                                            <h6 class="text-muted">Saját átlag</h6>
+                                            <h4 class="fw-bold">@GetStudentAverage()</h4>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+            }
         </div>
-    }
+    </div>
 </div>
+
+<style>
+    .blur-overlay {
+        position: relative;
+    }
+
+    .blur-overlay::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(4px);
+        z-index: 1;
+        border-radius: 0.5rem;
+    }
+
+    .blur-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        color: #2c3e50;
+        font-size: 1.5rem;
+        font-weight: 700;
+        text-align: center;
+        width: 100%;
+    }
+
+    .card {
+        transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+    }
+
+    .form-floating > .form-control:focus ~ label,
+    .form-floating > .form-control:not(:placeholder-shown) ~ label {
+        color: #0d6efd;
+    }
+
+    .invalid-feedback {
+        font-size: 0.875rem;
+    }
+</style>
 
 @code {
     private string email = "";
