@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "If1jGCHU6uD4i+gzxwz/iNYiGFg2IEn8IXJRqsV2Ohk=",
+  "Hash": "tx/+dWeDL0e4RhPHiNFCEnZTj8THqcj/GMCyeh+yVl8=",
   "Source": "DotnetProjekt",
   "BasePath": "_content/DotnetProjekt",
   "Mode": "Default",
@@ -332,6 +332,27 @@
       "OriginalItemSpec": "wwwroot\\Data\\2023_final.csv"
     },
     {
+      "Identity": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\map_data.txt",
+      "SourceId": "DotnetProjekt",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Egy2\\dotnetProjekt\\wwwroot\\",
+      "BasePath": "_content/DotnetProjekt",
+      "RelativePath": "Data/map_data#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "48xi8cn3rq",
+      "Integrity": "tGDCtgoThWl+vY6hONpuoxhqbK9IR+jpIWkwQ8aSS5g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Data\\map_data.txt"
+    },
+    {
       "Identity": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\ms_final.csv",
       "SourceId": "DotnetProjekt",
       "SourceType": "Discovered",
@@ -393,27 +414,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\university-placeholder.jpg"
-    },
-    {
-      "Identity": "C:\\Egy2\\dotnetProjekt\\wwwroot\\js\\site.js",
-      "SourceId": "DotnetProjekt",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Egy2\\dotnetProjekt\\wwwroot\\",
-      "BasePath": "_content/DotnetProjekt",
-      "RelativePath": "js/site#[.{fingerprint}]?.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "akuo4jah9d",
-      "Integrity": "ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
     }
   ],
   "Endpoints": [
@@ -1484,6 +1484,88 @@
       ]
     },
     {
+      "Route": "Data/map_data.48xi8cn3rq.txt",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\map_data.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "366059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tGDCtgoThWl+vY6hONpuoxhqbK9IR+jpIWkwQ8aSS5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 10:17:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "48xi8cn3rq"
+        },
+        {
+          "Name": "label",
+          "Value": "Data/map_data.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tGDCtgoThWl+vY6hONpuoxhqbK9IR+jpIWkwQ8aSS5g="
+        }
+      ]
+    },
+    {
+      "Route": "Data/map_data.txt",
+      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\map_data.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "366059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tGDCtgoThWl+vY6hONpuoxhqbK9IR+jpIWkwQ8aSS5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 10:17:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tGDCtgoThWl+vY6hONpuoxhqbK9IR+jpIWkwQ8aSS5g="
+        }
+      ]
+    },
+    {
       "Route": "Data/ms_final.csv",
       "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\Data\\ms_final.csv",
       "Selectors": [],
@@ -1890,88 +1972,6 @@
         {
           "Name": "integrity",
           "Value": "sha256-JCOmTmhFPyTwF8aB0gyS2VOOMf+bv8Ax6DxYKLUh+jA="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.akuo4jah9d.js",
-      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1675"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 09:46:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "akuo4jah9d"
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU="
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js",
-      "AssetFile": "C:\\Egy2\\dotnetProjekt\\wwwroot\\js\\site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1675"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 09:46:35 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU="
         }
       ]
     }

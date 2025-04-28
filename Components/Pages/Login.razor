@@ -2,43 +2,56 @@
 @inject NavigationManager NavigationManager
 @inject LoginService LoginService
 
-<h3>@(isLogin ? "Login" : "Registration")</h3>
+<div class="container-fluid min-vh-100 d-flex align-items-center justify-content-center" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+    <div class="row justify-content-center w-100">
+        <div class="col-md-6 col-lg-4">
+            <div class="card shadow-lg">
+                <div class="card-body p-5">
+                    <h3 class="text-center mb-4">@(isLogin ? "Login" : "Registration")</h3>
 
-<button class="btn btn-primary mb-3" @onclick="ToggleForm">Switch to @(isLogin ? "Registration" : "Login")</button>
+                    @if (isLogin)
+                    {
+                        <form @onsubmit="HandleLogin">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" @bind="email" placeholder="Enter your email" />
+                            </div>
 
-@if (isLogin)
-{
-    <form @onsubmit="HandleLogin">
-        <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" class="form-control" id="email" @bind="email" />
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" @bind="password" placeholder="Enter your password" />
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 mb-3">Login</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <form @onsubmit="HandleRegister">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" @bind="email" placeholder="Enter your email" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="password" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="password" @bind="password" placeholder="Enter your password" />
+                            </div>
+
+                            <div class="mb-3">
+                                <label for="confirmPassword" class="form-label">Confirm Password</label>
+                                <input type="password" class="form-control" id="confirmPassword" @bind="confirmPassword" placeholder="Confirm your password" />
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 mb-3">Register</button>
+                        </form>
+                    }
+                    <button class="btn btn-outline-primary w-100" @onclick="ToggleForm">
+                        Switch to @(isLogin ? "Registration" : "Login")
+                    </button>
+                </div>
+            </div>
         </div>
-
-        <div class="form-group">
-            <label for="password">Password</label>
-            <input type="password" class="form-control" id="password" @bind="password" />
-        </div>
-        <button type="submit" class="btn btn-primary">Login</button>
-    </form>
-}
-else
-{
-    <div class="form-group">
-        <label for="email">Email</label>
-        <input type="email" class="form-control" id="email" @bind="email" />
     </div>
-
-    <div class="form-group">
-        <label for="password">Password</label>
-        <input type="password" class="form-control" id="password" @bind="password" />
-    </div>
-
-    <div class="form-group">
-        <label for="confirmPassword">Confirm Password</label>
-        <input type="password" class="form-control" id="confirmPassword" @bind="confirmPassword" />
-    </div>
-    <button type="submit" class="btn btn-primary">Register</button>
-}
+</div>
 
 @code {
     private bool isLogin = true;

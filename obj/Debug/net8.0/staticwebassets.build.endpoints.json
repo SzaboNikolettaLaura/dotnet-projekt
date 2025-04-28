@@ -823,6 +823,88 @@
       ]
     },
     {
+      "Route": "Data/map_data.48xi8cn3rq.txt",
+      "AssetFile": "Data/map_data.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "366059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tGDCtgoThWl+vY6hONpuoxhqbK9IR+jpIWkwQ8aSS5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 10:17:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "48xi8cn3rq"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tGDCtgoThWl+vY6hONpuoxhqbK9IR+jpIWkwQ8aSS5g="
+        },
+        {
+          "Name": "label",
+          "Value": "Data/map_data.txt"
+        }
+      ]
+    },
+    {
+      "Route": "Data/map_data.txt",
+      "AssetFile": "Data/map_data.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "366059"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tGDCtgoThWl+vY6hONpuoxhqbK9IR+jpIWkwQ8aSS5g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 28 Apr 2025 10:17:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tGDCtgoThWl+vY6hONpuoxhqbK9IR+jpIWkwQ8aSS5g="
+        }
+      ]
+    },
+    {
       "Route": "Data/ms_final.csv",
       "AssetFile": "Data/ms_final.csv",
       "Selectors": [],
@@ -1393,88 +1475,6 @@
         {
           "Name": "label",
           "Value": "images/university-placeholder.jpg"
-        }
-      ]
-    },
-    {
-      "Route": "js/site.akuo4jah9d.js",
-      "AssetFile": "js/site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1675"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 09:46:35 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "akuo4jah9d"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU="
-        },
-        {
-          "Name": "label",
-          "Value": "js/site.js"
-        }
-      ]
-    },
-    {
-      "Route": "js/site.js",
-      "AssetFile": "js/site.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1675"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 28 Apr 2025 09:46:35 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-ukBI2uwKEi0xMZTsYIPVMDAeOk98v3+Cp2ZiyEFQwPU="
         }
       ]
     }
