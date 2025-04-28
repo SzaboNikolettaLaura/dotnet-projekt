@@ -147,6 +147,12 @@
         var content = major.Content.ToLower();
         var average = (romanian + mandatory + chosen) / 3;
 
+        // If requirement contains "magyar" (Hungarian) and user has no Hungarian grade (native == 0), cannot apply
+        if (content.Contains("magyar") && native == 0)
+        {
+            return false;
+        }
+
         if (content.Contains("100% az érettségi vizsga átlaga") || 
             content.Contains("100% érettségi átlag"))
         {

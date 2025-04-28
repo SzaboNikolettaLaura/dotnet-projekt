@@ -171,15 +171,27 @@
         if (File.Exists(majorsPath))
         {
             var lines = File.ReadAllLines(majorsPath);
-            majors = lines.Skip(1)
-                .Select(line => line.Split(','))
-                .Where(parts => parts.Length > 2 && parts[1].Contains("sapientia"))
-                .Select(parts => new Major { 
-                    Name = parts[0].Trim('"'), 
-                    URL = parts[1].Trim(),
-                    Content = parts[2]
-                })
-                .ToList();
+            if (Name == "Sapientia Marosvasarhely")
+            {
+                majors = lines.Skip(1)
+                    .Select(line => line.Split(','))
+                    .Where(parts => parts.Length > 2 && parts[1].Contains("sapientia"))
+                    .Select(parts => new Major { 
+                        Name = parts[0].Trim('"'), 
+                        URL = parts[1].Trim(),
+                        Content = parts[2]
+                    })
+                    .ToList();
+            }
+            else
+            {
+                majors = new List<Major>
+                {
+                    new Major { Name = "Dummy Szak 1", URL = "#", Content = "100% az érettségi vizsga átlaga" },
+                    new Major { Name = "Dummy Szak 2", URL = "#", Content = "50% az érettségi vizsga átlaga, 50% magyar nyelv" },
+                    new Major { Name = "Dummy Szak 3", URL = "#", Content = "25% az érettségi vizsga átlaga, 75% matematika" }
+                };
+            }
         }
     }
 
@@ -205,6 +217,12 @@
         var native = LoginService.GetNativeGrade();
         var content = major.Content.ToLower();
         var average = (romanian + mandatory + chosen) / 3;
+
+        // If requirement contains "magyar" (Hungarian) and user has no Hungarian grade (native == 0), cannot apply
+        if (content.Contains("magyar") && native == 0)
+        {
+            return false;
+        }
 
         if (content.Contains("100% az érettségi vizsga átlaga") || 
             content.Contains("100% érettségi átlag"))
