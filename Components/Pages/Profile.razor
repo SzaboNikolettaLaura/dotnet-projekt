@@ -80,13 +80,27 @@
             <div class="row @(isValidCode ? "" : "blur-overlay")">
                 @if (!isValidCode)
                 {
-                    <div class="blur-text">Írj be egy kódot</div>
+                    <div class="blur-text">
+                        @if (isLoading)
+                        {
+                            <div class="d-flex flex-column align-items-center">
+                                <div class="spinner-border text-primary mb-3" role="status">
+                                    <span class="visually-hidden">Betöltés...</span>
+                                </div>
+                                <div>Kód keresése...</div>
+                            </div>
+                        }
+                        else
+                        {
+                            <div>Írj be egy kódot</div>
+                        }
+                    </div>
                 }
                 <div class="col-md-3">
                     <div class="card shadow-sm h-100">
                         <div class="card-body text-center">
                             <h5 class="card-title text-primary">@romanianSubject</h5>
-                            <div class="display-4 fw-bold text-primary">@number1</div>
+                            <div class="display-4 fw-bold @(LoginService.GetRomanianGrade() < 5 ? "text-danger" : "text-primary")">@LoginService.GetRomanianGrade()</div>
                         </div>
                     </div>
                 </div>
@@ -94,7 +108,7 @@
                     <div class="card shadow-sm h-100">
                         <div class="card-body text-center">
                             <h5 class="card-title text-primary">@mandatorySubject</h5>
-                            <div class="display-4 fw-bold text-primary">@number2</div>
+                            <div class="display-4 fw-bold @(LoginService.GetMandatoryGrade() < 5 ? "text-danger" : "text-primary")">@LoginService.GetMandatoryGrade()</div>
                         </div>
                     </div>
                 </div>
@@ -102,7 +116,7 @@
                     <div class="card shadow-sm h-100">
                         <div class="card-body text-center">
                             <h5 class="card-title text-primary">@chosenSubject</h5>
-                            <div class="display-4 fw-bold text-primary">@number3</div>
+                            <div class="display-4 fw-bold @(LoginService.GetChosenGrade() < 5 ? "text-danger" : "text-primary")">@LoginService.GetChosenGrade()</div>
                         </div>
                     </div>
                 </div>
@@ -110,7 +124,7 @@
                     <div class="card shadow-sm h-100">
                         <div class="card-body text-center">
                             <h5 class="card-title text-primary">@nativeSubject</h5>
-                            <div class="display-4 fw-bold text-primary">@number4</div>
+                            <div class="display-4 fw-bold @(LoginService.GetNativeGrade() < 5 ? "text-danger" : "text-primary")">@LoginService.GetNativeGrade()</div>
                         </div>
                     </div>
                 </div>
@@ -157,9 +171,76 @@
                                                 <i class="bi bi-person"></i>
                                             </div>
                                             <h6 class="text-muted">Saját átlag</h6>
-                                            <h4 class="fw-bold">@GetStudentAverage()</h4>
+                                            <h4 class="fw-bold @(GetStudentAverage() != "-" && float.Parse(GetStudentAverage(), CultureInfo.InvariantCulture) < 6 ? "text-danger" : "")">@GetStudentAverage()</h4>
                                         </div>
                                     </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md-6">
+                        <div class="card shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary mb-4">
+                                    <i class="bi bi-graph-up me-2"></i>
+                                    Teljesítmény elemzés
+                                </h5>
+                                <div class="mb-3">
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>Legmagasabb jegy:</span>
+                                        <span class="fw-bold">@GetHighestGrade()</span>
+                                    </div>
+                                    <div class="d-flex justify-content-between mb-2">
+                                        <span>Legalacsonyabb jegy:</span>
+                                        <span class="fw-bold @(float.Parse(GetLowestGrade(), CultureInfo.InvariantCulture) < 5 ? "text-danger" : "")">@GetLowestGrade()</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary mb-4">
+                                    <i class="bi bi-info-circle me-2"></i>
+                                    Értékelés
+                                </h5>
+                                <div class="mb-3">
+                                    @if (GetStudentAverage() != "-")
+                                    {
+                                        var avg = float.Parse(GetStudentAverage(), CultureInfo.InvariantCulture);
+                                        @if (avg >= 8)
+                                        {
+                                            <div class="alert alert-success">
+                                                <i class="bi bi-star-fill me-2"></i>
+                                                Kiváló teljesítmény! Az átlagod a legjobb 10%-ba tartozik.
+                                            </div>
+                                        }
+                                        else if (avg >= 6)
+                                        {
+                                            <div class="alert alert-info">
+                                                <i class="bi bi-check-circle me-2"></i>
+                                                Átlagos teljesítmény. Megfelelő eredményt értél el.
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            <div class="alert alert-warning">
+                                                <i class="bi bi-exclamation-triangle me-2"></i>
+                                                Figyelem! Az átlagod a határérték alatt van.
+                                            </div>
+                                        }
+                                    }
+                                    @if (LoginService.GetRomanianGrade() < 5 || LoginService.GetMandatoryGrade() < 5 || LoginService.GetChosenGrade() < 5 || LoginService.GetNativeGrade() < 5)
+                                    {
+                                        <div class="alert alert-danger">
+                                            <i class="bi bi-exclamation-circle me-2"></i>
+                                            Van olyan tárgy, ahol a jegyed a minimális határérték alatt van!
+                                        </div>
+                                    }
                                 </div>
                             </div>
                         </div>
@@ -225,16 +306,13 @@
     private string code = "";
     private int selectedYear;
     private List<int> years;
-    private float number1;
-    private float number2;
-    private float number3;
-    private float number4;
     private bool isEditing = false;
     private string tempEmail = "";
     private string tempCode = "";
     private int tempYear;
     private bool showCodeError = false;
     private bool isValidCode = false;
+    private bool isLoading = false;
     private string romanianSubject = "Romanian Grade";
     private string mandatorySubject = "Mandatory Subject Grade";
     private string chosenSubject = "Chosen Subject Grade";
@@ -244,19 +322,11 @@
     {
         years = Enumerable.Range(2014, 2023 - 2014 + 1).Reverse().ToList();
         selectedYear = DateTime.Now.Year;
-        number1 = 0;
-        number2 = 0;
-        number3 = 0;
-        number4 = 0;
         email = LoginService.GetEmail();
     }
 
     protected override async Task OnParametersSetAsync()
     {
-        number1 = 0;
-        number2 = 0;
-        number3 = 0;
-        number4 = 0;
         email = LoginService.GetEmail();
     }
 
@@ -264,10 +334,6 @@
     {
         LoginService.Logout();
         NavigationManager.NavigateTo("/login");
-        number1 = 0;
-        number2 = 0;
-        number3 = 0;
-        number4 = 0;
     }
 
     private void EnableEditing()
@@ -278,10 +344,6 @@
         tempYear = selectedYear;
         showCodeError = false;
         isValidCode = false;
-        number1 = 0;
-        number2 = 0;
-        number3 = 0;
-        number4 = 0;
     }
 
     private async Task<bool> ValidateCodeAndYear()
@@ -332,14 +394,21 @@
             var values = matchingLine.Split(',');
             if (values.Length > Math.Max(romanianIndex, Math.Max(mandatoryIndex, chosenIndex)))
             {
-                if (float.TryParse(values[romanianIndex].Trim(), CultureInfo.InvariantCulture, out float romanianGrade))
-                    number1 = romanianGrade;
-                if (float.TryParse(values[mandatoryIndex].Trim(), CultureInfo.InvariantCulture, out float mandatoryGrade))
-                    number2 = mandatoryGrade;
-                if (float.TryParse(values[chosenIndex].Trim(), CultureInfo.InvariantCulture, out float chosenGrade))
-                    number3 = chosenGrade;
-                if (nativeIndex != -1 && float.TryParse(values[nativeIndex].Trim(), CultureInfo.InvariantCulture, out float nativeGrade) && nativeGrade > 0)
-                    number4 = nativeGrade;
+                float romanianGrade = 0;
+                float mandatoryGrade = 0;
+                float chosenGrade = 0;
+                float nativeGrade = 0;
+
+                if (float.TryParse(values[romanianIndex].Trim(), CultureInfo.InvariantCulture, out float rg))
+                    romanianGrade = rg;
+                if (float.TryParse(values[mandatoryIndex].Trim(), CultureInfo.InvariantCulture, out float mg))
+                    mandatoryGrade = mg;
+                if (float.TryParse(values[chosenIndex].Trim(), CultureInfo.InvariantCulture, out float cg))
+                    chosenGrade = cg;
+                if (nativeIndex != -1 && float.TryParse(values[nativeIndex].Trim(), CultureInfo.InvariantCulture, out float ng) && ng > 0)
+                    nativeGrade = ng;
+
+                LoginService.SetGrades(romanianGrade, mandatoryGrade, chosenGrade, nativeGrade);
 
                 if (mandatorySubjectIndex != -1)
                     mandatorySubject = values[mandatorySubjectIndex].Trim() + " Grade";
@@ -362,6 +431,9 @@
 
     private async Task SaveChanges()
     {
+        isLoading = true;
+        StateHasChanged();
+        
         if (await ValidateCodeAndYear())
         {
             isEditing = false;
@@ -372,11 +444,11 @@
             code = "";
             selectedYear = DateTime.Now.Year;
             isValidCode = false;
-            number1 = 0;
-            number2 = 0;
-            number3 = 0;
-            number4 = 0;
+            LoginService.SetGrades(0, 0, 0, 0);
         }
+        
+        isLoading = false;
+        StateHasChanged();
     }
 
     private void CancelEditing()
@@ -387,10 +459,7 @@
         selectedYear = tempYear;
         showCodeError = false;
         isValidCode = false;
-        number1 = 0;
-        number2 = 0;
-        number3 = 0;
-        number4 = 0;
+        LoginService.SetGrades(0, 0, 0, 0);
     }
 
     private string GetTotalStudents()
@@ -445,25 +514,51 @@
 
     private string GetStudentAverage()
     {
-        if (number1 > 0 && number2 > 0 && number3 > 0)
+        var romanianGrade = LoginService.GetRomanianGrade();
+        var mandatoryGrade = LoginService.GetMandatoryGrade();
+        var chosenGrade = LoginService.GetChosenGrade();
+        var nativeGrade = LoginService.GetNativeGrade();
+
+        if (romanianGrade > 0 && mandatoryGrade > 0 && chosenGrade > 0)
         {
-            if (number4 > 0)
+            if (nativeGrade > 0)
             {
-                return ((number1 + number2 + number3 + number4) / 4).ToString("F2");
+                return ((romanianGrade + mandatoryGrade + chosenGrade + nativeGrade) / 4).ToString("F2");
             }
-            return ((number1 + number2 + number3) / 3).ToString("F2");
+            return ((romanianGrade + mandatoryGrade + chosenGrade) / 3).ToString("F2");
         }
         return "-";
+    }
+
+    private string GetHighestGrade()
+    {
+        var grades = new List<float> { 
+            LoginService.GetRomanianGrade(), 
+            LoginService.GetMandatoryGrade(), 
+            LoginService.GetChosenGrade(), 
+            LoginService.GetNativeGrade() 
+        };
+        var maxGrade = grades.Max();
+        return maxGrade.ToString("F1");
+    }
+
+    private string GetLowestGrade()
+    {
+        var grades = new List<float> { 
+            LoginService.GetRomanianGrade(), 
+            LoginService.GetMandatoryGrade(), 
+            LoginService.GetChosenGrade(), 
+            LoginService.GetNativeGrade() 
+        };
+        var minGrade = grades.Min();
+        return minGrade.ToString("F1");
     }
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
         if (firstRender)
         {
-            number1 = 0;
-            number2 = 0;
-            number3 = 0;
-            number4 = 0;
+            LoginService.SetGrades(0, 0, 0, 0);
         }
     }
 } 

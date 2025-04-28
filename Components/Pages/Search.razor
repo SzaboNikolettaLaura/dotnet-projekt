@@ -1,6 +1,7 @@
 @page "/search"
 @using System.IO
 @using System.Linq
+@inject LoginService LoginService
 
 <div class="container py-5">
     <div class="row justify-content-center mb-5">
@@ -48,6 +49,20 @@
                         <div class="card-body">
                             <h5 class="card-title">@uni.Name</h5>
                             <a href="/university/@Uri.EscapeDataString(uni.Name)" class="btn btn-primary stretched-link">Részletek</a>
+                            @if (LoginService.IsLoggedIn())
+                            {
+                                var eligible = IsEligibleForAnyMajor(uni.Name);
+                                <div class="mt-2">
+                                    @if (eligible)
+                                    {
+                                        <span class="badge bg-success">Van olyan szak, amire jelentkezhetsz</span>
+                                    }
+                                    else
+                                    {
+                                        <span class="badge bg-danger">Nincs olyan szak, amire jelentkezhetsz</span>
+                                    }
+                                </div>
+                            }
                         </div>
                     </div>
                 </div>
@@ -75,6 +90,8 @@
             && (string.IsNullOrWhiteSpace(searchQuery) || u.Name.Contains(searchQuery, StringComparison.OrdinalIgnoreCase)))
         .ToList();
 
+    private List<Major> allMajors = new List<Major>();
+
     protected override void OnInitialized()
     {
         string csvPath = @"Data/all_universities.csv";
@@ -92,6 +109,69 @@
                 .ToList();
             cities = universities.Select(u => u.City).Distinct().OrderBy(c => c).ToList();
         }
+
+        // Load all majors for eligibility check
+        string majorsPath = @"Data/szakok_ul_li_info.csv";
+        if (File.Exists(majorsPath))
+        {
+            var lines = File.ReadAllLines(majorsPath);
+            allMajors = lines.Skip(1)
+                .Select(line => line.Split(','))
+                .Where(parts => parts.Length > 2)
+                .Select(parts => new Major { 
+                    Name = parts[0].Trim('"'), 
+                    URL = parts[1].Trim(),
+                    Content = parts[2]
+                })
+                .ToList();
+        }
+    }
+
+    private bool IsEligibleForAnyMajor(string universityName)
+    {
+        var majors = allMajors;
+        if (majors.Count == 0) return false;
+        foreach (var major in majors)
+        {
+            if (CheckEligibility(major)) return true;
+        }
+        return false;
+    }
+
+    private bool CheckEligibility(Major major)
+    {
+        var romanian = LoginService.GetRomanianGrade();
+        var mandatory = LoginService.GetMandatoryGrade();
+        var chosen = LoginService.GetChosenGrade();
+        var native = LoginService.GetNativeGrade();
+        var content = major.Content.ToLower();
+        var average = (romanian + mandatory + chosen) / 3;
+
+        if (content.Contains("100% az érettségi vizsga átlaga") || 
+            content.Contains("100% érettségi átlag"))
+        {
+            return average >= 5;
+        }
+
+        if (content.Contains("50% az érettségi vizsga átlaga"))
+        {
+            if (content.Contains("magyar nyelv") || content.Contains("román nyelv"))
+            {
+                return romanian >= 5;
+            }
+            return average >= 5;
+        }
+
+        if (content.Contains("25% az érettségi vizsga átlaga"))
+        {
+            if (content.Contains("matematika") || content.Contains("informatika") || content.Contains("fizika"))
+            {
+                return mandatory >= 5 || chosen >= 5;
+            }
+            return average >= 5;
+        }
+
+        return false;
     }
 
     private class University
@@ -99,5 +179,12 @@
         public string Name { get; set; }
         public string City { get; set; }
         public string ImageUrl { get; set; }
+    }
+
+    private class Major
+    {
+        public string Name { get; set; }
+        public string URL { get; set; }
+        public string Content { get; set; }
     }
 } 
